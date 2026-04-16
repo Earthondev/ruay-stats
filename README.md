@@ -31,6 +31,7 @@ Deployment:
 - GitHub: `https://github.com/Earthondev/ruay-stats`
 - Vercel project: `ruay-stats`
 - Vercel CLI can deploy the linked project from this directory
+- GitHub Actions deploys `main` to Vercel production and other branches/PRs to preview
 
 Notes:
 
