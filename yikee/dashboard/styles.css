@@ -81,7 +81,10 @@ body {
 .panel-meta,
 .field span,
 .focus-insight,
-.note-list p {
+.note-list p,
+.spotlight-note,
+.quick-date-note,
+.mini-kicker {
   color: var(--muted);
 }
 
@@ -129,6 +132,9 @@ code {
 .controls {
   margin-top: 18px;
   padding: 20px 22px 18px;
+  position: sticky;
+  top: 18px;
+  z-index: 10;
 }
 
 .controls-grid {
@@ -165,11 +171,181 @@ code {
   gap: 18px;
 }
 
+.quick-dates-panel,
+.spotlight-panel {
+  padding: 22px;
+}
+
+.compact-head {
+  margin-bottom: 14px;
+}
+
+.quick-date-scroller {
+  display: flex;
+  gap: 10px;
+  overflow-x: auto;
+  padding-bottom: 2px;
+  scrollbar-width: thin;
+}
+
+.quick-date-button {
+  flex: 0 0 auto;
+  min-width: 124px;
+  border: 1px solid rgba(43, 39, 33, 0.1);
+  border-radius: 18px;
+  padding: 12px 14px;
+  background: rgba(255, 255, 255, 0.72);
+  cursor: pointer;
+  text-align: left;
+  font: inherit;
+  transition: transform 180ms ease, border-color 180ms ease, background 180ms ease;
+}
+
+.quick-date-button strong {
+  display: block;
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 1rem;
+}
+
+.quick-date-button span {
+  display: block;
+  margin-top: 4px;
+  color: var(--muted);
+  font-size: 0.92rem;
+}
+
+.quick-date-button:hover,
+.quick-date-button:focus-visible {
+  transform: translateY(-1px);
+  border-color: rgba(192, 91, 40, 0.35);
+}
+
+.quick-date-button.active {
+  background: linear-gradient(135deg, rgba(192, 91, 40, 0.14), rgba(36, 67, 91, 0.08));
+  border-color: rgba(192, 91, 40, 0.26);
+}
+
+.spotlight-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.spotlight-card {
+  min-height: 168px;
+  padding: 18px;
+  border-radius: 22px;
+  background:
+    linear-gradient(160deg, rgba(255, 255, 255, 0.76), rgba(250, 247, 241, 0.88)),
+    rgba(255, 255, 255, 0.62);
+  border: 1px solid rgba(43, 39, 33, 0.08);
+  display: grid;
+  align-content: start;
+  gap: 8px;
+}
+
+.spotlight-card-hot {
+  background:
+    linear-gradient(145deg, rgba(192, 91, 40, 0.18), rgba(36, 67, 91, 0.08)),
+    rgba(255, 255, 255, 0.72);
+}
+
+.spotlight-label {
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-size: 0.74rem;
+  color: var(--accent);
+  font-family: "Space Grotesk", sans-serif;
+}
+
+.spotlight-value {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: clamp(1.8rem, 3vw, 2.7rem);
+  line-height: 0.95;
+  letter-spacing: -0.05em;
+}
+
+.spotlight-note {
+  margin: 0;
+  line-height: 1.6;
+}
+
+.spotlight-bottom {
+  margin-top: 18px;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.mini-panel {
+  padding: 18px;
+  border-radius: 22px;
+  background: rgba(255, 255, 255, 0.62);
+  border: 1px solid rgba(43, 39, 33, 0.08);
+}
+
+.mini-head h3 {
+  margin: 6px 0 0;
+  font-size: 1.05rem;
+  letter-spacing: -0.02em;
+}
+
+.mini-kicker {
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-size: 0.72rem;
+  font-family: "Space Grotesk", sans-serif;
+}
+
+.chip-cluster {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 16px;
+}
+
+.insight-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 12px;
+  border-radius: 999px;
+  background: rgba(36, 67, 91, 0.08);
+  color: var(--text);
+}
+
+.insight-chip strong {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 1rem;
+}
+
+.insight-chip span {
+  color: var(--muted);
+  font-size: 0.92rem;
+}
+
+.insight-chip.match {
+  background: var(--accent-soft);
+  color: var(--accent);
+}
+
+.insight-chip.match span {
+  color: rgba(32, 29, 25, 0.76);
+}
+
 .metrics {
   padding: 22px;
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 14px;
+}
+
+.metric {
+  padding: 16px 14px;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.55);
+  border: 1px solid rgba(43, 39, 33, 0.06);
 }
 
 .metric-label {
@@ -382,8 +558,38 @@ code {
   padding: 20px 0 8px;
 }
 
-@media (max-width: 1120px) {
+@media (max-width: 1180px) {
+  body {
+    padding: 20px;
+  }
+
   .hero,
+  .spotlight-grid,
+  .spotlight-bottom,
+  .dashboard-grid,
+  .status-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .controls-grid,
+  .metrics {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .controls {
+    top: 12px;
+  }
+
+  .panel-meta {
+    text-align: left;
+    max-width: none;
+  }
+}
+
+@media (max-width: 920px) {
+  .hero,
+  .spotlight-grid,
+  .spotlight-bottom,
   .dashboard-grid,
   .metrics,
   .controls-grid,
@@ -391,9 +597,8 @@ code {
     grid-template-columns: 1fr;
   }
 
-  .panel-meta {
-    text-align: left;
-    max-width: none;
+  .controls {
+    position: static;
   }
 }
 
@@ -412,5 +617,13 @@ code {
   .digit-row,
   .round-row {
     grid-template-columns: 28px 1fr 72px;
+  }
+
+  .quick-date-button {
+    min-width: 110px;
+  }
+
+  .spotlight-card {
+    min-height: 0;
   }
 }

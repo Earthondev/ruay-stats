@@ -52,7 +52,72 @@
         </div>
       </section>
 
+      <section class="surface quick-dates-panel">
+        <div class="panel-head compact-head">
+          <div>
+            <p class="panel-kicker">Quick Dates</p>
+            <h2>เลือกวันแบบกดครั้งเดียว</h2>
+          </div>
+          <p class="panel-meta" id="selectedScopeMeta"></p>
+        </div>
+        <div class="quick-date-scroller" id="quickDateScroller"></div>
+      </section>
+
       <main class="workspace">
+        <section class="surface spotlight-panel">
+          <div class="panel-head">
+            <div>
+              <p class="panel-kicker">Daily Board</p>
+              <h2>สรุปให้ทันทีว่าวันที่เลือกอะไรออกบ่อย</h2>
+            </div>
+            <p class="panel-meta" id="spotlightMeta"></p>
+          </div>
+
+          <div class="spotlight-grid">
+            <article class="spotlight-card">
+              <span class="spotlight-label">วันที่/ช่วงที่กำลังดู</span>
+              <strong class="spotlight-value" id="scopePrimary"></strong>
+              <p class="spotlight-note" id="scopeNote"></p>
+            </article>
+
+            <article class="spotlight-card spotlight-card-hot">
+              <span class="spotlight-label">เลขที่ออกบ่อยสุด</span>
+              <strong class="spotlight-value" id="hotValuePrimary"></strong>
+              <p class="spotlight-note" id="hotValueNote"></p>
+            </article>
+
+            <article class="spotlight-card">
+              <span class="spotlight-label">digit เด่นในช่วงนี้</span>
+              <strong class="spotlight-value" id="hotDigitPrimary"></strong>
+              <p class="spotlight-note" id="hotDigitNote"></p>
+            </article>
+
+            <article class="spotlight-card">
+              <span class="spotlight-label">รอบที่ complete แล้ว</span>
+              <strong class="spotlight-value" id="completionPrimary"></strong>
+              <p class="spotlight-note" id="completionNote"></p>
+            </article>
+          </div>
+
+          <div class="spotlight-bottom">
+            <section class="mini-panel">
+              <div class="mini-head">
+                <p class="mini-kicker">Hot Values</p>
+                <h3>เลขซ้ำ/เลขเด่นของช่วงนี้</h3>
+              </div>
+              <div class="chip-cluster" id="hotValuesChips"></div>
+            </section>
+
+            <section class="mini-panel">
+              <div class="mini-head">
+                <p class="mini-kicker">Hot Digits</p>
+                <h3>digit ที่ขึ้นบ่อย</h3>
+              </div>
+              <div class="chip-cluster" id="hotDigitsChips"></div>
+            </section>
+          </div>
+        </section>
+
         <section class="surface metrics" id="metricCards"></section>
 
         <section class="dashboard-grid">

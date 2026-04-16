@@ -4,9 +4,12 @@
     return;
   }
 
+  const latestDate = dataset.coverage.end || dataset.dates.at(-1);
+  const recentDates = [...dataset.dates].slice(-10).reverse();
+
   const state = {
-    startDate: dataset.coverage.start,
-    endDate: dataset.coverage.end,
+    startDate: latestDate,
+    endDate: latestDate,
     field: dataset.fields.includes("3ตัวบน") ? "3ตัวบน" : dataset.fields[0],
     round: "all",
     focusDigit: null,
@@ -17,7 +20,20 @@
     endDate: document.querySelector("#endDate"),
     fieldSelect: document.querySelector("#fieldSelect"),
     roundSelect: document.querySelector("#roundSelect"),
+    selectedScopeMeta: document.querySelector("#selectedScopeMeta"),
+    quickDateScroller: document.querySelector("#quickDateScroller"),
     coverageFacts: document.querySelector("#coverageFacts"),
+    spotlightMeta: document.querySelector("#spotlightMeta"),
+    scopePrimary: document.querySelector("#scopePrimary"),
+    scopeNote: document.querySelector("#scopeNote"),
+    hotValuePrimary: document.querySelector("#hotValuePrimary"),
+    hotValueNote: document.querySelector("#hotValueNote"),
+    hotDigitPrimary: document.querySelector("#hotDigitPrimary"),
+    hotDigitNote: document.querySelector("#hotDigitNote"),
+    completionPrimary: document.querySelector("#completionPrimary"),
+    completionNote: document.querySelector("#completionNote"),
+    hotValuesChips: document.querySelector("#hotValuesChips"),
+    hotDigitsChips: document.querySelector("#hotDigitsChips"),
     metricCards: document.querySelector("#metricCards"),
     digitOverviewMeta: document.querySelector("#digitOverviewMeta"),
     digitBars: document.querySelector("#digitBars"),
@@ -71,6 +87,21 @@
       .replaceAll("'", "&#39;");
   }
 
+  function isSingleDayScope() {
+    return state.startDate === state.endDate;
+  }
+
+  function getScopeLabel() {
+    if (isSingleDayScope()) {
+      return formatDate(state.startDate);
+    }
+    return `${formatDate(state.startDate)} - ${formatDate(state.endDate)}`;
+  }
+
+  function getScopeSubLabel() {
+    return `${state.field} | ${state.round === "all" ? "ทุกรอบ" : `รอบ ${state.round}`}`;
+  }
+
   function getFilteredRecords() {
     return dataset.records.filter((record) => {
       if (record.date < state.startDate || record.date > state.endDate) {
@@ -114,6 +145,10 @@
       .map(([value, meta]) => ({ value, count: meta.count, lastSeen: meta.lastSeen }))
       .sort((left, right) => right.count - left.count || right.lastSeen.localeCompare(left.lastSeen));
 
+    const sortedDigits = digitCounts
+      .map((count, digit) => ({ digit: String(digit), count }))
+      .sort((left, right) => right.count - left.count || Number(left.digit) - Number(right.digit));
+
     const hottestDigit = digitCounts.reduce(
       (best, count, digit) => (count > best.count ? { digit, count } : best),
       { digit: 0, count: -1 }
@@ -141,13 +176,22 @@
       .filter((row) => row.observations > 0)
       .sort((left, right) => right.focusMatches - left.focusMatches || right.observations - left.observations);
 
+    const uniqueVisibleRounds = new Set(records.map((record) => String(record.round))).size;
+    const uniqueCompleteRounds = new Set(completeRecords.map((record) => String(record.round))).size;
+    const repeatedNumbers = sortedNumbers.filter((item) => item.count > 1);
+
     return {
+      allRecords: records,
       completeRecords,
       digitCounts,
+      sortedDigits,
       sortedNumbers,
+      repeatedNumbers,
       hottestDigit,
       roundTrend,
       uniqueDays: new Set(completeRecords.map((record) => record.date)).size,
+      uniqueVisibleRounds,
+      uniqueCompleteRounds,
       hottestNumber: sortedNumbers[0] || { value: "-", count: 0, lastSeen: "-" },
     };
   }
@@ -172,6 +216,36 @@
         <span>เวลาที่เก็บข้อมูลล่าสุด</span>
       </div>
     `;
+  }
+
+  function renderQuickDates() {
+    els.selectedScopeMeta.textContent = isSingleDayScope()
+      ? `ตอนนี้กำลังดู ${getScopeLabel()}`
+      : `ตอนนี้กำลังดูช่วง ${getScopeLabel()}`;
+
+    els.quickDateScroller.innerHTML = recentDates
+      .map((date) => {
+        const isActive = state.startDate === date && state.endDate === date;
+        const status = date === latestDate ? "ล่าสุด" : "ย้อนดูวันนั้น";
+        return `
+          <button class="quick-date-button ${isActive ? "active" : ""}" data-date="${date}">
+            <strong>${formatDate(date)}</strong>
+            <span>${status}</span>
+          </button>
+        `;
+      })
+      .join("");
+
+    els.quickDateScroller.querySelectorAll(".quick-date-button").forEach((button) => {
+      button.addEventListener("click", () => {
+        const { date } = button.dataset;
+        state.startDate = date;
+        state.endDate = date;
+        els.startDate.value = date;
+        els.endDate.value = date;
+        render();
+      });
+    });
   }
 
   function renderControls() {
@@ -252,6 +326,78 @@
         )} ของ digit ทั้งหมด</div>
       </div>
     `;
+  }
+
+  function renderSpotlight(analysis) {
+    const topValue = analysis.repeatedNumbers[0] || analysis.hottestNumber;
+    const topDigits = analysis.sortedDigits.filter((item) => item.count > 0).slice(0, 5);
+    const topValues = (analysis.repeatedNumbers.length ? analysis.repeatedNumbers : analysis.sortedNumbers)
+      .slice(0, 5)
+      .filter((item) => item && item.value !== "-");
+    const totalDigits = analysis.digitCounts.reduce((sum, value) => sum + value, 0);
+
+    els.spotlightMeta.textContent = `${getScopeSubLabel()} | ${
+      isSingleDayScope() ? "มุมมองรายวัน" : "มุมมองตามช่วงวันที่"
+    }`;
+    els.scopePrimary.textContent = getScopeLabel();
+    els.scopeNote.textContent = isSingleDayScope()
+      ? `มีข้อมูล complete ${numberFormat(analysis.completeRecords.length)} รายการ ใน ${
+          analysis.uniqueCompleteRounds
+        } รอบของวันนั้น`
+      : `รวม ${numberFormat(analysis.completeRecords.length)} รายการ ครอบคลุม ${numberFormat(
+          analysis.uniqueDays
+        )} วัน`;
+
+    els.hotValuePrimary.textContent = topValue && topValue.value ? topValue.value : "-";
+    els.hotValueNote.textContent =
+      topValue && topValue.value && topValue.count > 1
+        ? `เลขนี้ออก ${numberFormat(topValue.count)} ครั้งในช่วงที่เลือก ล่าสุด ${formatDate(topValue.lastSeen)}`
+        : topValue && topValue.value && topValue.value !== "-"
+          ? `ยังไม่มีเลขซ้ำชัดเจน จึงแสดงเลขแรกในกลุ่มที่เจอบ่อยสุด ล่าสุด ${formatDate(topValue.lastSeen)}`
+          : "ยังไม่มีผล complete ในช่วงที่เลือก";
+
+    els.hotDigitPrimary.textContent =
+      analysis.hottestDigit.count > 0 ? String(analysis.hottestDigit.digit) : "-";
+    els.hotDigitNote.textContent =
+      analysis.hottestDigit.count > 0
+        ? `digit นี้ปรากฏ ${numberFormat(analysis.hottestDigit.count)} ครั้ง หรือ ${percent(
+            analysis.hottestDigit.count,
+            totalDigits
+          )} ของ digit ทั้งหมด`
+        : "ยังไม่มี digit ให้สรุป";
+
+    els.completionPrimary.textContent = isSingleDayScope()
+      ? `${analysis.uniqueCompleteRounds}/${analysis.uniqueVisibleRounds || 0}`
+      : numberFormat(analysis.uniqueCompleteRounds);
+    els.completionNote.textContent = isSingleDayScope()
+      ? `รอบที่ complete แล้วของวันนั้น ใน ${getScopeSubLabel()}`
+      : `จำนวนรอบที่มีผล complete ภายในช่วง ${getScopeLabel()}`;
+
+    els.hotValuesChips.innerHTML = topValues.length
+      ? topValues
+          .map(
+            (item) => `
+              <div class="insight-chip">
+                <strong>${escapeHtml(item.value)}</strong>
+                <span>${numberFormat(item.count)} ครั้ง</span>
+              </div>
+            `
+          )
+          .join("")
+      : `<div class="empty">ยังไม่มีเลขที่สรุปได้ในช่วงที่เลือก</div>`;
+
+    els.hotDigitsChips.innerHTML = topDigits.length
+      ? topDigits
+          .map(
+            (item) => `
+              <div class="insight-chip ${item.digit === state.focusDigit ? "match" : ""}">
+                <strong>${item.digit}</strong>
+                <span>${numberFormat(item.count)} ครั้ง</span>
+              </div>
+            `
+          )
+          .join("")
+      : `<div class="empty">ยังไม่มี digit ให้สรุป</div>`;
   }
 
   function renderDigitOverview(analysis) {
@@ -381,7 +527,7 @@
       })
       .slice(0, 30);
 
-    els.historyMeta.textContent = `แสดงล่าสุด ${numberFormat(history.length)} รายการ`;
+    els.historyMeta.textContent = `${getScopeLabel()} | แสดงล่าสุด ${numberFormat(history.length)} รายการ`;
     els.historyBody.innerHTML = history.length
       ? history
           .map((record) => `
@@ -403,6 +549,8 @@
   function render() {
     const records = getFilteredRecords();
     const analysis = analyze(records);
+    renderQuickDates();
+    renderSpotlight(analysis);
     renderMetrics(analysis);
     renderDigitOverview(analysis);
     renderRoundFocus(analysis);
