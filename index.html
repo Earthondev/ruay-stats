@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="th">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="refresh" content="0; url=/glo/dashboard/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>RUAY Stats Redirect</title>
+    <style>
+      :root {
+        color-scheme: light;
+        font-family: "IBM Plex Sans Thai", system-ui, sans-serif;
+        background: #f4f1e8;
+        color: #1f2b24;
+      }
+
+      body {
+        margin: 0;
+        min-height: 100vh;
+        display: grid;
+        place-items: center;
+        background:
+          radial-gradient(circle at top, rgba(24, 79, 62, 0.16), transparent 38%),
+          linear-gradient(180deg, #faf7ef 0%, #f4f1e8 100%);
+      }
+
+      main {
+        width: min(560px, calc(100vw - 32px));
+        padding: 32px;
+        border-radius: 24px;
+        background: rgba(255, 255, 255, 0.72);
+        box-shadow: 0 24px 60px rgba(31, 43, 36, 0.12);
+        backdrop-filter: blur(14px);
+      }
+
+      h1 {
+        margin: 0 0 12px;
+        font-size: clamp(1.8rem, 4vw, 2.6rem);
+        line-height: 1.1;
+      }
+
+      p {
+        margin: 0 0 16px;
+        line-height: 1.7;
+      }
+
+      a {
+        color: #0b6b53;
+        font-weight: 600;
+      }
+    </style>
+    <script>
+      window.location.replace("/glo/dashboard/");
+    </script>
+  </head>
+  <body>
+    <main>
+      <h1>กำลังพาไปหน้า dashboard</h1>
+      <p>
+        ถ้าเบราว์เซอร์ยังไม่เปลี่ยนหน้าอัตโนมัติ ให้เปิด
+        <a href="/glo/dashboard/">GLO Lottery Trend Dashboard</a>
+      </p>
+    </main>
+  </body>
+</html>

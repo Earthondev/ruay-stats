@@ -1,5 +1,6 @@
 .cache/
 __pycache__/
 *.pyc
+.vercel/
 data/raw/
 data/snapshots/

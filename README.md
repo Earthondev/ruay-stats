@@ -5,6 +5,11 @@ Public scraper for the RUAY login page at `https://www.ruay.org/login`.
 This project also includes an official GLO-based lottery history dashboard built from
 `https://www.glo.or.th/api/lottery/getLotteryResultByYear`.
 
+Live dashboard:
+
+- `https://ruay-stats.vercel.app`
+- Root URL redirects to `glo/dashboard/`
+
 What it stores:
 
 - `data/raw/*.html`: raw HTML snapshots for each run
@@ -20,6 +25,12 @@ How to run:
 python3 /Users/earthondev/Desktop/ruay-stats/fetch_ruay.py
 python3 /Users/earthondev/Desktop/ruay-stats/build_glo_dashboard.py
 ```
+
+Deployment:
+
+- GitHub: `https://github.com/Earthondev/ruay-stats`
+- Vercel project: `ruay-stats`
+- Vercel CLI can deploy the linked project from this directory
 
 Notes:
 
