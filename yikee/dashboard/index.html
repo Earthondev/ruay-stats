@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="th">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>RUAY Yikee Read-Only Dashboard</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@400;500;600;700&family=Space+Grotesk:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="./dashboard-data.js"></script>
+    <script defer src="./app.js"></script>
+  </head>
+  <body>
+    <div class="app-shell">
+      <header class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">RUAY Read-Only Collector</p>
+          <h1>สถิติยี่กี VIP จากหน้า public</h1>
+          <p class="hero-note">
+            เก็บข้อมูลจาก <code>ruay.org/login</code> แบบอ่านอย่างเดียว เพื่อดูผลแต่ละรอบ ความถี่ของเลข และสถานะรอบล่าสุด
+            โดยไม่แตะปุ่มเดิมพันหรือการซื้อใดๆ
+          </p>
+        </div>
+        <aside class="hero-facts" id="coverageFacts"></aside>
+      </header>
+
+      <section class="surface controls">
+        <div class="controls-grid">
+          <label class="field">
+            <span>เริ่มวันที่</span>
+            <select id="startDate"></select>
+          </label>
+          <label class="field">
+            <span>ถึงวันที่</span>
+            <select id="endDate"></select>
+          </label>
+          <label class="field">
+            <span>ประเภทเลข</span>
+            <select id="fieldSelect"></select>
+          </label>
+          <label class="field">
+            <span>รอบ</span>
+            <select id="roundSelect"></select>
+          </label>
+        </div>
+        <div class="disclaimer">
+          ใช้เพื่อบันทึกผลและดูสถิติย้อนหลังเท่านั้น ความถี่ไม่ได้เป็นเครื่องยืนยันว่ารอบถัดไปจะออกเลขใด
+        </div>
+      </section>
+
+      <main class="workspace">
+        <section class="surface metrics" id="metricCards"></section>
+
+        <section class="dashboard-grid">
+          <section class="surface panel">
+            <div class="panel-head">
+              <div>
+                <p class="panel-kicker">Digit Overview</p>
+                <h2>ความถี่ตัวเลข 0-9</h2>
+              </div>
+              <p class="panel-meta" id="digitOverviewMeta"></p>
+            </div>
+            <div class="digit-bars" id="digitBars"></div>
+          </section>
+
+          <section class="surface panel">
+            <div class="panel-head">
+              <div>
+                <p class="panel-kicker">Round Focus</p>
+                <h2>ดูกลุ่มรอบที่มี digit นี้บ่อย</h2>
+              </div>
+              <p class="panel-meta" id="roundFocusMeta"></p>
+            </div>
+            <div class="digit-picker" id="digitPicker"></div>
+            <div class="focus-insight" id="focusInsight"></div>
+            <div class="round-trend" id="roundTrend"></div>
+          </section>
+
+          <section class="surface panel">
+            <div class="panel-head">
+              <div>
+                <p class="panel-kicker">Top Values</p>
+                <h2>เลขที่เจอบ่อยที่สุด</h2>
+              </div>
+              <p class="panel-meta">แสดงเฉพาะผลที่ออกแล้ว</p>
+            </div>
+            <div class="table-wrap">
+              <table class="data-table">
+                <thead>
+                  <tr>
+                    <th>เลข</th>
+                    <th>จำนวนครั้ง</th>
+                    <th>ล่าสุด</th>
+                    <th>มี digit ที่เลือก</th>
+                  </tr>
+                </thead>
+                <tbody id="topValuesBody"></tbody>
+              </table>
+            </div>
+          </section>
+
+          <section class="surface panel">
+            <div class="panel-head">
+              <div>
+                <p class="panel-kicker">Latest Status</p>
+                <h2>สถานะรอบล่าสุดที่เก็บได้</h2>
+              </div>
+              <p class="panel-meta" id="latestStatusMeta"></p>
+            </div>
+            <div class="latest-status" id="latestStatus"></div>
+          </section>
+        </section>
+
+        <section class="surface panel">
+          <div class="panel-head">
+            <div>
+              <p class="panel-kicker">Recent Results</p>
+              <h2>ผลย้อนหลังตามตัวกรอง</h2>
+            </div>
+            <p class="panel-meta" id="historyMeta"></p>
+          </div>
+          <div class="table-wrap">
+            <table class="history-table">
+              <thead>
+                <tr>
+                  <th>วันที่</th>
+                  <th>รอบ</th>
+                  <th>ประเภท</th>
+                  <th>ผล</th>
+                  <th>อัตราจ่าย</th>
+                  <th>เวลาที่เก็บ</th>
+                </tr>
+              </thead>
+              <tbody id="historyBody"></tbody>
+            </table>
+          </div>
+        </section>
+
+        <section class="surface panel note-panel">
+          <div class="panel-head">
+            <div>
+              <p class="panel-kicker">Boundary</p>
+              <h2>สิ่งที่หน้าเว็บนี้ไม่ทำ</h2>
+            </div>
+          </div>
+          <div class="note-list">
+            <p>ไม่แนะนำการกดซื้อ ไม่ชี้ตำแหน่งปุ่มเดิมพัน และไม่บันทึก flow การเล่นในหน้าสมาชิก</p>
+            <p>ไม่ใช้สถิติย้อนหลังเป็นคำทำนายรอบถัดไป</p>
+            <p>เน้นเก็บผลจากหน้า public เพื่อทำสถิติและตรวจความครบถ้วนของรอบล่าสุดเท่านั้น</p>
+          </div>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>

@@ -1,9 +1,9 @@
 # RUAY Daily Summary
 
 - Source: https://www.ruay.org/login
-- Captured at: 2026-04-16T11:56:35+07:00
+- Captured at: 2026-04-16T13:49:41+07:00
 - Rows stored: 227
-- Completed numeric rows: 57
+- Completed numeric rows: 79
 
 ## Today
 
@@ -20,8 +20,14 @@
 - หวย ธกส. | เลขที่ออก: 2785159
 - จีนรอบเช้า | 2ตัวล่าง: 77
 - จีนรอบเช้า | 3ตัวบน: 322
+- นิเคอิรอบบ่าย | 2ตัวล่าง: 10
+- นิเคอิรอบบ่าย | 3ตัวบน: 834
 - นิเคอิรอบเช้า | 2ตัวล่าง: 35
 - นิเคอิรอบเช้า | 3ตัวบน: 959
+- หุ้นเกาหลี | 2ตัวล่าง: 68
+- หุ้นเกาหลี | 3ตัวบน: 994
+- หุ้นไต้หวัน | 2ตัวล่าง: 88
+- หุ้นไต้หวัน | 3ตัวบน: 202
 - ฮั่งเส็งรอบเช้า | 2ตัวล่าง: 23
 - ฮั่งเส็งรอบเช้า | 3ตัวบน: 655
 - จับยี่กี VIP รอบ 1 | 2ตัวล่าง: 94
@@ -29,26 +35,21 @@
 - จับยี่กี VIP รอบ 10 | 2ตัวล่าง: 52
 - จับยี่กี VIP รอบ 10 | 3ตัวบน: 336
 - จับยี่กี VIP รอบ 11 | 2ตัวล่าง: 01
-- จับยี่กี VIP รอบ 11 | 3ตัวบน: 008
-- จับยี่กี VIP รอบ 12 | 2ตัวล่าง: 18
-- จับยี่กี VIP รอบ 12 | 3ตัวบน: 627
-- จับยี่กี VIP รอบ 13 | 2ตัวล่าง: 16
-- จับยี่กี VIP รอบ 13 | 3ตัวบน: 166
-- จับยี่กี VIP รอบ 14 | 2ตัวล่าง: 47
 
 ## Frequency Snapshot
 
-- จับยี่กี VIP|2ตัวล่าง: 24 observations, latest 13, top [{'value': '47', 'count': 2}, {'value': '26', 'count': 2}, {'value': '94', 'count': 1}]
-- จับยี่กี VIP|3ตัวบน: 24 observations, latest 754, top [{'value': '808', 'count': 1}, {'value': '336', 'count': 1}, {'value': '008', 'count': 1}]
+- จับยี่กี VIP|2ตัวล่าง: 32 observations, latest 13, top [{'value': '47', 'count': 2}, {'value': '26', 'count': 2}, {'value': '94', 'count': 1}]
+- จับยี่กี VIP|3ตัวบน: 32 observations, latest 754, top [{'value': '808', 'count': 1}, {'value': '336', 'count': 1}, {'value': '008', 'count': 1}]
 - จีนรอบเช้า|2ตัวล่าง: 1 observations, latest 77, top [{'value': '77', 'count': 1}]
 - จีนรอบเช้า|3ตัวบน: 1 observations, latest 322, top [{'value': '322', 'count': 1}]
+- นิเคอิรอบบ่าย|2ตัวล่าง: 1 observations, latest 10, top [{'value': '10', 'count': 1}]
+- นิเคอิรอบบ่าย|3ตัวบน: 1 observations, latest 834, top [{'value': '834', 'count': 1}]
 - นิเคอิรอบเช้า|2ตัวล่าง: 1 observations, latest 35, top [{'value': '35', 'count': 1}]
 - นิเคอิรอบเช้า|3ตัวบน: 1 observations, latest 959, top [{'value': '959', 'count': 1}]
 - หวย ธกส.|2ตัวล่าง: 1 observations, latest 85, top [{'value': '85', 'count': 1}]
 - หวย ธกส.|3ตัวบน: 1 observations, latest 159, top [{'value': '159', 'count': 1}]
 - หวย ธกส.|เลขที่ออก: 1 observations, latest 2785159, top [{'value': '2785159', 'count': 1}]
-- ฮั่งเส็งรอบเช้า|2ตัวล่าง: 1 observations, latest 23, top [{'value': '23', 'count': 1}]
-- ฮั่งเส็งรอบเช้า|3ตัวบน: 1 observations, latest 655, top [{'value': '655', 'count': 1}]
+- หุ้นเกาหลี|2ตัวล่าง: 1 observations, latest 68, top [{'value': '68', 'count': 1}]
 
 ## Rule Highlights
 

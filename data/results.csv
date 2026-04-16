@@ -1,228 +1,228 @@
 draw_date,category,market,round,field,result,digits,payout,is_placeholder,source_url,scraped_at
-16 April 2026,baac,หวย ธกส.,,2ตัวล่าง,85,85,90,0,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,baac,หวย ธกส.,,3ตัวบน,159,159,450,0,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,baac,หวย ธกส.,,เลขที่ออก,2785159,2785159,N/A,0,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,foreign_stock,จีนรอบบ่าย,,2ตัวล่าง,xx,,90,1,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,foreign_stock,จีนรอบบ่าย,,3ตัวบน,xxx,,750,1,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,foreign_stock,จีนรอบเช้า,,2ตัวล่าง,77,77,90,0,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,foreign_stock,จีนรอบเช้า,,3ตัวบน,322,322,750,0,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,foreign_stock,นิเคอิรอบบ่าย,,2ตัวล่าง,xx,,90,1,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,foreign_stock,นิเคอิรอบบ่าย,,3ตัวบน,xxx,,750,1,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,foreign_stock,นิเคอิรอบเช้า,,2ตัวล่าง,35,35,90,0,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,foreign_stock,นิเคอิรอบเช้า,,3ตัวบน,959,959,750,0,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,foreign_stock,หวยมาเลย์,,2ตัวล่าง,xx,,90,1,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,foreign_stock,หวยมาเลย์,,3ตัวบน,xxx,,750,1,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,foreign_stock,หวยลาว,,2ตัวล่าง,xx,,90,1,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,foreign_stock,หวยลาว,,3ตัวบน,xxx,,750,1,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,foreign_stock,หวยลาว Super,,2ตัวล่าง,xx,,90,1,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,foreign_stock,หวยลาว Super,,3ตัวบน,xxx,,750,1,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,foreign_stock,หวยเวียดนาม/ฮานอย,,2ตัวล่าง,xx,,90,1,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,foreign_stock,หวยเวียดนาม/ฮานอย,,3ตัวบน,xxx,,750,1,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,foreign_stock,หวยเวียดนาม/ฮานอย VIP,,2ตัวล่าง,xx,,90,1,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,foreign_stock,หวยเวียดนาม/ฮานอย VIP,,3ตัวบน,xxx,,750,1,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,foreign_stock,หวยเวียดนาม/ฮานอยพิเศษ,,2ตัวล่าง,xx,,90,1,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,foreign_stock,หวยเวียดนาม/ฮานอยพิเศษ,,3ตัวบน,xxx,,750,1,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,foreign_stock,หุ้นดาวโจนส์,,2ตัวล่าง,xx,,90,1,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,foreign_stock,หุ้นดาวโจนส์,,3ตัวบน,xxx,,750,1,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,foreign_stock,หุ้นรัสเซีย,,2ตัวล่าง,xx,,90,1,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,foreign_stock,หุ้นรัสเซีย,,3ตัวบน,xxx,,750,1,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,foreign_stock,หุ้นสิงคโปร์,,2ตัวล่าง,xx,,90,1,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,foreign_stock,หุ้นสิงคโปร์,,3ตัวบน,xxx,,750,1,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,foreign_stock,หุ้นอังกฤษ,,2ตัวล่าง,xx,,90,1,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,foreign_stock,หุ้นอังกฤษ,,3ตัวบน,xxx,,750,1,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,foreign_stock,หุ้นอินเดีย,,2ตัวล่าง,xx,,90,1,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,foreign_stock,หุ้นอินเดีย,,3ตัวบน,xxx,,750,1,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,foreign_stock,หุ้นอียิปต์,,2ตัวล่าง,xx,,90,1,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,foreign_stock,หุ้นอียิปต์,,3ตัวบน,xxx,,750,1,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,foreign_stock,หุ้นเกาหลี,,2ตัวล่าง,xx,,90,1,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,foreign_stock,หุ้นเกาหลี,,3ตัวบน,xxx,,750,1,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,foreign_stock,หุ้นเยอรมัน,,2ตัวล่าง,xx,,90,1,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,foreign_stock,หุ้นเยอรมัน,,3ตัวบน,xxx,,750,1,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,foreign_stock,หุ้นไต้หวัน,,2ตัวล่าง,xx,,90,1,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,foreign_stock,หุ้นไต้หวัน,,3ตัวบน,xx,,750,1,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,foreign_stock,ฮั่งเส็งรอบบ่าย,,2ตัวล่าง,xx,,90,1,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,foreign_stock,ฮั่งเส็งรอบบ่าย,,3ตัวบน,xxx,,750,1,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,foreign_stock,ฮั่งเส็งรอบเช้า,,2ตัวล่าง,23,23,90,0,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,foreign_stock,ฮั่งเส็งรอบเช้า,,3ตัวบน,655,655,750,0,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,government,หวยรัฐบาล,,2ตัวล่าง,xx,,90,1,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,government,หวยรัฐบาล,,3ตัวล่าง,"xxx,xxx",,450,1,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,government,หวยรัฐบาล,,3ตัวหน้า,"xxx,xxx",,450,1,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,government,หวยรัฐบาล,,รางวัลที่ 1,xxxxxx,,N/A,1,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,thai_stock,หุ้นไทยเย็น,,2ตัวล่าง,xx,,90,1,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,thai_stock,หุ้นไทยเย็น,,3ตัวบน,xxx,,750,1,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,1,2ตัวล่าง,94,94,90,0,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,1,3ตัวบน,808,808,750,0,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,10,2ตัวล่าง,52,52,90,0,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,10,3ตัวบน,336,336,750,0,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,11,2ตัวล่าง,01,01,90,0,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,11,3ตัวบน,008,008,750,0,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,12,2ตัวล่าง,18,18,90,0,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,12,3ตัวบน,627,627,750,0,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,13,2ตัวล่าง,16,16,90,0,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,13,3ตัวบน,166,166,750,0,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,14,2ตัวล่าง,47,47,90,0,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,14,3ตัวบน,508,508,750,0,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,15,2ตัวล่าง,26,26,90,0,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,15,3ตัวบน,730,730,750,0,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,16,2ตัวล่าง,93,93,90,0,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,16,3ตัวบน,370,370,750,0,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,17,2ตัวล่าง,47,47,90,0,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,17,3ตัวบน,634,634,750,0,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,18,2ตัวล่าง,74,74,90,0,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,18,3ตัวบน,193,193,750,0,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,19,2ตัวล่าง,82,82,90,0,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,19,3ตัวบน,401,401,750,0,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,2,2ตัวล่าง,05,05,90,0,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,2,3ตัวบน,410,410,750,0,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,20,2ตัวล่าง,26,26,90,0,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,20,3ตัวบน,375,375,750,0,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,21,2ตัวล่าง,08,08,90,0,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,21,3ตัวบน,886,886,750,0,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,22,2ตัวล่าง,32,32,90,0,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,22,3ตัวบน,239,239,750,0,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,23,2ตัวล่าง,02,02,90,0,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,23,3ตัวบน,919,919,750,0,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,24,2ตัวล่าง,77,77,90,0,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,24,3ตัวบน,278,278,750,0,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,25,2ตัวล่าง,xx,,90,1,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,25,3ตัวบน,xxx,,750,1,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,26,2ตัวล่าง,xx,,90,1,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,26,3ตัวบน,xxx,,750,1,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,27,2ตัวล่าง,xx,,90,1,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,27,3ตัวบน,xxx,,750,1,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,28,2ตัวล่าง,xx,,90,1,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,28,3ตัวบน,xxx,,750,1,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,29,2ตัวล่าง,xx,,90,1,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,29,3ตัวบน,xxx,,750,1,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,3,2ตัวล่าง,53,53,90,0,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,3,3ตัวบน,702,702,750,0,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,30,2ตัวล่าง,xx,,90,1,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,30,3ตัวบน,xxx,,750,1,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,31,2ตัวล่าง,xx,,90,1,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,31,3ตัวบน,xxx,,750,1,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,32,2ตัวล่าง,xx,,90,1,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,32,3ตัวบน,xxx,,750,1,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,33,2ตัวล่าง,xx,,90,1,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,33,3ตัวบน,xxx,,750,1,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,34,2ตัวล่าง,xx,,90,1,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,34,3ตัวบน,xxx,,750,1,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,35,2ตัวล่าง,xx,,90,1,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,35,3ตัวบน,xxx,,750,1,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,36,2ตัวล่าง,xx,,90,1,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,36,3ตัวบน,xxx,,750,1,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,37,2ตัวล่าง,xx,,90,1,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,37,3ตัวบน,xxx,,750,1,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,38,2ตัวล่าง,xx,,90,1,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,38,3ตัวบน,xxx,,750,1,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,39,2ตัวล่าง,xx,,90,1,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,39,3ตัวบน,xxx,,750,1,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,4,2ตัวล่าง,99,99,90,0,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,4,3ตัวบน,413,413,750,0,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,40,2ตัวล่าง,xx,,90,1,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,40,3ตัวบน,xxx,,750,1,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,41,2ตัวล่าง,xx,,90,1,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,41,3ตัวบน,xxx,,750,1,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,42,2ตัวล่าง,xx,,90,1,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,42,3ตัวบน,xxx,,750,1,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,43,2ตัวล่าง,xx,,90,1,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,43,3ตัวบน,xxx,,750,1,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,44,2ตัวล่าง,xx,,90,1,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,44,3ตัวบน,xxx,,750,1,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,45,2ตัวล่าง,xx,,90,1,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,45,3ตัวบน,xxx,,750,1,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,46,2ตัวล่าง,xx,,90,1,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,46,3ตัวบน,xxx,,750,1,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,47,2ตัวล่าง,xx,,90,1,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,47,3ตัวบน,xxx,,750,1,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,48,2ตัวล่าง,xx,,90,1,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,48,3ตัวบน,xxx,,750,1,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,49,2ตัวล่าง,xx,,90,1,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,49,3ตัวบน,xxx,,750,1,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,5,2ตัวล่าง,72,72,90,0,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,5,3ตัวบน,290,290,750,0,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,50,2ตัวล่าง,xx,,90,1,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,50,3ตัวบน,xxx,,750,1,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,51,2ตัวล่าง,xx,,90,1,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,51,3ตัวบน,xxx,,750,1,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,52,2ตัวล่าง,xx,,90,1,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,52,3ตัวบน,xxx,,750,1,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,53,2ตัวล่าง,xx,,90,1,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,53,3ตัวบน,xxx,,750,1,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,54,2ตัวล่าง,xx,,90,1,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,54,3ตัวบน,xxx,,750,1,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,55,2ตัวล่าง,xx,,90,1,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,55,3ตัวบน,xxx,,750,1,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,56,2ตัวล่าง,xx,,90,1,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,56,3ตัวบน,xxx,,750,1,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,57,2ตัวล่าง,xx,,90,1,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,57,3ตัวบน,xxx,,750,1,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,58,2ตัวล่าง,xx,,90,1,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,58,3ตัวบน,xxx,,750,1,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,59,2ตัวล่าง,xx,,90,1,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,59,3ตัวบน,xxx,,750,1,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,6,2ตัวล่าง,30,30,90,0,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,6,3ตัวบน,493,493,750,0,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,60,2ตัวล่าง,xx,,90,1,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,60,3ตัวบน,xxx,,750,1,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,61,2ตัวล่าง,xx,,90,1,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,61,3ตัวบน,xxx,,750,1,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,62,2ตัวล่าง,xx,,90,1,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,62,3ตัวบน,xxx,,750,1,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,63,2ตัวล่าง,xx,,90,1,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,63,3ตัวบน,xxx,,750,1,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,64,2ตัวล่าง,xx,,90,1,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,64,3ตัวบน,xxx,,750,1,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,65,2ตัวล่าง,xx,,90,1,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,65,3ตัวบน,xxx,,750,1,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,66,2ตัวล่าง,xx,,90,1,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,66,3ตัวบน,xxx,,750,1,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,67,2ตัวล่าง,xx,,90,1,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,67,3ตัวบน,xxx,,750,1,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,68,2ตัวล่าง,xx,,90,1,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,68,3ตัวบน,xxx,,750,1,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,69,2ตัวล่าง,xx,,90,1,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,69,3ตัวบน,xxx,,750,1,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,7,2ตัวล่าง,76,76,90,0,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,7,3ตัวบน,882,882,750,0,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,70,2ตัวล่าง,xx,,90,1,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,70,3ตัวบน,xxx,,750,1,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,71,2ตัวล่าง,xx,,90,1,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,71,3ตัวบน,xxx,,750,1,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,72,2ตัวล่าง,xx,,90,1,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,72,3ตัวบน,xxx,,750,1,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,73,2ตัวล่าง,xx,,90,1,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,73,3ตัวบน,xxx,,750,1,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,74,2ตัวล่าง,xx,,90,1,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,74,3ตัวบน,xxx,,750,1,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,75,2ตัวล่าง,xx,,90,1,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,75,3ตัวบน,xxx,,750,1,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,76,2ตัวล่าง,xx,,90,1,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,76,3ตัวบน,xxx,,750,1,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,77,2ตัวล่าง,xx,,90,1,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,77,3ตัวบน,xxx,,750,1,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,78,2ตัวล่าง,xx,,90,1,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,78,3ตัวบน,xxx,,750,1,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,79,2ตัวล่าง,xx,,90,1,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,79,3ตัวบน,xxx,,750,1,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,8,2ตัวล่าง,75,75,90,0,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,8,3ตัวบน,451,451,750,0,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,80,2ตัวล่าง,xx,,90,1,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,80,3ตัวบน,xxx,,750,1,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,81,2ตัวล่าง,xx,,90,1,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,81,3ตัวบน,xxx,,750,1,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,82,2ตัวล่าง,xx,,90,1,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,82,3ตัวบน,xxx,,750,1,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,83,2ตัวล่าง,xx,,90,1,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,83,3ตัวบน,xxx,,750,1,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,84,2ตัวล่าง,xx,,90,1,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,84,3ตัวบน,xxx,,750,1,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,85,2ตัวล่าง,xx,,90,1,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,85,3ตัวบน,xxx,,750,1,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,86,2ตัวล่าง,xx,,90,1,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,86,3ตัวบน,xxx,,750,1,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,87,2ตัวล่าง,xx,,90,1,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,87,3ตัวบน,xxx,,750,1,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,88,2ตัวล่าง,xx,,90,1,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,88,3ตัวบน,xxx,,750,1,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,9,2ตัวล่าง,13,13,90,0,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
-16 April 2026,yeekee_vip,จับยี่กี VIP,9,3ตัวบน,754,754,750,0,https://www.ruay.org/login,2026-04-16T11:56:35+07:00
+16 April 2026,baac,หวย ธกส.,,2ตัวล่าง,85,85,90,0,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,baac,หวย ธกส.,,3ตัวบน,159,159,450,0,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,baac,หวย ธกส.,,เลขที่ออก,2785159,2785159,N/A,0,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,foreign_stock,จีนรอบบ่าย,,2ตัวล่าง,xx,,90,1,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,foreign_stock,จีนรอบบ่าย,,3ตัวบน,xxx,,750,1,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,foreign_stock,จีนรอบเช้า,,2ตัวล่าง,77,77,90,0,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,foreign_stock,จีนรอบเช้า,,3ตัวบน,322,322,750,0,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,foreign_stock,นิเคอิรอบบ่าย,,2ตัวล่าง,10,10,90,0,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,foreign_stock,นิเคอิรอบบ่าย,,3ตัวบน,834,834,750,0,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,foreign_stock,นิเคอิรอบเช้า,,2ตัวล่าง,35,35,90,0,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,foreign_stock,นิเคอิรอบเช้า,,3ตัวบน,959,959,750,0,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,foreign_stock,หวยมาเลย์,,2ตัวล่าง,xx,,90,1,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,foreign_stock,หวยมาเลย์,,3ตัวบน,xxx,,750,1,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,foreign_stock,หวยลาว,,2ตัวล่าง,xx,,90,1,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,foreign_stock,หวยลาว,,3ตัวบน,xxx,,750,1,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,foreign_stock,หวยลาว Super,,2ตัวล่าง,xx,,90,1,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,foreign_stock,หวยลาว Super,,3ตัวบน,xxx,,750,1,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,foreign_stock,หวยเวียดนาม/ฮานอย,,2ตัวล่าง,xx,,90,1,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,foreign_stock,หวยเวียดนาม/ฮานอย,,3ตัวบน,xxx,,750,1,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,foreign_stock,หวยเวียดนาม/ฮานอย VIP,,2ตัวล่าง,xx,,90,1,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,foreign_stock,หวยเวียดนาม/ฮานอย VIP,,3ตัวบน,xxx,,750,1,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,foreign_stock,หวยเวียดนาม/ฮานอยพิเศษ,,2ตัวล่าง,xx,,90,1,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,foreign_stock,หวยเวียดนาม/ฮานอยพิเศษ,,3ตัวบน,xxx,,750,1,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,foreign_stock,หุ้นดาวโจนส์,,2ตัวล่าง,xx,,90,1,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,foreign_stock,หุ้นดาวโจนส์,,3ตัวบน,xxx,,750,1,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,foreign_stock,หุ้นรัสเซีย,,2ตัวล่าง,xx,,90,1,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,foreign_stock,หุ้นรัสเซีย,,3ตัวบน,xxx,,750,1,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,foreign_stock,หุ้นสิงคโปร์,,2ตัวล่าง,xx,,90,1,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,foreign_stock,หุ้นสิงคโปร์,,3ตัวบน,xxx,,750,1,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,foreign_stock,หุ้นอังกฤษ,,2ตัวล่าง,xx,,90,1,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,foreign_stock,หุ้นอังกฤษ,,3ตัวบน,xxx,,750,1,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,foreign_stock,หุ้นอินเดีย,,2ตัวล่าง,xx,,90,1,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,foreign_stock,หุ้นอินเดีย,,3ตัวบน,xxx,,750,1,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,foreign_stock,หุ้นอียิปต์,,2ตัวล่าง,xx,,90,1,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,foreign_stock,หุ้นอียิปต์,,3ตัวบน,xxx,,750,1,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,foreign_stock,หุ้นเกาหลี,,2ตัวล่าง,68,68,90,0,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,foreign_stock,หุ้นเกาหลี,,3ตัวบน,994,994,750,0,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,foreign_stock,หุ้นเยอรมัน,,2ตัวล่าง,xx,,90,1,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,foreign_stock,หุ้นเยอรมัน,,3ตัวบน,xxx,,750,1,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,foreign_stock,หุ้นไต้หวัน,,2ตัวล่าง,88,88,90,0,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,foreign_stock,หุ้นไต้หวัน,,3ตัวบน,202,202,750,0,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,foreign_stock,ฮั่งเส็งรอบบ่าย,,2ตัวล่าง,xx,,90,1,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,foreign_stock,ฮั่งเส็งรอบบ่าย,,3ตัวบน,xxx,,750,1,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,foreign_stock,ฮั่งเส็งรอบเช้า,,2ตัวล่าง,23,23,90,0,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,foreign_stock,ฮั่งเส็งรอบเช้า,,3ตัวบน,655,655,750,0,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,government,หวยรัฐบาล,,2ตัวล่าง,xx,,90,1,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,government,หวยรัฐบาล,,3ตัวล่าง,"xxx,xxx",,450,1,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,government,หวยรัฐบาล,,3ตัวหน้า,"xxx,xxx",,450,1,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,government,หวยรัฐบาล,,รางวัลที่ 1,xxxxxx,,N/A,1,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,thai_stock,หุ้นไทยเย็น,,2ตัวล่าง,xx,,90,1,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,thai_stock,หุ้นไทยเย็น,,3ตัวบน,xxx,,750,1,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,1,2ตัวล่าง,94,94,90,0,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,1,3ตัวบน,808,808,750,0,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,10,2ตัวล่าง,52,52,90,0,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,10,3ตัวบน,336,336,750,0,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,11,2ตัวล่าง,01,01,90,0,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,11,3ตัวบน,008,008,750,0,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,12,2ตัวล่าง,18,18,90,0,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,12,3ตัวบน,627,627,750,0,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,13,2ตัวล่าง,16,16,90,0,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,13,3ตัวบน,166,166,750,0,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,14,2ตัวล่าง,47,47,90,0,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,14,3ตัวบน,508,508,750,0,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,15,2ตัวล่าง,26,26,90,0,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,15,3ตัวบน,730,730,750,0,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,16,2ตัวล่าง,93,93,90,0,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,16,3ตัวบน,370,370,750,0,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,17,2ตัวล่าง,47,47,90,0,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,17,3ตัวบน,634,634,750,0,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,18,2ตัวล่าง,74,74,90,0,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,18,3ตัวบน,193,193,750,0,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,19,2ตัวล่าง,82,82,90,0,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,19,3ตัวบน,401,401,750,0,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,2,2ตัวล่าง,05,05,90,0,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,2,3ตัวบน,410,410,750,0,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,20,2ตัวล่าง,26,26,90,0,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,20,3ตัวบน,375,375,750,0,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,21,2ตัวล่าง,08,08,90,0,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,21,3ตัวบน,886,886,750,0,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,22,2ตัวล่าง,32,32,90,0,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,22,3ตัวบน,239,239,750,0,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,23,2ตัวล่าง,02,02,90,0,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,23,3ตัวบน,919,919,750,0,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,24,2ตัวล่าง,77,77,90,0,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,24,3ตัวบน,278,278,750,0,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,25,2ตัวล่าง,04,04,90,0,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,25,3ตัวบน,592,592,750,0,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,26,2ตัวล่าง,21,21,90,0,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,26,3ตัวบน,577,577,750,0,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,27,2ตัวล่าง,60,60,90,0,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,27,3ตัวบน,974,974,750,0,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,28,2ตัวล่าง,17,17,90,0,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,28,3ตัวบน,792,792,750,0,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,29,2ตัวล่าง,07,07,90,0,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,29,3ตัวบน,028,028,750,0,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,3,2ตัวล่าง,53,53,90,0,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,3,3ตัวบน,702,702,750,0,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,30,2ตัวล่าง,42,42,90,0,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,30,3ตัวบน,206,206,750,0,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,31,2ตัวล่าง,28,28,90,0,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,31,3ตัวบน,701,701,750,0,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,32,2ตัวล่าง,89,89,90,0,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,32,3ตัวบน,344,344,750,0,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,33,2ตัวล่าง,xx,,90,1,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,33,3ตัวบน,xxx,,750,1,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,34,2ตัวล่าง,xx,,90,1,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,34,3ตัวบน,xxx,,750,1,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,35,2ตัวล่าง,xx,,90,1,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,35,3ตัวบน,xxx,,750,1,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,36,2ตัวล่าง,xx,,90,1,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,36,3ตัวบน,xxx,,750,1,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,37,2ตัวล่าง,xx,,90,1,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,37,3ตัวบน,xxx,,750,1,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,38,2ตัวล่าง,xx,,90,1,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,38,3ตัวบน,xxx,,750,1,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,39,2ตัวล่าง,xx,,90,1,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,39,3ตัวบน,xxx,,750,1,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,4,2ตัวล่าง,99,99,90,0,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,4,3ตัวบน,413,413,750,0,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,40,2ตัวล่าง,xx,,90,1,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,40,3ตัวบน,xxx,,750,1,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,41,2ตัวล่าง,xx,,90,1,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,41,3ตัวบน,xxx,,750,1,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,42,2ตัวล่าง,xx,,90,1,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,42,3ตัวบน,xxx,,750,1,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,43,2ตัวล่าง,xx,,90,1,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,43,3ตัวบน,xxx,,750,1,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,44,2ตัวล่าง,xx,,90,1,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,44,3ตัวบน,xxx,,750,1,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,45,2ตัวล่าง,xx,,90,1,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,45,3ตัวบน,xxx,,750,1,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,46,2ตัวล่าง,xx,,90,1,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,46,3ตัวบน,xxx,,750,1,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,47,2ตัวล่าง,xx,,90,1,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,47,3ตัวบน,xxx,,750,1,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,48,2ตัวล่าง,xx,,90,1,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,48,3ตัวบน,xxx,,750,1,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,49,2ตัวล่าง,xx,,90,1,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,49,3ตัวบน,xxx,,750,1,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,5,2ตัวล่าง,72,72,90,0,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,5,3ตัวบน,290,290,750,0,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,50,2ตัวล่าง,xx,,90,1,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,50,3ตัวบน,xxx,,750,1,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,51,2ตัวล่าง,xx,,90,1,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,51,3ตัวบน,xxx,,750,1,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,52,2ตัวล่าง,xx,,90,1,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,52,3ตัวบน,xxx,,750,1,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,53,2ตัวล่าง,xx,,90,1,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,53,3ตัวบน,xxx,,750,1,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,54,2ตัวล่าง,xx,,90,1,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,54,3ตัวบน,xxx,,750,1,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,55,2ตัวล่าง,xx,,90,1,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,55,3ตัวบน,xxx,,750,1,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,56,2ตัวล่าง,xx,,90,1,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,56,3ตัวบน,xxx,,750,1,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,57,2ตัวล่าง,xx,,90,1,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,57,3ตัวบน,xxx,,750,1,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,58,2ตัวล่าง,xx,,90,1,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,58,3ตัวบน,xxx,,750,1,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,59,2ตัวล่าง,xx,,90,1,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,59,3ตัวบน,xxx,,750,1,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,6,2ตัวล่าง,30,30,90,0,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,6,3ตัวบน,493,493,750,0,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,60,2ตัวล่าง,xx,,90,1,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,60,3ตัวบน,xxx,,750,1,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,61,2ตัวล่าง,xx,,90,1,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,61,3ตัวบน,xxx,,750,1,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,62,2ตัวล่าง,xx,,90,1,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,62,3ตัวบน,xxx,,750,1,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,63,2ตัวล่าง,xx,,90,1,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,63,3ตัวบน,xxx,,750,1,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,64,2ตัวล่าง,xx,,90,1,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,64,3ตัวบน,xxx,,750,1,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,65,2ตัวล่าง,xx,,90,1,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,65,3ตัวบน,xxx,,750,1,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,66,2ตัวล่าง,xx,,90,1,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,66,3ตัวบน,xxx,,750,1,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,67,2ตัวล่าง,xx,,90,1,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,67,3ตัวบน,xxx,,750,1,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,68,2ตัวล่าง,xx,,90,1,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,68,3ตัวบน,xxx,,750,1,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,69,2ตัวล่าง,xx,,90,1,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,69,3ตัวบน,xxx,,750,1,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,7,2ตัวล่าง,76,76,90,0,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,7,3ตัวบน,882,882,750,0,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,70,2ตัวล่าง,xx,,90,1,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,70,3ตัวบน,xxx,,750,1,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,71,2ตัวล่าง,xx,,90,1,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,71,3ตัวบน,xxx,,750,1,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,72,2ตัวล่าง,xx,,90,1,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,72,3ตัวบน,xxx,,750,1,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,73,2ตัวล่าง,xx,,90,1,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,73,3ตัวบน,xxx,,750,1,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,74,2ตัวล่าง,xx,,90,1,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,74,3ตัวบน,xxx,,750,1,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,75,2ตัวล่าง,xx,,90,1,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,75,3ตัวบน,xxx,,750,1,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,76,2ตัวล่าง,xx,,90,1,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,76,3ตัวบน,xxx,,750,1,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,77,2ตัวล่าง,xx,,90,1,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,77,3ตัวบน,xxx,,750,1,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,78,2ตัวล่าง,xx,,90,1,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,78,3ตัวบน,xxx,,750,1,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,79,2ตัวล่าง,xx,,90,1,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,79,3ตัวบน,xxx,,750,1,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,8,2ตัวล่าง,75,75,90,0,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,8,3ตัวบน,451,451,750,0,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,80,2ตัวล่าง,xx,,90,1,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,80,3ตัวบน,xxx,,750,1,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,81,2ตัวล่าง,xx,,90,1,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,81,3ตัวบน,xxx,,750,1,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,82,2ตัวล่าง,xx,,90,1,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,82,3ตัวบน,xxx,,750,1,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,83,2ตัวล่าง,xx,,90,1,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,83,3ตัวบน,xxx,,750,1,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,84,2ตัวล่าง,xx,,90,1,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,84,3ตัวบน,xxx,,750,1,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,85,2ตัวล่าง,xx,,90,1,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,85,3ตัวบน,xxx,,750,1,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,86,2ตัวล่าง,xx,,90,1,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,86,3ตัวบน,xxx,,750,1,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,87,2ตัวล่าง,xx,,90,1,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,87,3ตัวบน,xxx,,750,1,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,88,2ตัวล่าง,xx,,90,1,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,88,3ตัวบน,xxx,,750,1,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,9,2ตัวล่าง,13,13,90,0,https://www.ruay.org/login,2026-04-16T13:49:41+07:00
+16 April 2026,yeekee_vip,จับยี่กี VIP,9,3ตัวบน,754,754,750,0,https://www.ruay.org/login,2026-04-16T13:49:41+07:00

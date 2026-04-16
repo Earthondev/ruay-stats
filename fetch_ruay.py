@@ -375,7 +375,7 @@ def load_existing_rows(path: Path) -> dict[tuple[str, str, str, str, str], dict[
 def write_rows(path: Path, rows: list[dict[str, str]]) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     with path.open("w", newline="", encoding="utf-8") as handle:
-        writer = csv.DictWriter(handle, fieldnames=RESULT_COLUMNS)
+        writer = csv.DictWriter(handle, fieldnames=RESULT_COLUMNS, lineterminator="\n")
         writer.writeheader()
         writer.writerows(rows)
 

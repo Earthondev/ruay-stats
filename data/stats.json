@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-04-16T11:56:35+07:00",
+  "updated_at": "2026-04-16T13:49:41+07:00",
   "row_count": 227,
-  "completed_row_count": 57,
+  "completed_row_count": 79,
   "categories": {
     "baac": 3,
     "foreign_stock": 42,
@@ -11,7 +11,7 @@
   },
   "markets": {
     "จับยี่กี VIP|2ตัวล่าง": {
-      "observations": 24,
+      "observations": 32,
       "latest_draw_date": "16 April 2026",
       "latest_value": "13",
       "top_values": [
@@ -57,20 +57,20 @@
         }
       ],
       "digit_frequency": {
-        "0": 5,
-        "1": 4,
-        "2": 7,
+        "0": 8,
+        "1": 6,
+        "2": 10,
         "3": 5,
-        "4": 4,
+        "4": 6,
         "5": 4,
-        "6": 4,
-        "7": 8,
-        "8": 3,
-        "9": 4
+        "6": 5,
+        "7": 10,
+        "8": 5,
+        "9": 5
       }
     },
     "จับยี่กี VIP|3ตัวบน": {
-      "observations": 24,
+      "observations": 32,
       "latest_draw_date": "16 April 2026",
       "latest_value": "754",
       "top_values": [
@@ -116,16 +116,16 @@
         }
       ],
       "digit_frequency": {
-        "0": 10,
-        "1": 7,
-        "2": 6,
-        "3": 10,
-        "4": 7,
-        "5": 4,
-        "6": 6,
-        "7": 7,
-        "8": 9,
-        "9": 6
+        "0": 13,
+        "1": 8,
+        "2": 10,
+        "3": 11,
+        "4": 10,
+        "5": 6,
+        "6": 7,
+        "7": 12,
+        "8": 10,
+        "9": 9
       }
     },
     "จีนรอบเช้า|2ตัวล่าง": {
@@ -155,6 +155,37 @@
       "digit_frequency": {
         "2": 2,
         "3": 1
+      }
+    },
+    "นิเคอิรอบบ่าย|2ตัวล่าง": {
+      "observations": 1,
+      "latest_draw_date": "16 April 2026",
+      "latest_value": "10",
+      "top_values": [
+        {
+          "value": "10",
+          "count": 1
+        }
+      ],
+      "digit_frequency": {
+        "0": 1,
+        "1": 1
+      }
+    },
+    "นิเคอิรอบบ่าย|3ตัวบน": {
+      "observations": 1,
+      "latest_draw_date": "16 April 2026",
+      "latest_value": "834",
+      "top_values": [
+        {
+          "value": "834",
+          "count": 1
+        }
+      ],
+      "digit_frequency": {
+        "3": 1,
+        "4": 1,
+        "8": 1
       }
     },
     "นิเคอิรอบเช้า|2ตัวล่าง": {
@@ -235,6 +266,65 @@
         "7": 1,
         "8": 1,
         "9": 1
+      }
+    },
+    "หุ้นเกาหลี|2ตัวล่าง": {
+      "observations": 1,
+      "latest_draw_date": "16 April 2026",
+      "latest_value": "68",
+      "top_values": [
+        {
+          "value": "68",
+          "count": 1
+        }
+      ],
+      "digit_frequency": {
+        "6": 1,
+        "8": 1
+      }
+    },
+    "หุ้นเกาหลี|3ตัวบน": {
+      "observations": 1,
+      "latest_draw_date": "16 April 2026",
+      "latest_value": "994",
+      "top_values": [
+        {
+          "value": "994",
+          "count": 1
+        }
+      ],
+      "digit_frequency": {
+        "4": 1,
+        "9": 2
+      }
+    },
+    "หุ้นไต้หวัน|2ตัวล่าง": {
+      "observations": 1,
+      "latest_draw_date": "16 April 2026",
+      "latest_value": "88",
+      "top_values": [
+        {
+          "value": "88",
+          "count": 1
+        }
+      ],
+      "digit_frequency": {
+        "8": 2
+      }
+    },
+    "หุ้นไต้หวัน|3ตัวบน": {
+      "observations": 1,
+      "latest_draw_date": "16 April 2026",
+      "latest_value": "202",
+      "top_values": [
+        {
+          "value": "202",
+          "count": 1
+        }
+      ],
+      "digit_frequency": {
+        "0": 1,
+        "2": 2
       }
     },
     "ฮั่งเส็งรอบเช้า|2ตัวล่าง": {
