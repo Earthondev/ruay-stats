@@ -91,11 +91,9 @@
     return state.startDate === state.endDate;
   }
 
-  function getScopeLabel() {
-    if (isSingleDayScope()) {
-      return formatDate(state.startDate);
-    }
-    return `${formatDate(state.startDate)} - ${formatDate(state.endDate)}`;
+  function getScopeLabel(completeCount, filtered, dates) {
+    return `${completeCount} รายการที่ออกผลแล้ว (จากทั้งหมด ${numberFormat(filtered.length)}) 
+      · เก็บข้อมูลระหว่าง ${formatTimestamp(dates[dates.length - 1])} ถึง ${formatTimestamp(dates[0])}`;
   }
 
   function getScopeSubLabel() {
@@ -220,8 +218,8 @@
 
   function renderQuickDates() {
     els.selectedScopeMeta.textContent = isSingleDayScope()
-      ? `ตอนนี้กำลังดู ${getScopeLabel()}`
-      : `ตอนนี้กำลังดูช่วง ${getScopeLabel()}`;
+      ? `ตอนนี้กำลังดู ${formatDate(state.startDate)}`
+      : `ตอนนี้กำลังดูช่วง ${formatDate(state.startDate)} - ${formatDate(state.endDate)}`;
 
     els.quickDateScroller.innerHTML = recentDates
       .map((date) => {
@@ -339,7 +337,7 @@
     els.spotlightMeta.textContent = `${getScopeSubLabel()} | ${
       isSingleDayScope() ? "มุมมองรายวัน" : "มุมมองตามช่วงวันที่"
     }`;
-    els.scopePrimary.textContent = getScopeLabel();
+    els.scopePrimary.textContent = isSingleDayScope() ? formatDate(state.startDate) : `${formatDate(state.startDate)} - ${formatDate(state.endDate)}`;
     els.scopeNote.textContent = isSingleDayScope()
       ? `มีข้อมูล complete ${numberFormat(analysis.completeRecords.length)} รายการ ใน ${
           analysis.uniqueCompleteRounds
@@ -371,7 +369,7 @@
       : numberFormat(analysis.uniqueCompleteRounds);
     els.completionNote.textContent = isSingleDayScope()
       ? `รอบที่ complete แล้วของวันนั้น ใน ${getScopeSubLabel()}`
-      : `จำนวนรอบที่มีผล complete ภายในช่วง ${getScopeLabel()}`;
+      : `จำนวนรอบที่มีผล complete ภายในช่วง ${state.startDate} - ${state.endDate}`;
 
     els.hotValuesChips.innerHTML = topValues.length
       ? topValues
@@ -402,9 +400,9 @@
 
   function renderDigitOverview(analysis) {
     const maxCount = Math.max(...analysis.digitCounts, 1);
-    els.digitOverviewMeta.textContent = `${state.field} | ${
-      state.round === "all" ? "ทุกรอบ" : `รอบ ${state.round}`
-    }`;
+    els.digitOverviewMeta.textContent = `รวมการปรากฏในผลที่ออกแล้ว ${numberFormat(
+      analysis.completeRecords.length
+    )} รายการ`;
     els.digitBars.innerHTML = analysis.digitCounts
       .map((count, digit) => {
         const width = maxCount ? Math.max((count / maxCount) * 100, 4) : 0;
@@ -430,7 +428,7 @@
   function renderRoundFocus(analysis) {
     const focusDigit = Number(state.focusDigit);
     const maxMatches = Math.max(...analysis.roundTrend.map((item) => item.focusMatches), 1);
-    els.roundFocusMeta.textContent = `ดูว่า digit ${focusDigit} ไปโผล่ในรอบไหนบ่อยที่สุด`;
+    els.roundFocusMeta.textContent = `ตัวเลขที่กำลังดู: ${focusDigit} ไปโผล่ในรอบไหนบ่อยที่สุด`;
     els.digitPicker.innerHTML = Array.from({ length: 10 }, (_, digit) => {
       const active = String(digit) === state.focusDigit ? "active" : "";
       return `<button class="digit-button ${active}" data-digit="${digit}">${digit}</button>`;
@@ -444,9 +442,9 @@
 
     const leader = analysis.roundTrend[0];
     els.focusInsight.innerHTML = leader
-      ? `<strong>digit ${focusDigit}</strong> เจอบ่อยสุดในรอบ ${leader.round} จำนวน ${numberFormat(
-          leader.focusMatches
-        )} ครั้ง จาก ${numberFormat(leader.observations)} observations`
+      ? `<div><strong>เลข ${focusDigit}</strong> ปรากฏใน ${numberFormat(leader.focusMatches)} จาก ${numberFormat(
+          analysis.completeRecords.length
+        )} รายการผลที่ออกแล้ว หรือ ${percent(leader.focusMatches, analysis.completeRecords.length)}</div>`
       : `<span class="empty">ยังไม่มีผล complete ในตัวกรองนี้</span>`;
 
     els.roundTrend.innerHTML = leader
@@ -458,9 +456,7 @@
               <div class="round-row">
                 <span class="round-label">${item.round}</span>
                 <span class="round-track"><span class="round-fill" style="width:${width}%"></span></span>
-                <span class="round-value">${numberFormat(item.focusMatches)} / ${numberFormat(
-              item.observations
-            )}</span>
+                <div class="round-value">${numberFormat(item.focusMatches)} รายการ</div>
               </div>
             `;
           })
@@ -585,10 +581,10 @@
       <div class="ldb-head">
         <div class="ldb-title-row">
           <span class="panel-kicker">ผลยี่กี VIP ล่าสุด</span>
-          ${isToday ? `<span class="ldb-today-badge">🟢 วันนี้</span>` : ""}
+          ${isToday ? `<span class="ldb-today-badge">ล่าสุดของวันนี้</span>` : ""}
         </div>
         <h2 class="ldb-date">${formatDate(latest.date)}</h2>
-        <p class="ldb-subtitle">รอบ complete แล้ว <strong>${completed}/${total}</strong> รอบ · รอบสูงสุดที่เห็น <strong>${latest.last_completed_round || "-"}</strong> · เก็บล่าสุด ${formatTimestamp(latest.captured_at)}</p>
+        <p class="ldb-subtitle">รอบที่ออกผลแล้ว <strong>${completed}/${total}</strong> รอบ · รอบสูงสุดที่เห็น <strong>${latest.last_completed_round || "-"}</strong> · อัปเดตล่าสุด ${formatTimestamp(latest.captured_at)}</p>
       </div>
       <div class="ldb-round-grid">
         ${preview.length
@@ -598,7 +594,7 @@
               <span class="ldb-round-field">${escapeHtml(r.field)}</span>
               <strong class="ldb-round-val">${escapeHtml(r.value)}</strong>
             </div>`).join("")
-          : `<p class="empty">ยังไม่มีผล complete ในวันล่าสุด</p>`}
+          : `<p class="empty">ยังไม่มีผลที่ออกแล้วในวันล่าสุด</p>`}
       </div>
     `;
   }

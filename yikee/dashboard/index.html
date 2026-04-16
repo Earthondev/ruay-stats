@@ -18,21 +18,21 @@
     <nav class="global-nav">
       <div class="nav-links">
         <a href="/glo/dashboard/" class="nav-brand">RUAY <span>Stats</span></a>
-        <a href="/glo/dashboard/" class="nav-item">รัฐบาล (GLO)</a>
-        <a href="/yikee/dashboard/" class="nav-item active">ยี่กี VIP</a>
-        <a href="/waii/dashboard/" class="nav-item">WAII Lab</a>
+        <a href="/glo/dashboard/" class="nav-item">หวยรัฐบาล</a>
+        <a href="/yikee/dashboard/" class="nav-item active">หวยยี่กี (Ruay)</a>
+        <a href="/waii/dashboard/" class="nav-item">หวยหุ้น (WAII)</a>
       </div>
       <div class="nav-actions">
         <a href="https://github.com/Earthondev/ruay-stats/actions/workflows/fetch-and-build.yml" target="_blank" rel="noopener noreferrer" class="nav-btn-fetch">
           <svg width="18" height="18" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"></path></svg>
-          ดึงข้อมูลใหม่ (GitHub)
+          อัปเดตผลล่าสุด
         </a>
       </div>
     </nav>
     <div class="app-shell">
       <header class="hero">
         <div class="hero-copy">
-          <p class="eyebrow">RUAY Read-Only Collector</p>
+          <p class="eyebrow">สรุปผลจาก RUAY</p>
           <h1>สถิติยี่กี VIP จากหน้า public</h1>
           <p class="hero-note">
             เก็บข้อมูลจาก <code>ruay.org/login</code> แบบอ่านอย่างเดียว เพื่อดูผลแต่ละรอบ ความถี่ของเลข และสถานะรอบล่าสุด
@@ -71,7 +71,7 @@
       <section class="surface quick-dates-panel">
         <div class="panel-head compact-head">
           <div>
-            <p class="panel-kicker">Quick Dates</p>
+            <p class="panel-kicker">เลือกวันที่รวดเร็ว</p>
             <h2>เลือกวันแบบกดครั้งเดียว</h2>
           </div>
           <p class="panel-meta" id="selectedScopeMeta"></p>
@@ -83,7 +83,7 @@
         <section class="surface spotlight-panel">
           <div class="panel-head">
             <div>
-              <p class="panel-kicker">Daily Board</p>
+              <p class="panel-kicker">สรุปผลรายวัน</p>
               <h2>สรุปให้ทันทีว่าวันที่เลือกอะไรออกบ่อย</h2>
             </div>
             <p class="panel-meta" id="spotlightMeta"></p>
@@ -103,7 +103,7 @@
             </article>
 
             <article class="spotlight-card">
-              <span class="spotlight-label">digit เด่นในช่วงนี้</span>
+              <span class="spotlight-label">ตัวเลขเด่นในช่วงนี้</span>
               <strong class="spotlight-value" id="hotDigitPrimary"></strong>
               <p class="spotlight-note" id="hotDigitNote"></p>
             </article>
@@ -118,7 +118,7 @@
           <div class="spotlight-bottom">
             <section class="mini-panel">
               <div class="mini-head">
-                <p class="mini-kicker">Hot Values</p>
+                <p class="mini-kicker">เลขชุดที่ออกบ่อย</p>
                 <h3>เลขซ้ำ/เลขเด่นของช่วงนี้</h3>
               </div>
               <div class="chip-cluster" id="hotValuesChips"></div>
@@ -126,8 +126,8 @@
 
             <section class="mini-panel">
               <div class="mini-head">
-                <p class="mini-kicker">Hot Digits</p>
-                <h3>digit ที่ขึ้นบ่อย</h3>
+                <p class="mini-kicker">ตัวเลขที่ออกบ่อย</p>
+                <h3>ตัวเลขที่ขึ้นบ่อย</h3>
               </div>
               <div class="chip-cluster" id="hotDigitsChips"></div>
             </section>
@@ -140,7 +140,7 @@
           <section class="surface panel">
             <div class="panel-head">
               <div>
-                <p class="panel-kicker">Digit Overview</p>
+                <p class="panel-kicker">ภาพรวมตัวเลข</p>
                 <h2>ความถี่ตัวเลข 0-9</h2>
               </div>
               <p class="panel-meta" id="digitOverviewMeta"></p>
@@ -151,8 +151,8 @@
           <section class="surface panel">
             <div class="panel-head">
               <div>
-                <p class="panel-kicker">Round Focus</p>
-                <h2>ดูกลุ่มรอบที่มี digit นี้บ่อย</h2>
+                <p class="panel-kicker">เจาะลึกรายรอบ</p>
+                <h2>ดูกลุ่มรอบที่มีตัวเลขนี้บ่อย</h2>
               </div>
               <p class="panel-meta" id="roundFocusMeta"></p>
             </div>
@@ -164,7 +164,7 @@
           <section class="surface panel">
             <div class="panel-head">
               <div>
-                <p class="panel-kicker">Top Values</p>
+                <p class="panel-kicker">เลขที่เจอบ่อยที่สุด</p>
                 <h2>เลขที่เจอบ่อยที่สุด</h2>
               </div>
               <p class="panel-meta">แสดงเฉพาะผลที่ออกแล้ว</p>
@@ -176,7 +176,7 @@
                     <th>เลข</th>
                     <th>จำนวนครั้ง</th>
                     <th>ล่าสุด</th>
-                    <th>มี digit ที่เลือก</th>
+                    <th>มีตัวเลขที่เลือกหรือไม่</th>
                   </tr>
                 </thead>
                 <tbody id="topValuesBody"></tbody>
@@ -187,7 +187,7 @@
           <section class="surface panel">
             <div class="panel-head">
               <div>
-                <p class="panel-kicker">Latest Status</p>
+                <p class="panel-kicker">สถานะล่าสุด</p>
                 <h2>สถานะรอบล่าสุดที่เก็บได้</h2>
               </div>
               <p class="panel-meta" id="latestStatusMeta"></p>
@@ -199,7 +199,7 @@
         <section class="surface panel">
           <div class="panel-head">
             <div>
-              <p class="panel-kicker">Recent Results</p>
+              <p class="panel-kicker">ผลแบบละเอียด</p>
               <h2>ผลย้อนหลังตามตัวกรอง</h2>
             </div>
             <p class="panel-meta" id="historyMeta"></p>
@@ -224,7 +224,7 @@
         <section class="surface panel note-panel">
           <div class="panel-head">
             <div>
-              <p class="panel-kicker">Boundary</p>
+              <p class="panel-kicker">ข้อจำกัดของระบบ</p>
               <h2>สิ่งที่หน้าเว็บนี้ไม่ทำ</h2>
             </div>
           </div>

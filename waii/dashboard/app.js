@@ -280,7 +280,9 @@
         return `
           <tr>
             <td>
-              <strong>${escapeHtml(test.label)}</strong>
+              <div class="value-badge ${matchCls}">
+                ${escapeHtml(test.label || "-")}
+              </div>
             </td>
             <td>${numberFormat(test.trials)}</td>
             <td>${numberFormat(test.hits)}</td>
@@ -297,9 +299,9 @@
     const data = currentFieldData();
     const rows = data.top_digits || [];
     const maxCount = rows.length ? Math.max(...rows.map((row) => row[1])) : 0;
-    els.digitOverviewMeta.textContent = rows.length
-      ? `คำนวณจาก ${numberFormat(data.record_count)} complete records`
-      : "ยังไม่มี digit distribution";
+    els.digitOverviewMeta.textContent = `รวมการปรากฏในผลที่ออกแล้ว ${numberFormat(
+      data.record_count
+    )} รอบ`;
 
     els.digitBars.innerHTML = rows.length
       ? rows
@@ -371,6 +373,9 @@
           <td colspan="5" class="empty-cell">ยังไม่มี capture timeline</td>
         </tr>
       `;
+    els.timelineMeta.innerHTML = `
+      และดึงข้อมูลครั้งล่าสุดเมื่อ ${formatTimestamp(dataset.meta.last_updated)}
+    `;
   }
 
   function renderDiagnostics() {

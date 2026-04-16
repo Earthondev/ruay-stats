@@ -320,10 +320,10 @@
     els.modeNote.textContent = `${analysisResult.mode.note} ข้อควรระวัง: ความถี่ย้อนหลังไม่เท่ากับโอกาสถูกในงวดถัดไป`;
     els.modeNote.textContent +=
       " อีกข้อควรระวัง: โครงสร้างรางวัลใน API ปีเก่าไม่เหมือนปัจจุบันทุกงวด บางช่วงยังไม่มีเลขหน้า 3 ตัว และเลขท้าย 3 ตัวอาจมีจำนวนค่าต่อ draw ไม่เท่ากัน";
-    els.digitOverviewMeta.textContent = `รวมการปรากฏทุกตำแหน่งใน ${numberFormat(
+    els.digitOverviewMeta.textContent = `รวมการปรากฏทุกตำแหน่ง จากทั้งหมด ${numberFormat(
       analysisResult.samples.length
-    )} sample`;
-    els.digitFocusMeta.textContent = `digit ที่เลือกตอนนี้คือ ${focusDigit}`;
+    )} รายการ`;
+    els.digitFocusMeta.textContent = `เลขที่กำลังดู: ${focusDigit}`;
     els.historyMeta.textContent = `งวดล่าสุดในช่วงที่เลือก: ${
       analysisResult.draws.length ? formatDate(analysisResult.draws.at(-1).date) : "-"
     }`;
@@ -377,7 +377,7 @@
     els.focusInsight.innerHTML = `
       <div><strong>เลข ${digit}</strong> ปรากฏอยู่ใน ${numberFormat(count)} จาก ${numberFormat(
         analysisResult.samples.length
-      )} sample หรือ ${percent(count, analysisResult.samples.length)}</div>
+      )} รายการ หรือ ${percent(count, analysisResult.samples.length)}</div>
       <div class="mini-note">เลข exact ที่มี ${digit} และเจอบ่อยที่สุด: ${topMatches || "-"}</div>
     `;
   }
@@ -394,7 +394,7 @@
           <div class="year-row">
             <div class="year-label">${year}</div>
             <div class="year-track"><div class="year-fill" style="width:${width}"></div></div>
-            <div class="year-value">${numberFormat(value)} sample</div>
+            <div class="year-value">${numberFormat(value)} รายการ</div>
           </div>
         `;
       })
@@ -408,7 +408,7 @@
           <article class="position-card">
             <div class="metric-label">${item.label}</div>
             <strong>${item.digit}</strong>
-            <div class="metric-note">${numberFormat(item.count)} hits</div>
+            <div class="metric-note">${numberFormat(item.count)} ครั้ง</div>
           </article>
         `
       )
@@ -434,7 +434,7 @@
       <table class="heatmap-table">
         <thead>
           <tr>
-            <th>digit</th>
+            <th>ตัวเลข</th>
             ${header}
           </tr>
         </thead>
@@ -544,7 +544,7 @@
       <div class="ldb-head">
         <div class="ldb-title-row">
           <span class="panel-kicker">ผลล่าสุด</span>
-          ${isToday ? `<span class="ldb-today-badge">🟢 วันนี้</span>` : ""}
+          ${isToday ? `<span class="ldb-today-badge">ล่าสุดของวันนี้</span>` : ""}
         </div>
         <h2 class="ldb-date">${dateLabel}</h2>
       </div>

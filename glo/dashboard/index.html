@@ -18,22 +18,22 @@
     <nav class="global-nav">
       <div class="nav-links">
         <a href="/glo/dashboard/" class="nav-brand">RUAY <span>Stats</span></a>
-        <a href="/glo/dashboard/" class="nav-item active">รัฐบาล (GLO)</a>
-        <a href="/yikee/dashboard/" class="nav-item">ยี่กี VIP</a>
-        <a href="/waii/dashboard/" class="nav-item">WAII Lab</a>
+        <a href="/glo/dashboard/" class="nav-item active">หวยรัฐบาล</a>
+        <a href="/yikee/dashboard/" class="nav-item">หวยยี่กี (Ruay)</a>
+        <a href="/waii/dashboard/" class="nav-item">หวยหุ้น (WAII)</a>
       </div>
       <div class="nav-actions">
         <a href="https://github.com/Earthondev/ruay-stats/actions/workflows/fetch-and-build.yml" target="_blank" rel="noopener noreferrer" class="nav-btn-fetch">
           <svg width="18" height="18" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"></path></svg>
-          ดึงข้อมูลใหม่ (GitHub)
+          อัปเดตผลล่าสุด
         </a>
       </div>
     </nav>
     <div class="app-shell">
       <header class="hero">
         <div class="hero-copy">
-          <p class="eyebrow">Official GLO Data Explorer</p>
-          <h1>แดชบอร์ดสถิติหวยรัฐบาลย้อนหลัง</h1>
+          <p class="eyebrow">ข้อมูลอ้างอิงจากกองสลาก</p>
+          <h1>สถิติหวยรัฐบาลย้อนหลัง</h1>
           <p class="hero-note">
             ใช้ข้อมูลจาก API ทางการของสำนักงานสลากกินแบ่งรัฐบาล เพื่อดูความถี่ย้อนหลังของเลขท้าย 2 ตัว,
             เลขหน้า 3 ตัว, เลขท้าย 3 ตัว และ 3 หลักท้ายของรางวัลที่ 1
@@ -73,7 +73,7 @@
           <section class="surface panel">
             <div class="panel-head">
               <div>
-                <p class="panel-kicker">Digit Overview</p>
+                <p class="panel-kicker">ภาพรวมตัวเลข</p>
                 <h2>ความถี่ตัวเลข 0-9</h2>
               </div>
               <p class="panel-meta" id="digitOverviewMeta"></p>
@@ -84,8 +84,8 @@
           <section class="surface panel">
             <div class="panel-head">
               <div>
-                <p class="panel-kicker">Digit Focus</p>
-                <h2>กดดูแนวโน้มรายปี</h2>
+                <p class="panel-kicker">เจาะลึกตัวเลข</p>
+                <h2>ดูแนวโน้มรายปีของเลขตัวเดียว</h2>
               </div>
               <p class="panel-meta" id="digitFocusMeta"></p>
             </div>
@@ -97,7 +97,7 @@
           <section class="surface panel">
             <div class="panel-head">
               <div>
-                <p class="panel-kicker">Position Mix</p>
+                <p class="panel-kicker">ตัวเลขตามตำแหน่ง</p>
                 <h2>ตัวเลขเด่นแยกตามตำแหน่ง</h2>
               </div>
             </div>
@@ -108,8 +108,8 @@
           <section class="surface panel">
             <div class="panel-head">
               <div>
-                <p class="panel-kicker">Hot & Cold</p>
-                <h2>เลขย้อนหลังที่เจอบ่อย</h2>
+                <p class="panel-kicker">เลขที่ออกบ่อย</p>
+                <h2>เลขชุดที่เจอย้อนหลังบ่อย</h2>
               </div>
               <p class="panel-meta">แสดงเฉพาะความถี่ ไม่ใช่การทำนาย</p>
             </div>
@@ -120,7 +120,7 @@
                     <th>เลข</th>
                     <th>จำนวนครั้ง</th>
                     <th>ล่าสุด</th>
-                    <th>มี digit ที่เลือก</th>
+                    <th>มีตัวเลขที่เลือกหรือไม่</th>
                   </tr>
                 </thead>
                 <tbody id="topNumbersBody"></tbody>
@@ -132,7 +132,7 @@
         <section class="surface panel">
           <div class="panel-head">
             <div>
-              <p class="panel-kicker">Draw History</p>
+              <p class="panel-kicker">ประวัติการออกรางวัล</p>
               <h2>งวดย้อนหลังในช่วงที่เลือก</h2>
             </div>
             <p class="panel-meta" id="historyMeta"></p>
@@ -158,8 +158,8 @@
         <section class="surface panel safety-panel" id="play-safe">
           <div class="panel-head safety-head">
             <div>
-              <p class="panel-kicker">Play Safe</p>
-              <h2>คล็ดลับเล่นหวยปลอดภัย</h2>
+              <p class="panel-kicker">หลักความปลอดภัย</p>
+              <h2>เคล็ดลับเล่นหวยปลอดภัย</h2>
             </div>
             <p class="panel-meta">
               ใช้สถิติย้อนหลังเพื่อดูความถี่และความสนุกเท่านั้น ไม่ใช่การทำนายงวดถัดไป

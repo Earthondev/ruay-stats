@@ -18,22 +18,22 @@
     <nav class="global-nav">
       <div class="nav-links">
         <a href="/glo/dashboard/" class="nav-brand">RUAY <span>Stats</span></a>
-        <a href="/glo/dashboard/" class="nav-item">รัฐบาล (GLO)</a>
-        <a href="/yikee/dashboard/" class="nav-item">ยี่กี VIP</a>
-        <a href="/waii/dashboard/" class="nav-item active">WAII Lab</a>
+        <a href="/glo/dashboard/" class="nav-item">หวยรัฐบาล</a>
+        <a href="/yikee/dashboard/" class="nav-item">หวยยี่กี (Ruay)</a>
+        <a href="/waii/dashboard/" class="nav-item active">หวยหุ้น (WAII)</a>
       </div>
       <div class="nav-actions">
         <a href="https://github.com/Earthondev/ruay-stats/actions/workflows/fetch-and-build.yml" target="_blank" rel="noopener noreferrer" class="nav-btn-fetch">
           <svg width="18" height="18" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"></path></svg>
-          ดึงข้อมูลใหม่ (GitHub)
+          อัปเดตผลล่าสุด
         </a>
       </div>
     </nav>
     <div class="app-shell">
       <header class="hero">
         <div class="hero-copy">
-          <p class="eyebrow">WAII Read-Only Pattern Lab</p>
-          <h1>จับสถานะเว็บ, สะสมประวัติ, แล้วค่อยทดสอบกฎย้อนหลัง</h1>
+          <p class="eyebrow">ข้อมูลสถิติหวยหุ้น WAII</p>
+          <h1>สถิติรูปแบบเลขและการทดสอบย้อนหลัง</h1>
           <p class="hero-note">
             หน้าเว็บนี้ไม่กดเดิมพันและไม่ออกคำแนะนำซื้อเลข มันใช้สำหรับเช็กว่า <code>wwii.one</code> กับ
             <code>api.waii.site</code> จับข้อมูลได้แค่ไหน, สะสมผลย้อนหลัง, และทดสอบกฎเชิงสถิติย้อนหลังแบบ
@@ -46,8 +46,8 @@
       <section class="surface readiness-panel">
         <div class="panel-head compact-head">
           <div>
-            <p class="panel-kicker">Readiness</p>
-            <h2>ตอนนี้ข้อมูลพร้อมแค่ไหน</h2>
+            <p class="panel-kicker">ความพร้อมของข้อมูล</p>
+            <h2>ระบบทำงานสำเร็จหรือไม่</h2>
           </div>
           <p class="panel-meta" id="readinessMeta"></p>
         </div>
@@ -91,21 +91,21 @@
         <section class="surface spotlight-panel">
           <div class="panel-head">
             <div>
-              <p class="panel-kicker">Data Health</p>
-              <h2>เห็นภาพรวมของประวัติที่สะสมได้</h2>
+              <p class="panel-kicker">คุณภาพข้อมูล</p>
+              <h2>คุณภาพและความสมบูรณ์ของข้อมูลราย Field</h2>
             </div>
             <p class="panel-meta" id="spotlightMeta"></p>
           </div>
 
           <div class="spotlight-grid">
             <article class="spotlight-card">
-              <span class="spotlight-label">Snapshots</span>
+              <span class="spotlight-label">บันทึกหน้าเว็บ (Snapshots)</span>
               <strong class="spotlight-value" id="snapshotPrimary"></strong>
               <p class="spotlight-note" id="snapshotNote"></p>
             </article>
 
             <article class="spotlight-card spotlight-card-hot">
-              <span class="spotlight-label">Complete observations</span>
+              <span class="spotlight-label">ผลรางวัลที่ออกแล้ว</span>
               <strong class="spotlight-value" id="completePrimary"></strong>
               <p class="spotlight-note" id="completeNote"></p>
             </article>
@@ -126,16 +126,16 @@
           <div class="spotlight-bottom">
             <section class="mini-panel">
               <div class="mini-head">
-                <p class="mini-kicker">Top Digits</p>
-                <h3>digit ที่เจอในผล complete</h3>
+                <p class="mini-kicker">ตัวเลขที่เจอบ่อยสุด</p>
+                <h3>ตัวเลขที่เจอในผลที่ออกแล้ว</h3>
               </div>
               <div class="chip-cluster" id="hotDigitsChips"></div>
             </section>
 
             <section class="mini-panel">
               <div class="mini-head">
-                <p class="mini-kicker">Top Values</p>
-                <h3>เลขที่ซ้ำมากสุดใน field นี้</h3>
+                <p class="mini-kicker">ผลรวม/เลขชุด ที่เจอบ่อย</p>
+                <h3>เลขที่ซ้ำมากสุดในประเภทนี้</h3>
               </div>
               <div class="chip-cluster" id="hotValuesChips"></div>
             </section>
@@ -145,11 +145,11 @@
         <section class="surface metrics" id="metricCards"></section>
 
         <section class="dashboard-grid">
-          <section class="surface panel">
+          <section class="surface panel card-flex">
             <div class="panel-head">
               <div>
-                <p class="panel-kicker">Pattern Lab</p>
-                <h2>ผลทดสอบกฎย้อนหลัง</h2>
+                <p class="panel-kicker">การทดสอบสถิติย้อนหลัง</p>
+                <h2>ผลลัพธ์จากข้อมูลที่มี</h2>
               </div>
               <p class="panel-meta">ถ้ามีข้อมูลไม่พอ ระบบจะบอกตรง ๆ ว่ายังทดสอบไม่ได้</p>
             </div>
@@ -160,7 +160,7 @@
                     <th>กฎ</th>
                     <th>Trials</th>
                     <th>Hits</th>
-                    <th>Hit rate</th>
+                    <th>เก็บสำเร็จ / ทั้งหมด</th>
                     <th>Baseline</th>
                     <th>คำอธิบาย</th>
                   </tr>
@@ -173,7 +173,7 @@
           <section class="surface panel">
             <div class="panel-head">
               <div>
-                <p class="panel-kicker">Digit Overview</p>
+                <p class="panel-kicker">ภาพรวมตัวเลข</p>
                 <h2>ความถี่ตัวเลข 0-9</h2>
               </div>
               <p class="panel-meta" id="digitOverviewMeta"></p>
@@ -184,8 +184,8 @@
           <section class="surface panel">
             <div class="panel-head">
               <div>
-                <p class="panel-kicker">Latest Complete</p>
-                <h2>ผลที่เก็บได้ล่าสุด</h2>
+                <p class="panel-kicker">ผลล่าสุดที่ระบบเก็บได้</p>
+                <h2>ข้อมูลจากการดึงล่าสุด</h2>
               </div>
               <p class="panel-meta" id="latestCompleteMeta"></p>
             </div>
@@ -195,8 +195,8 @@
           <section class="surface panel">
             <div class="panel-head">
               <div>
-                <p class="panel-kicker">Capture Timeline</p>
-                <h2>รันไหนจับ API ได้ รันไหนล้ม</h2>
+                <p class="panel-kicker">ประวัติการดึงข้อมูล</p>
+                <h2>ดูสถานะการดึงข้อมูลรายรอบ</h2>
               </div>
               <p class="panel-meta">ดูได้ทั้ง home/yeekee และจำนวน failure ของแต่ละรอบ</p>
             </div>
@@ -220,8 +220,8 @@
         <section class="surface panel">
           <div class="panel-head">
             <div>
-              <p class="panel-kicker">Diagnostics</p>
-              <h2>สถานะรอบล่าสุดจาก browser จริง</h2>
+              <p class="panel-kicker">บันทึกหน้าเว็บเชิงลึก</p>
+              <h2>สถานะเชิงเทคนิคจากเบราว์เซอร์</h2>
             </div>
           </div>
           <div class="diagnostics-grid">
@@ -245,8 +245,8 @@
         <section class="surface panel note-panel">
           <div class="panel-head">
             <div>
-              <p class="panel-kicker">Boundary</p>
-              <h2>สิ่งที่หน้าเว็บนี้ไม่ทำ</h2>
+              <p class="panel-kicker">ข้อจำกัดของระบบ</p>
+              <h2>สิ่งที่หน้านี้ "ไม่ทำ"</h2>
             </div>
           </div>
           <div class="note-list">
