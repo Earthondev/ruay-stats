@@ -28,8 +28,95 @@ body {
 }
 
 body {
-  padding: 28px;
+  padding: 0 28px 28px;
 }
+
+/* ── Global Nav ───────────────────────────────────── */
+.global-nav {
+  max-width: 1380px;
+  margin: 0 auto 18px;
+  padding: 16px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  border-bottom: 1px solid rgba(43, 39, 33, 0.08);
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.nav-brand {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--text);
+  text-decoration: none;
+  margin-right: 12px;
+  letter-spacing: -0.02em;
+}
+
+.nav-brand span {
+  color: var(--accent);
+}
+
+.nav-item {
+  color: var(--muted);
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 200ms ease;
+}
+
+.nav-item:hover {
+  color: var(--text);
+}
+
+.nav-item.active {
+  color: var(--accent);
+  font-weight: 600;
+}
+
+.nav-btn-fetch {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--text);
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 16px;
+  border-radius: 999px;
+  font-size: 0.92rem;
+  font-weight: 600;
+  transition: transform 200ms ease, background 200ms ease;
+  box-shadow: 0 4px 12px rgba(32, 29, 25, 0.16);
+}
+
+.nav-btn-fetch:hover {
+  background: var(--accent);
+  transform: translateY(-1px);
+}
+
+@media (max-width: 720px) {
+  .global-nav {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 16px;
+    padding: 16px 0 20px;
+  }
+  
+  .nav-links {
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .nav-btn-fetch {
+    justify-content: center;
+  }
+}
+
 
 .app-shell {
   max-width: 1380px;
