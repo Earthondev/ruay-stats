@@ -374,7 +374,7 @@
         </tr>
       `;
     els.timelineMeta.innerHTML = `
-      และดึงข้อมูลครั้งล่าสุดเมื่อ ${formatTimestamp(dataset.meta.last_updated)}
+      และดึงข้อมูลครั้งล่าสุดเมื่อ ${formatTimestamp(dataset.coverage?.latestCapture || dataset.generatedAt)}
     `;
   }
 
