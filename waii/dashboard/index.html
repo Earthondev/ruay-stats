@@ -1,0 +1,247 @@
+<!doctype html>
+<html lang="th">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>WAII Read-Only Pattern Lab</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@400;500;600;700&family=Space+Grotesk:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="./dashboard-data.js"></script>
+    <script defer src="./app.js"></script>
+  </head>
+  <body>
+    <div class="app-shell">
+      <header class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">WAII Read-Only Pattern Lab</p>
+          <h1>จับสถานะเว็บ, สะสมประวัติ, แล้วค่อยทดสอบกฎย้อนหลัง</h1>
+          <p class="hero-note">
+            หน้าเว็บนี้ไม่กดเดิมพันและไม่ออกคำแนะนำซื้อเลข มันใช้สำหรับเช็กว่า <code>wwii.one</code> กับ
+            <code>api.waii.site</code> จับข้อมูลได้แค่ไหน, สะสมผลย้อนหลัง, และทดสอบกฎเชิงสถิติย้อนหลังแบบ
+            read-only เท่านั้น
+          </p>
+        </div>
+        <aside class="hero-facts" id="coverageFacts"></aside>
+      </header>
+
+      <section class="surface readiness-panel">
+        <div class="panel-head compact-head">
+          <div>
+            <p class="panel-kicker">Readiness</p>
+            <h2>ตอนนี้ข้อมูลพร้อมแค่ไหน</h2>
+          </div>
+          <p class="panel-meta" id="readinessMeta"></p>
+        </div>
+        <div class="readiness-grid">
+          <article class="readiness-card">
+            <span class="readiness-label">สถานะตอนนี้</span>
+            <strong class="readiness-value" id="readinessPrimary"></strong>
+            <p class="readiness-note" id="readinessNote"></p>
+          </article>
+          <article class="readiness-card">
+            <span class="readiness-label">Home API</span>
+            <strong class="readiness-value" id="homeApiState"></strong>
+            <p class="readiness-note" id="homeApiNote"></p>
+          </article>
+          <article class="readiness-card">
+            <span class="readiness-label">Yeekee API</span>
+            <strong class="readiness-value" id="yeekeeApiState"></strong>
+            <p class="readiness-note" id="yeekeeApiNote"></p>
+          </article>
+          <article class="readiness-card">
+            <span class="readiness-label">Backtest lab</span>
+            <strong class="readiness-value" id="backtestState"></strong>
+            <p class="readiness-note" id="backtestNote"></p>
+          </article>
+        </div>
+      </section>
+
+      <section class="surface controls">
+        <div class="controls-grid">
+          <label class="field">
+            <span>ประเภทผล</span>
+            <select id="fieldSelect"></select>
+          </label>
+        </div>
+        <div class="disclaimer">
+          ตัวเลขในส่วน Pattern Lab เป็นผลการทดสอบย้อนหลังของกฎสมมุติ ไม่ใช่คำแนะนำให้เดิมพัน และไม่ใช่หลักฐานว่ากฎนั้นใช้ได้ในอนาคต
+        </div>
+      </section>
+
+      <main class="workspace">
+        <section class="surface spotlight-panel">
+          <div class="panel-head">
+            <div>
+              <p class="panel-kicker">Data Health</p>
+              <h2>เห็นภาพรวมของประวัติที่สะสมได้</h2>
+            </div>
+            <p class="panel-meta" id="spotlightMeta"></p>
+          </div>
+
+          <div class="spotlight-grid">
+            <article class="spotlight-card">
+              <span class="spotlight-label">Snapshots</span>
+              <strong class="spotlight-value" id="snapshotPrimary"></strong>
+              <p class="spotlight-note" id="snapshotNote"></p>
+            </article>
+
+            <article class="spotlight-card spotlight-card-hot">
+              <span class="spotlight-label">Complete observations</span>
+              <strong class="spotlight-value" id="completePrimary"></strong>
+              <p class="spotlight-note" id="completeNote"></p>
+            </article>
+
+            <article class="spotlight-card">
+              <span class="spotlight-label">digit เด่นสุด</span>
+              <strong class="spotlight-value" id="hotDigitPrimary"></strong>
+              <p class="spotlight-note" id="hotDigitNote"></p>
+            </article>
+
+            <article class="spotlight-card">
+              <span class="spotlight-label">เลขที่ซ้ำบ่อยสุด</span>
+              <strong class="spotlight-value" id="hotValuePrimary"></strong>
+              <p class="spotlight-note" id="hotValueNote"></p>
+            </article>
+          </div>
+
+          <div class="spotlight-bottom">
+            <section class="mini-panel">
+              <div class="mini-head">
+                <p class="mini-kicker">Top Digits</p>
+                <h3>digit ที่เจอในผล complete</h3>
+              </div>
+              <div class="chip-cluster" id="hotDigitsChips"></div>
+            </section>
+
+            <section class="mini-panel">
+              <div class="mini-head">
+                <p class="mini-kicker">Top Values</p>
+                <h3>เลขที่ซ้ำมากสุดใน field นี้</h3>
+              </div>
+              <div class="chip-cluster" id="hotValuesChips"></div>
+            </section>
+          </div>
+        </section>
+
+        <section class="surface metrics" id="metricCards"></section>
+
+        <section class="dashboard-grid">
+          <section class="surface panel">
+            <div class="panel-head">
+              <div>
+                <p class="panel-kicker">Pattern Lab</p>
+                <h2>ผลทดสอบกฎย้อนหลัง</h2>
+              </div>
+              <p class="panel-meta">ถ้ามีข้อมูลไม่พอ ระบบจะบอกตรง ๆ ว่ายังทดสอบไม่ได้</p>
+            </div>
+            <div class="table-wrap">
+              <table class="data-table">
+                <thead>
+                  <tr>
+                    <th>กฎ</th>
+                    <th>Trials</th>
+                    <th>Hits</th>
+                    <th>Hit rate</th>
+                    <th>Baseline</th>
+                    <th>คำอธิบาย</th>
+                  </tr>
+                </thead>
+                <tbody id="backtestBody"></tbody>
+              </table>
+            </div>
+          </section>
+
+          <section class="surface panel">
+            <div class="panel-head">
+              <div>
+                <p class="panel-kicker">Digit Overview</p>
+                <h2>ความถี่ตัวเลข 0-9</h2>
+              </div>
+              <p class="panel-meta" id="digitOverviewMeta"></p>
+            </div>
+            <div class="digit-bars" id="digitBars"></div>
+          </section>
+
+          <section class="surface panel">
+            <div class="panel-head">
+              <div>
+                <p class="panel-kicker">Latest Complete</p>
+                <h2>ผลที่เก็บได้ล่าสุด</h2>
+              </div>
+              <p class="panel-meta" id="latestCompleteMeta"></p>
+            </div>
+            <div class="latest-list" id="latestCompleteList"></div>
+          </section>
+
+          <section class="surface panel">
+            <div class="panel-head">
+              <div>
+                <p class="panel-kicker">Capture Timeline</p>
+                <h2>รันไหนจับ API ได้ รันไหนล้ม</h2>
+              </div>
+              <p class="panel-meta">ดูได้ทั้ง home/yeekee และจำนวน failure ของแต่ละรอบ</p>
+            </div>
+            <div class="table-wrap">
+              <table class="timeline-table">
+                <thead>
+                  <tr>
+                    <th>เวลาเก็บ</th>
+                    <th>Home</th>
+                    <th>Yeekee</th>
+                    <th>Failures</th>
+                    <th>ปลายทางหน้า yeekee</th>
+                  </tr>
+                </thead>
+                <tbody id="timelineBody"></tbody>
+              </table>
+            </div>
+          </section>
+        </section>
+
+        <section class="surface panel">
+          <div class="panel-head">
+            <div>
+              <p class="panel-kicker">Diagnostics</p>
+              <h2>สถานะรอบล่าสุดจาก browser จริง</h2>
+            </div>
+          </div>
+          <div class="diagnostics-grid">
+            <article class="diagnostic-card">
+              <h3>Request Failures</h3>
+              <div id="requestFailures"></div>
+            </article>
+
+            <article class="diagnostic-card">
+              <h3>Console Messages</h3>
+              <div id="consoleMessages"></div>
+            </article>
+
+            <article class="diagnostic-card">
+              <h3>Page Snapshots</h3>
+              <div id="pageSnapshots"></div>
+            </article>
+          </div>
+        </section>
+
+        <section class="surface panel note-panel">
+          <div class="panel-head">
+            <div>
+              <p class="panel-kicker">Boundary</p>
+              <h2>สิ่งที่หน้าเว็บนี้ไม่ทำ</h2>
+            </div>
+          </div>
+          <div class="note-list">
+            <p>ไม่บอกให้ซื้อเลขอะไร ไม่คำนวณชุดเดิมพัน และไม่แตะปุ่มเล่นในหน้าสมาชิก</p>
+            <p>ไม่สรุปว่า “กฎนี้ชนะได้จริง” แม้ hit rate ในอดีตจะดูสูง เพราะข้อมูลยังอาจน้อยหรือมี bias</p>
+            <p>ใช้เพื่อมอนิเตอร์ source และทดสอบกฎย้อนหลังแบบอ่านอย่างเดียวเท่านั้น</p>
+          </div>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>

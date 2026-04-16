@@ -1,0 +1,36 @@
+{
+  "source": "https://wwii.one/",
+  "generatedAt": "2026-04-16T16:00:30+07:00",
+  "snapshots": [
+    {
+      "captured_at": "2026-04-16T08:41:54.454Z",
+      "snapshot_file": "2026-04-16T08-41-54-454Z.json",
+      "home_api_captured": false,
+      "yeekee_api_captured": false,
+      "failure_count": 6,
+      "home_final_url": "https://wwii.one/",
+      "yeekee_final_url": "https://wwii.one/signin"
+    },
+    {
+      "captured_at": "2026-04-16T08:59:48.145Z",
+      "snapshot_file": "2026-04-16T08-59-48-145Z.json",
+      "home_api_captured": false,
+      "yeekee_api_captured": false,
+      "failure_count": 6,
+      "home_final_url": "https://wwii.one/",
+      "yeekee_final_url": "https://wwii.one/signin"
+    }
+  ],
+  "records": [],
+  "yeekee": {
+    "records": [],
+    "overview": {
+      "fields": [],
+      "record_count": 0,
+      "day_count": 0,
+      "latest_date": null,
+      "per_field": {},
+      "backtests": {}
+    }
+  }
+}

@@ -559,7 +559,53 @@
     renderHistory(analysis);
   }
 
+  function renderYikeeLatestBanner() {
+    const el = document.querySelector("#yikeeLatestBanner");
+    if (!el) return;
+
+    const latest = dataset.latest_status;
+    const allRecords = dataset.records || [];
+
+    // Get complete records for the latest date, sorted newest round first
+    const latestComplete = allRecords
+      .filter((r) => r.date === latest.date && !r.is_placeholder && r.digits)
+      .sort((a, b) => Number(b.round) - Number(a.round));
+
+    const isToday = (() => {
+      const now = new Date();
+      const th = new Intl.DateTimeFormat("sv-SE", { timeZone: "Asia/Bangkok" }).format(now);
+      return th === latest.date;
+    })();
+
+    const preview = latestComplete.slice(0, 12);
+    const completed = latest.completed_rounds;
+    const total = 88;
+
+    el.innerHTML = `
+      <div class="ldb-head">
+        <div class="ldb-title-row">
+          <span class="panel-kicker">ผลยี่กี VIP ล่าสุด</span>
+          ${isToday ? `<span class="ldb-today-badge">🟢 วันนี้</span>` : ""}
+        </div>
+        <h2 class="ldb-date">${formatDate(latest.date)}</h2>
+        <p class="ldb-subtitle">รอบ complete แล้ว <strong>${completed}/${total}</strong> รอบ · รอบสูงสุดที่เห็น <strong>${latest.last_completed_round || "-"}</strong> · เก็บล่าสุด ${formatTimestamp(latest.captured_at)}</p>
+      </div>
+      <div class="ldb-round-grid">
+        ${preview.length
+          ? preview.map((r) => `
+            <div class="ldb-round-card">
+              <span class="ldb-round-no">รอบ ${r.round}</span>
+              <span class="ldb-round-field">${escapeHtml(r.field)}</span>
+              <strong class="ldb-round-val">${escapeHtml(r.value)}</strong>
+            </div>`).join("")
+          : `<p class="empty">ยังไม่มีผล complete ในวันล่าสุด</p>`}
+      </div>
+    `;
+  }
+
+  renderYikeeLatestBanner();
   renderCoverage();
   renderControls();
   render();
 })();
+

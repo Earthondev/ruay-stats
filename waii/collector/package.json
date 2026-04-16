@@ -1,0 +1,11 @@
+{
+  "name": "waii-collector",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "fetch": "node fetch_waii_public.mjs"
+  },
+  "dependencies": {
+    "puppeteer-core": "^24.31.0"
+  }
+}

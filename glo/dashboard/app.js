@@ -4,6 +4,13 @@
     return;
   }
 
+  /* ── helpers ───────────────────────────────────── */
+  function todayISO() {
+    const now = new Date();
+    const th = new Intl.DateTimeFormat("sv-SE", { timeZone: "Asia/Bangkok" }).format(now);
+    return th; // "YYYY-MM-DD"
+  }
+
   const MODE_CONFIG = {
     all_last3: {
       label: "รวม 3 หลักที่วิเคราะห์ได้ทั้งหมด",
@@ -509,7 +516,66 @@
     renderHistory(analysisResult);
   }
 
+  function renderLatestDrawBanner() {
+    const el = document.querySelector("#latestDrawBanner");
+    if (!el) return;
+
+    // Historical draw array always has normalized fields (first, first_last3, last2, last3f, last3b)
+    // Prefer that over the raw latest API object
+    const lastHistoricalDraw = dataset.draws.at(-1);
+    const draw = lastHistoricalDraw || null;
+
+    if (!draw) { el.style.display = "none"; return; }
+
+    // Determine draw date string
+    const drawDateStr = String(draw.date || "");
+    const isToday = drawDateStr === todayISO();
+    const dateLabel = drawDateStr
+      ? formatDate(drawDateStr)
+      : "-";
+
+    const first   = draw.first        || "-";
+    const last2   = draw.last2        || (latestApiDraw?.data?.last2?.[0]) || "-";
+    const last3f  = (draw.last3f?.length ? draw.last3f : []).join(" / ") || "-";
+    const last3b  = (draw.last3b?.length ? draw.last3b : []).join(" / ") || "-";
+    const last3r1 = draw.first_last3  || (first !== "-" && first.length >= 3 ? first.slice(-3) : "-");
+
+    el.innerHTML = `
+      <div class="ldb-head">
+        <div class="ldb-title-row">
+          <span class="panel-kicker">ผลล่าสุด</span>
+          ${isToday ? `<span class="ldb-today-badge">🟢 วันนี้</span>` : ""}
+        </div>
+        <h2 class="ldb-date">${dateLabel}</h2>
+      </div>
+      <div class="ldb-grid">
+        <div class="ldb-card ldb-card-main">
+          <span class="ldb-label">รางวัลที่ 1</span>
+          <strong class="ldb-number ldb-number-xl">${first}</strong>
+        </div>
+        <div class="ldb-card">
+          <span class="ldb-label">3 หลักท้ายรางวัลที่ 1</span>
+          <strong class="ldb-number">${last3r1}</strong>
+        </div>
+        <div class="ldb-card">
+          <span class="ldb-label">เลขท้าย 2 ตัว</span>
+          <strong class="ldb-number">${last2}</strong>
+        </div>
+        <div class="ldb-card">
+          <span class="ldb-label">เลขหน้า 3 ตัว</span>
+          <strong class="ldb-number ldb-number-sm">${last3f}</strong>
+        </div>
+        <div class="ldb-card">
+          <span class="ldb-label">เลขท้าย 3 ตัว</span>
+          <strong class="ldb-number ldb-number-sm">${last3b}</strong>
+        </div>
+      </div>
+    `;
+  }
+
+  renderLatestDrawBanner();
   renderCoverage();
   renderControls();
   render();
 })();
+

@@ -144,6 +144,109 @@ body {
   padding: 20px 22px 18px;
 }
 
+/* ── Latest Draw Banner ─────────────────────────── */
+.latest-draw-banner {
+  margin-top: 18px;
+  border-radius: var(--radius);
+  padding: 24px 28px;
+  border-left: 4px solid var(--accent);
+}
+
+.ldb-head {
+  margin-bottom: 20px;
+}
+
+.ldb-title-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 6px;
+}
+
+.ldb-today-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: rgba(38, 97, 77, 0.12);
+  color: var(--success);
+  font-size: 0.82rem;
+  font-weight: 700;
+  padding: 4px 12px;
+  border-radius: 999px;
+  font-family: "Space Grotesk", sans-serif;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.ldb-date {
+  margin: 0;
+  font-family: "Space Grotesk", sans-serif;
+  font-size: clamp(1.3rem, 2.4vw, 2rem);
+  letter-spacing: -0.04em;
+}
+
+.ldb-grid {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.ldb-card {
+  background: rgba(255, 255, 255, 0.6);
+  border: 1px solid rgba(43, 39, 33, 0.09);
+  border-radius: 20px;
+  padding: 18px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.ldb-card-main {
+  background: linear-gradient(135deg, rgba(179, 79, 40, 0.1), rgba(36, 67, 91, 0.06));
+  border-color: rgba(179, 79, 40, 0.2);
+}
+
+.ldb-label {
+  color: var(--muted);
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.ldb-number {
+  font-family: "Space Grotesk", sans-serif;
+  letter-spacing: -0.04em;
+  font-size: clamp(1.6rem, 2.8vw, 2.4rem);
+  line-height: 1;
+  color: var(--text);
+}
+
+.ldb-number-xl {
+  font-size: clamp(2rem, 4vw, 3.2rem);
+  color: var(--accent);
+}
+
+.ldb-number-sm {
+  font-size: clamp(1.2rem, 2vw, 1.6rem);
+}
+
+@media (max-width: 1120px) {
+  .ldb-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 720px) {
+  .ldb-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .ldb-card-main {
+    grid-column: span 2;
+  }
+}
+
+
 .controls-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));

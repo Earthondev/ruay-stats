@@ -1,5 +1,5 @@
 window.GLO_HISTORY_DATA = {
-  "generatedAt": "2026-04-16T12:07:30+07:00",
+  "generatedAt": "2026-04-16T16:22:53+07:00",
   "source": {
     "yearlyResultsApi": "https://www.glo.or.th/api/lottery/getLotteryResultByYear",
     "latestApi": "https://www.glo.or.th/api/lottery/getLatestLottery",
@@ -7,7 +7,7 @@ window.GLO_HISTORY_DATA = {
   },
   "coverage": {
     "start": "2010-03-01",
-    "end": "2026-04-01",
+    "end": "2026-04-16",
     "years": [
       2010,
       2011,
@@ -27,26 +27,26 @@ window.GLO_HISTORY_DATA = {
       2025,
       2026
     ],
-    "drawCount": 384
+    "drawCount": 385
   },
   "latest": {
-    "youtube_url": "https://www.youtube.com/watch?v=IqGHR-VyyVM",
-    "pdf_url": "https://api.glo.or.th/utility/file/download/a5541b69-5126-4480-947c-56f88630b4c3",
-    "date": "2026-04-01",
+    "youtube_url": "https://www.youtube.com/watch?v=T8AOjnw1NxQ",
+    "pdf_url": "https://api.glo.or.th/utility/file/download/de7e02f6-de0e-487a-a64e-c09347c9580b",
+    "date": "2026-04-16",
     "period": [
-      13,
-      14
+      15,
+      16
     ],
     "remark": null,
     "status": 1,
-    "sheetId": "220324fb-50a0-40d8-a3c1-10f778c9f9df",
+    "sheetId": "84630da5-9927-453b-a53f-9363aea8d8e0",
     "data": {
       "first": {
         "price": "6000000.00",
         "number": [
           {
             "round": 1,
-            "value": "292514"
+            "value": "309612"
           }
         ]
       },
@@ -54,24 +54,24 @@ window.GLO_HISTORY_DATA = {
         "price": "200000.00",
         "number": [
           {
-            "round": 5,
-            "value": "276356"
-          },
-          {
             "round": 3,
-            "value": "381790"
+            "value": "097722"
           },
           {
             "round": 1,
-            "value": "491941"
+            "value": "175203"
           },
           {
-            "round": 2,
-            "value": "730992"
+            "round": 5,
+            "value": "419269"
           },
           {
             "round": 4,
-            "value": "865308"
+            "value": "482398"
+          },
+          {
+            "round": 2,
+            "value": "554697"
           }
         ]
       },
@@ -79,44 +79,44 @@ window.GLO_HISTORY_DATA = {
         "price": "80000.00",
         "number": [
           {
-            "round": 2,
-            "value": "004579"
-          },
-          {
-            "round": 1,
-            "value": "030158"
-          },
-          {
             "round": 7,
-            "value": "129247"
+            "value": "136798"
           },
           {
             "round": 9,
-            "value": "197088"
+            "value": "366037"
           },
           {
-            "round": 5,
-            "value": "487893"
+            "round": 2,
+            "value": "443166"
           },
           {
             "round": 6,
-            "value": "500244"
-          },
-          {
-            "round": 10,
-            "value": "545393"
-          },
-          {
-            "round": 8,
-            "value": "617221"
-          },
-          {
-            "round": 4,
-            "value": "687640"
+            "value": "575200"
           },
           {
             "round": 3,
-            "value": "813180"
+            "value": "742087"
+          },
+          {
+            "round": 5,
+            "value": "746898"
+          },
+          {
+            "round": 1,
+            "value": "753452"
+          },
+          {
+            "round": 4,
+            "value": "806727"
+          },
+          {
+            "round": 10,
+            "value": "870392"
+          },
+          {
+            "round": 8,
+            "value": "916619"
           }
         ]
       },
@@ -124,204 +124,204 @@ window.GLO_HISTORY_DATA = {
         "price": "40000.00",
         "number": [
           {
-            "round": 38,
-            "value": "013473"
-          },
-          {
-            "round": 50,
-            "value": "021194"
-          },
-          {
-            "round": 1,
-            "value": "042330"
-          },
-          {
-            "round": 43,
-            "value": "045400"
-          },
-          {
-            "round": 33,
-            "value": "075461"
-          },
-          {
-            "round": 11,
-            "value": "087837"
-          },
-          {
-            "round": 37,
-            "value": "092869"
-          },
-          {
-            "round": 34,
-            "value": "101818"
-          },
-          {
-            "round": 13,
-            "value": "109229"
-          },
-          {
-            "round": 44,
-            "value": "128592"
-          },
-          {
-            "round": 39,
-            "value": "168852"
-          },
-          {
-            "round": 21,
-            "value": "176304"
-          },
-          {
-            "round": 36,
-            "value": "197553"
+            "round": 4,
+            "value": "053998"
           },
           {
             "round": 12,
-            "value": "246542"
-          },
-          {
-            "round": 29,
-            "value": "271839"
-          },
-          {
-            "round": 30,
-            "value": "296599"
-          },
-          {
-            "round": 10,
-            "value": "300280"
-          },
-          {
-            "round": 48,
-            "value": "323800"
-          },
-          {
-            "round": 32,
-            "value": "337839"
-          },
-          {
-            "round": 5,
-            "value": "359109"
-          },
-          {
-            "round": 40,
-            "value": "368651"
-          },
-          {
-            "round": 4,
-            "value": "372875"
-          },
-          {
-            "round": 9,
-            "value": "380592"
-          },
-          {
-            "round": 28,
-            "value": "397622"
-          },
-          {
-            "round": 46,
-            "value": "398495"
-          },
-          {
-            "round": 7,
-            "value": "407928"
-          },
-          {
-            "round": 42,
-            "value": "446249"
-          },
-          {
-            "round": 35,
-            "value": "451401"
-          },
-          {
-            "round": 26,
-            "value": "458029"
-          },
-          {
-            "round": 15,
-            "value": "458151"
-          },
-          {
-            "round": 18,
-            "value": "534193"
-          },
-          {
-            "round": 8,
-            "value": "580059"
-          },
-          {
-            "round": 17,
-            "value": "635067"
-          },
-          {
-            "round": 23,
-            "value": "635350"
-          },
-          {
-            "round": 2,
-            "value": "676520"
-          },
-          {
-            "round": 3,
-            "value": "709110"
-          },
-          {
-            "round": 6,
-            "value": "731246"
-          },
-          {
-            "round": 45,
-            "value": "743917"
-          },
-          {
-            "round": 14,
-            "value": "749940"
-          },
-          {
-            "round": 49,
-            "value": "761829"
-          },
-          {
-            "round": 47,
-            "value": "788225"
+            "value": "063511"
           },
           {
             "round": 25,
-            "value": "791935"
+            "value": "087692"
+          },
+          {
+            "round": 8,
+            "value": "103606"
+          },
+          {
+            "round": 47,
+            "value": "105308"
+          },
+          {
+            "round": 35,
+            "value": "133661"
+          },
+          {
+            "round": 46,
+            "value": "143294"
+          },
+          {
+            "round": 13,
+            "value": "159301"
+          },
+          {
+            "round": 43,
+            "value": "161295"
           },
           {
             "round": 20,
-            "value": "792441"
+            "value": "171491"
           },
           {
-            "round": 22,
-            "value": "820763"
+            "round": 17,
+            "value": "174044"
           },
           {
-            "round": 24,
-            "value": "838541"
+            "round": 29,
+            "value": "191638"
           },
           {
-            "round": 19,
-            "value": "849259"
+            "round": 48,
+            "value": "219234"
           },
           {
-            "round": 16,
-            "value": "903204"
+            "round": 39,
+            "value": "245767"
           },
           {
-            "round": 41,
-            "value": "905611"
+            "round": 40,
+            "value": "256607"
           },
           {
-            "round": 31,
-            "value": "921227"
+            "round": 45,
+            "value": "260122"
+          },
+          {
+            "round": 1,
+            "value": "280931"
+          },
+          {
+            "round": 7,
+            "value": "413706"
           },
           {
             "round": 27,
-            "value": "935926"
+            "value": "458972"
+          },
+          {
+            "round": 32,
+            "value": "481134"
+          },
+          {
+            "round": 22,
+            "value": "519700"
+          },
+          {
+            "round": 10,
+            "value": "523030"
+          },
+          {
+            "round": 15,
+            "value": "526441"
+          },
+          {
+            "round": 19,
+            "value": "536982"
+          },
+          {
+            "round": 41,
+            "value": "560388"
+          },
+          {
+            "round": 18,
+            "value": "569028"
+          },
+          {
+            "round": 30,
+            "value": "602668"
+          },
+          {
+            "round": 23,
+            "value": "627895"
+          },
+          {
+            "round": 44,
+            "value": "633305"
+          },
+          {
+            "round": 31,
+            "value": "637866"
+          },
+          {
+            "round": 26,
+            "value": "639438"
+          },
+          {
+            "round": 36,
+            "value": "664256"
+          },
+          {
+            "round": 50,
+            "value": "665957"
+          },
+          {
+            "round": 33,
+            "value": "669565"
+          },
+          {
+            "round": 28,
+            "value": "682006"
+          },
+          {
+            "round": 21,
+            "value": "700367"
+          },
+          {
+            "round": 11,
+            "value": "701682"
+          },
+          {
+            "round": 9,
+            "value": "713879"
+          },
+          {
+            "round": 34,
+            "value": "719367"
+          },
+          {
+            "round": 3,
+            "value": "752784"
+          },
+          {
+            "round": 14,
+            "value": "763127"
+          },
+          {
+            "round": 6,
+            "value": "771741"
+          },
+          {
+            "round": 49,
+            "value": "775366"
+          },
+          {
+            "round": 42,
+            "value": "781515"
+          },
+          {
+            "round": 24,
+            "value": "817667"
+          },
+          {
+            "round": 38,
+            "value": "859129"
+          },
+          {
+            "round": 16,
+            "value": "866515"
+          },
+          {
+            "round": 37,
+            "value": "903397"
+          },
+          {
+            "round": 5,
+            "value": "921061"
+          },
+          {
+            "round": 2,
+            "value": "961998"
           }
         ]
       },
@@ -329,404 +329,404 @@ window.GLO_HISTORY_DATA = {
         "price": "20000.00",
         "number": [
           {
-            "round": 17,
-            "value": "011457"
-          },
-          {
-            "round": 34,
-            "value": "033938"
-          },
-          {
-            "round": 38,
-            "value": "042268"
-          },
-          {
-            "round": 29,
-            "value": "042727"
-          },
-          {
-            "round": 45,
-            "value": "043015"
-          },
-          {
-            "round": 11,
-            "value": "063019"
-          },
-          {
-            "round": 13,
-            "value": "064264"
-          },
-          {
-            "round": 98,
-            "value": "065689"
-          },
-          {
-            "round": 1,
-            "value": "073445"
-          },
-          {
-            "round": 35,
-            "value": "107309"
-          },
-          {
-            "round": 99,
-            "value": "107453"
-          },
-          {
-            "round": 18,
-            "value": "131887"
-          },
-          {
-            "round": 21,
-            "value": "142533"
-          },
-          {
-            "round": 7,
-            "value": "144902"
-          },
-          {
-            "round": 93,
-            "value": "154464"
-          },
-          {
-            "round": 5,
-            "value": "178232"
-          },
-          {
-            "round": 46,
-            "value": "188600"
-          },
-          {
-            "round": 2,
-            "value": "189029"
-          },
-          {
-            "round": 76,
-            "value": "201857"
-          },
-          {
-            "round": 19,
-            "value": "209872"
-          },
-          {
-            "round": 3,
-            "value": "224323"
-          },
-          {
-            "round": 50,
-            "value": "224460"
-          },
-          {
-            "round": 62,
-            "value": "230826"
-          },
-          {
-            "round": 94,
-            "value": "251253"
-          },
-          {
-            "round": 37,
-            "value": "263052"
-          },
-          {
-            "round": 95,
-            "value": "264086"
-          },
-          {
-            "round": 49,
-            "value": "267956"
-          },
-          {
-            "round": 56,
-            "value": "283793"
-          },
-          {
-            "round": 85,
-            "value": "316043"
-          },
-          {
-            "round": 54,
-            "value": "321191"
-          },
-          {
-            "round": 65,
-            "value": "323975"
-          },
-          {
-            "round": 78,
-            "value": "349831"
-          },
-          {
-            "round": 44,
-            "value": "374934"
-          },
-          {
-            "round": 74,
-            "value": "383606"
-          },
-          {
-            "round": 32,
-            "value": "405436"
-          },
-          {
-            "round": 31,
-            "value": "437053"
-          },
-          {
-            "round": 16,
-            "value": "437489"
-          },
-          {
-            "round": 15,
-            "value": "443538"
-          },
-          {
-            "round": 64,
-            "value": "456060"
-          },
-          {
-            "round": 87,
-            "value": "460073"
-          },
-          {
-            "round": 51,
-            "value": "464963"
-          },
-          {
-            "round": 20,
-            "value": "484187"
-          },
-          {
-            "round": 100,
-            "value": "486789"
-          },
-          {
-            "round": 23,
-            "value": "489851"
-          },
-          {
-            "round": 22,
-            "value": "495163"
-          },
-          {
-            "round": 77,
-            "value": "496887"
-          },
-          {
-            "round": 89,
-            "value": "500201"
-          },
-          {
-            "round": 73,
-            "value": "513096"
-          },
-          {
-            "round": 42,
-            "value": "520468"
-          },
-          {
-            "round": 84,
-            "value": "525809"
-          },
-          {
-            "round": 12,
-            "value": "527304"
-          },
-          {
-            "round": 68,
-            "value": "538210"
-          },
-          {
-            "round": 81,
-            "value": "550380"
-          },
-          {
-            "round": 91,
-            "value": "556681"
-          },
-          {
-            "round": 6,
-            "value": "560876"
-          },
-          {
-            "round": 55,
-            "value": "566905"
-          },
-          {
-            "round": 14,
-            "value": "575825"
-          },
-          {
-            "round": 41,
-            "value": "581870"
-          },
-          {
-            "round": 82,
-            "value": "611148"
-          },
-          {
-            "round": 30,
-            "value": "616595"
-          },
-          {
-            "round": 53,
-            "value": "629646"
-          },
-          {
-            "round": 57,
-            "value": "637544"
-          },
-          {
-            "round": 83,
-            "value": "665874"
-          },
-          {
-            "round": 63,
-            "value": "669930"
-          },
-          {
-            "round": 59,
-            "value": "672322"
-          },
-          {
-            "round": 67,
-            "value": "676838"
-          },
-          {
-            "round": 86,
-            "value": "682252"
-          },
-          {
-            "round": 43,
-            "value": "684178"
-          },
-          {
-            "round": 26,
-            "value": "684611"
-          },
-          {
-            "round": 79,
-            "value": "708860"
-          },
-          {
-            "round": 80,
-            "value": "710743"
-          },
-          {
-            "round": 60,
-            "value": "712328"
-          },
-          {
-            "round": 28,
-            "value": "715385"
-          },
-          {
-            "round": 92,
-            "value": "716818"
-          },
-          {
-            "round": 69,
-            "value": "731068"
-          },
-          {
-            "round": 36,
-            "value": "738578"
-          },
-          {
-            "round": 39,
-            "value": "751589"
-          },
-          {
-            "round": 25,
-            "value": "753194"
-          },
-          {
-            "round": 27,
-            "value": "755515"
-          },
-          {
-            "round": 96,
-            "value": "755992"
-          },
-          {
-            "round": 33,
-            "value": "764199"
-          },
-          {
             "round": 72,
-            "value": "768138"
-          },
-          {
-            "round": 10,
-            "value": "786008"
-          },
-          {
-            "round": 90,
-            "value": "786782"
-          },
-          {
-            "round": 47,
-            "value": "829189"
-          },
-          {
-            "round": 24,
-            "value": "843454"
-          },
-          {
-            "round": 75,
-            "value": "868974"
-          },
-          {
-            "round": 58,
-            "value": "874151"
-          },
-          {
-            "round": 40,
-            "value": "895575"
-          },
-          {
-            "round": 66,
-            "value": "938158"
-          },
-          {
-            "round": 71,
-            "value": "944944"
-          },
-          {
-            "round": 9,
-            "value": "946965"
-          },
-          {
-            "round": 70,
-            "value": "951109"
+            "value": "006709"
           },
           {
             "round": 88,
-            "value": "952713"
+            "value": "008071"
+          },
+          {
+            "round": 74,
+            "value": "018321"
+          },
+          {
+            "round": 31,
+            "value": "039841"
+          },
+          {
+            "round": 70,
+            "value": "039918"
+          },
+          {
+            "round": 96,
+            "value": "042198"
+          },
+          {
+            "round": 92,
+            "value": "042696"
+          },
+          {
+            "round": 29,
+            "value": "059540"
+          },
+          {
+            "round": 80,
+            "value": "070427"
+          },
+          {
+            "round": 7,
+            "value": "075215"
+          },
+          {
+            "round": 64,
+            "value": "079596"
+          },
+          {
+            "round": 9,
+            "value": "088861"
+          },
+          {
+            "round": 55,
+            "value": "125652"
+          },
+          {
+            "round": 78,
+            "value": "135907"
+          },
+          {
+            "round": 38,
+            "value": "136308"
+          },
+          {
+            "round": 32,
+            "value": "169267"
+          },
+          {
+            "round": 65,
+            "value": "187260"
+          },
+          {
+            "round": 54,
+            "value": "197303"
+          },
+          {
+            "round": 33,
+            "value": "207763"
+          },
+          {
+            "round": 77,
+            "value": "261302"
+          },
+          {
+            "round": 12,
+            "value": "262875"
+          },
+          {
+            "round": 95,
+            "value": "269683"
+          },
+          {
+            "round": 57,
+            "value": "292940"
+          },
+          {
+            "round": 83,
+            "value": "295988"
+          },
+          {
+            "round": 21,
+            "value": "308944"
+          },
+          {
+            "round": 91,
+            "value": "319234"
+          },
+          {
+            "round": 14,
+            "value": "321989"
+          },
+          {
+            "round": 6,
+            "value": "341672"
+          },
+          {
+            "round": 84,
+            "value": "346756"
+          },
+          {
+            "round": 24,
+            "value": "359644"
+          },
+          {
+            "round": 51,
+            "value": "363303"
+          },
+          {
+            "round": 100,
+            "value": "374579"
+          },
+          {
+            "round": 36,
+            "value": "377113"
+          },
+          {
+            "round": 35,
+            "value": "390298"
+          },
+          {
+            "round": 67,
+            "value": "394301"
+          },
+          {
+            "round": 69,
+            "value": "405032"
+          },
+          {
+            "round": 62,
+            "value": "424666"
+          },
+          {
+            "round": 27,
+            "value": "430855"
+          },
+          {
+            "round": 40,
+            "value": "430918"
+          },
+          {
+            "round": 93,
+            "value": "431029"
           },
           {
             "round": 97,
-            "value": "955113"
+            "value": "443484"
+          },
+          {
+            "round": 98,
+            "value": "462241"
+          },
+          {
+            "round": 19,
+            "value": "463548"
+          },
+          {
+            "round": 1,
+            "value": "466167"
+          },
+          {
+            "round": 94,
+            "value": "473913"
+          },
+          {
+            "round": 16,
+            "value": "478025"
+          },
+          {
+            "round": 22,
+            "value": "487412"
+          },
+          {
+            "round": 46,
+            "value": "489311"
+          },
+          {
+            "round": 58,
+            "value": "502854"
+          },
+          {
+            "round": 26,
+            "value": "514910"
+          },
+          {
+            "round": 90,
+            "value": "525909"
+          },
+          {
+            "round": 53,
+            "value": "550509"
+          },
+          {
+            "round": 11,
+            "value": "567120"
+          },
+          {
+            "round": 3,
+            "value": "575626"
           },
           {
             "round": 8,
-            "value": "961660"
+            "value": "580352"
+          },
+          {
+            "round": 5,
+            "value": "614737"
+          },
+          {
+            "round": 79,
+            "value": "629560"
+          },
+          {
+            "round": 2,
+            "value": "643979"
+          },
+          {
+            "round": 89,
+            "value": "661367"
+          },
+          {
+            "round": 73,
+            "value": "671239"
           },
           {
             "round": 48,
-            "value": "969503"
+            "value": "690050"
           },
           {
-            "round": 4,
-            "value": "978092"
+            "round": 41,
+            "value": "699417"
+          },
+          {
+            "round": 63,
+            "value": "702950"
           },
           {
             "round": 52,
-            "value": "980041"
+            "value": "704823"
+          },
+          {
+            "round": 28,
+            "value": "706055"
+          },
+          {
+            "round": 68,
+            "value": "709974"
+          },
+          {
+            "round": 45,
+            "value": "723263"
+          },
+          {
+            "round": 76,
+            "value": "724065"
+          },
+          {
+            "round": 87,
+            "value": "726415"
+          },
+          {
+            "round": 82,
+            "value": "749418"
+          },
+          {
+            "round": 85,
+            "value": "749434"
+          },
+          {
+            "round": 20,
+            "value": "764313"
+          },
+          {
+            "round": 99,
+            "value": "765161"
+          },
+          {
+            "round": 59,
+            "value": "769247"
+          },
+          {
+            "round": 43,
+            "value": "785377"
+          },
+          {
+            "round": 81,
+            "value": "793808"
+          },
+          {
+            "round": 39,
+            "value": "799609"
+          },
+          {
+            "round": 71,
+            "value": "805961"
+          },
+          {
+            "round": 4,
+            "value": "809679"
+          },
+          {
+            "round": 66,
+            "value": "812045"
+          },
+          {
+            "round": 17,
+            "value": "851127"
+          },
+          {
+            "round": 18,
+            "value": "862070"
+          },
+          {
+            "round": 49,
+            "value": "872142"
+          },
+          {
+            "round": 37,
+            "value": "873729"
+          },
+          {
+            "round": 30,
+            "value": "880710"
+          },
+          {
+            "round": 86,
+            "value": "883015"
+          },
+          {
+            "round": 50,
+            "value": "884575"
+          },
+          {
+            "round": 34,
+            "value": "884864"
+          },
+          {
+            "round": 25,
+            "value": "895466"
+          },
+          {
+            "round": 15,
+            "value": "901907"
+          },
+          {
+            "round": 10,
+            "value": "921882"
+          },
+          {
+            "round": 23,
+            "value": "923385"
+          },
+          {
+            "round": 75,
+            "value": "946972"
+          },
+          {
+            "round": 47,
+            "value": "949145"
+          },
+          {
+            "round": 56,
+            "value": "952338"
+          },
+          {
+            "round": 42,
+            "value": "956236"
+          },
+          {
+            "round": 13,
+            "value": "972150"
+          },
+          {
+            "round": 44,
+            "value": "973932"
           },
           {
             "round": 61,
-            "value": "989259"
+            "value": "981667"
+          },
+          {
+            "round": 60,
+            "value": "996052"
           }
         ]
       },
@@ -735,7 +735,7 @@ window.GLO_HISTORY_DATA = {
         "number": [
           {
             "round": 1,
-            "value": "47"
+            "value": "77"
           }
         ]
       },
@@ -744,11 +744,11 @@ window.GLO_HISTORY_DATA = {
         "number": [
           {
             "round": 2,
-            "value": "113"
+            "value": "108"
           },
           {
             "round": 1,
-            "value": "406"
+            "value": "355"
           }
         ]
       },
@@ -757,11 +757,11 @@ window.GLO_HISTORY_DATA = {
         "number": [
           {
             "round": 2,
-            "value": "098"
+            "value": "424"
           },
           {
             "round": 1,
-            "value": "851"
+            "value": "868"
           }
         ]
       },
@@ -770,71 +770,71 @@ window.GLO_HISTORY_DATA = {
         "number": [
           {
             "round": 1,
-            "value": "292513"
+            "value": "309611"
           },
           {
             "round": 2,
-            "value": "292515"
+            "value": "309613"
           }
         ]
       }
     },
     "n3": {
       "straight3": {
-        "price": "2644.00",
+        "price": "4143.00",
         "number": [
           {
             "round": 1,
-            "value": "514"
+            "value": "612"
           }
         ]
       },
       "shuffle3": {
-        "price": "598.00",
+        "price": "770.00",
         "number": [
           {
             "round": 1,
-            "value": "145"
+            "value": "126"
           },
           {
             "round": 2,
-            "value": "154"
+            "value": "162"
           },
           {
             "round": 3,
-            "value": "415"
+            "value": "216"
           },
           {
             "round": 4,
-            "value": "451"
+            "value": "261"
           },
           {
             "round": 5,
-            "value": "541"
+            "value": "621"
           }
         ]
       },
       "straight2": {
-        "price": "500.00",
+        "price": "697.00",
         "number": [
           {
             "round": 1,
-            "value": "47"
+            "value": "77"
           }
         ]
       },
       "special": {
-        "price": "724332.00",
+        "price": "693756.00",
         "number": [
           {
             "round": 1,
-            "value": "514000005522"
+            "value": "612000002575"
           }
         ]
       }
     },
     "displayDate": {
-      "date": "01",
+      "date": "16",
       "month": "04",
       "year": "2026"
     }
@@ -849,9 +849,9 @@ window.GLO_HISTORY_DATA = {
       "last3f": [],
       "last3b": [
         "457",
-        "470",
+        "627",
         "374",
-        "627"
+        "470"
       ]
     },
     {
@@ -864,8 +864,8 @@ window.GLO_HISTORY_DATA = {
       "last3b": [
         "996",
         "619",
-        "229",
-        "756"
+        "756",
+        "229"
       ]
     },
     {
@@ -876,10 +876,10 @@ window.GLO_HISTORY_DATA = {
       "last2": "22",
       "last3f": [],
       "last3b": [
-        "663",
         "447",
-        "040",
-        "174"
+        "663",
+        "174",
+        "040"
       ]
     },
     {
@@ -890,10 +890,10 @@ window.GLO_HISTORY_DATA = {
       "last2": "96",
       "last3f": [],
       "last3b": [
-        "744",
-        "811",
         "154",
-        "285"
+        "811",
+        "285",
+        "744"
       ]
     },
     {
@@ -904,10 +904,10 @@ window.GLO_HISTORY_DATA = {
       "last2": "06",
       "last3f": [],
       "last3b": [
+        "618",
         "517",
         "040",
-        "382",
-        "618"
+        "382"
       ]
     },
     {
@@ -918,10 +918,10 @@ window.GLO_HISTORY_DATA = {
       "last2": "12",
       "last3f": [],
       "last3b": [
-        "008",
+        "151",
         "770",
-        "293",
-        "151"
+        "008",
+        "293"
       ]
     },
     {
@@ -932,10 +932,10 @@ window.GLO_HISTORY_DATA = {
       "last2": "81",
       "last3f": [],
       "last3b": [
-        "996",
-        "673",
         "298",
-        "374"
+        "374",
+        "996",
+        "673"
       ]
     },
     {
@@ -960,10 +960,10 @@ window.GLO_HISTORY_DATA = {
       "last2": "68",
       "last3f": [],
       "last3b": [
-        "450",
         "961",
-        "893",
-        "918"
+        "450",
+        "918",
+        "893"
       ]
     },
     {
@@ -974,9 +974,9 @@ window.GLO_HISTORY_DATA = {
       "last2": "34",
       "last3f": [],
       "last3b": [
+        "219",
         "309",
         "572",
-        "219",
         "024"
       ]
     },
@@ -988,10 +988,10 @@ window.GLO_HISTORY_DATA = {
       "last2": "10",
       "last3f": [],
       "last3b": [
-        "769",
-        "727",
         "191",
-        "182"
+        "182",
+        "769",
+        "727"
       ]
     },
     {
@@ -1017,9 +1017,9 @@ window.GLO_HISTORY_DATA = {
       "last3f": [],
       "last3b": [
         "784",
-        "096",
+        "570",
         "656",
-        "570"
+        "096"
       ]
     },
     {
@@ -1030,10 +1030,10 @@ window.GLO_HISTORY_DATA = {
       "last2": "66",
       "last3f": [],
       "last3b": [
+        "431",
         "316",
-        "075",
         "103",
-        "431"
+        "075"
       ]
     },
     {
@@ -1045,9 +1045,9 @@ window.GLO_HISTORY_DATA = {
       "last3f": [],
       "last3b": [
         "246",
-        "996",
         "003",
-        "091"
+        "091",
+        "996"
       ]
     },
     {
@@ -1059,8 +1059,8 @@ window.GLO_HISTORY_DATA = {
       "last3f": [],
       "last3b": [
         "518",
-        "310",
         "872",
+        "310",
         "385"
       ]
     },
@@ -1072,10 +1072,10 @@ window.GLO_HISTORY_DATA = {
       "last2": "59",
       "last3f": [],
       "last3b": [
+        "968",
         "801",
         "653",
-        "739",
-        "968"
+        "739"
       ]
     },
     {
@@ -1087,9 +1087,9 @@ window.GLO_HISTORY_DATA = {
       "last3f": [],
       "last3b": [
         "129",
+        "763",
         "907",
-        "979",
-        "763"
+        "979"
       ]
     },
     {
@@ -1100,10 +1100,10 @@ window.GLO_HISTORY_DATA = {
       "last2": "09",
       "last3f": [],
       "last3b": [
-        "086",
+        "474",
         "664",
         "470",
-        "474"
+        "086"
       ]
     },
     {
@@ -1114,10 +1114,10 @@ window.GLO_HISTORY_DATA = {
       "last2": "24",
       "last3f": [],
       "last3b": [
+        "315",
         "533",
-        "306",
         "529",
-        "315"
+        "306"
       ]
     },
     {
@@ -1128,9 +1128,9 @@ window.GLO_HISTORY_DATA = {
       "last2": "49",
       "last3f": [],
       "last3b": [
-        "186",
-        "153",
         "936",
+        "153",
+        "186",
         "933"
       ]
     },
@@ -1142,10 +1142,10 @@ window.GLO_HISTORY_DATA = {
       "last2": "23",
       "last3f": [],
       "last3b": [
+        "185",
         "227",
-        "758",
         "546",
-        "185"
+        "758"
       ]
     },
     {
@@ -1156,10 +1156,10 @@ window.GLO_HISTORY_DATA = {
       "last2": "55",
       "last3f": [],
       "last3b": [
-        "596",
+        "361",
         "432",
-        "121",
-        "361"
+        "596",
+        "121"
       ]
     },
     {
@@ -1170,10 +1170,10 @@ window.GLO_HISTORY_DATA = {
       "last2": "27",
       "last3f": [],
       "last3b": [
-        "535",
         "388",
-        "510",
-        "384"
+        "384",
+        "535",
+        "510"
       ]
     },
     {
@@ -1184,10 +1184,10 @@ window.GLO_HISTORY_DATA = {
       "last2": "97",
       "last3f": [],
       "last3b": [
-        "357",
         "926",
+        "544",
         "396",
-        "544"
+        "357"
       ]
     },
     {
@@ -1198,10 +1198,10 @@ window.GLO_HISTORY_DATA = {
       "last2": "96",
       "last3f": [],
       "last3b": [
-        "737",
-        "463",
+        "209",
         "945",
-        "209"
+        "463",
+        "737"
       ]
     },
     {
@@ -1212,10 +1212,10 @@ window.GLO_HISTORY_DATA = {
       "last2": "01",
       "last3f": [],
       "last3b": [
-        "723",
-        "036",
         "584",
-        "040"
+        "040",
+        "036",
+        "723"
       ]
     },
     {
@@ -1226,10 +1226,10 @@ window.GLO_HISTORY_DATA = {
       "last2": "44",
       "last3f": [],
       "last3b": [
-        "213",
         "263",
-        "397",
-        "593"
+        "593",
+        "213",
+        "397"
       ]
     },
     {
@@ -1240,9 +1240,9 @@ window.GLO_HISTORY_DATA = {
       "last2": "85",
       "last3f": [],
       "last3b": [
-        "133",
         "421",
         "945",
+        "133",
         "524"
       ]
     },
@@ -1254,10 +1254,10 @@ window.GLO_HISTORY_DATA = {
       "last2": "05",
       "last3f": [],
       "last3b": [
-        "071",
         "700",
-        "889",
-        "044"
+        "071",
+        "044",
+        "889"
       ]
     },
     {
@@ -1268,10 +1268,10 @@ window.GLO_HISTORY_DATA = {
       "last2": "46",
       "last3f": [],
       "last3b": [
-        "801",
         "656",
-        "556",
-        "346"
+        "346",
+        "801",
+        "556"
       ]
     },
     {
@@ -1282,10 +1282,10 @@ window.GLO_HISTORY_DATA = {
       "last2": "88",
       "last3f": [],
       "last3b": [
-        "162",
-        "486",
         "582",
-        "167"
+        "162",
+        "167",
+        "486"
       ]
     },
     {
@@ -1297,9 +1297,9 @@ window.GLO_HISTORY_DATA = {
       "last3f": [],
       "last3b": [
         "780",
+        "390",
         "463",
-        "160",
-        "390"
+        "160"
       ]
     },
     {
@@ -1310,10 +1310,10 @@ window.GLO_HISTORY_DATA = {
       "last2": "12",
       "last3f": [],
       "last3b": [
-        "534",
         "052",
+        "227",
         "609",
-        "227"
+        "534"
       ]
     },
     {
@@ -1324,10 +1324,10 @@ window.GLO_HISTORY_DATA = {
       "last2": "12",
       "last3f": [],
       "last3b": [
-        "660",
         "703",
-        "221",
-        "583"
+        "583",
+        "660",
+        "221"
       ]
     },
     {
@@ -1339,9 +1339,9 @@ window.GLO_HISTORY_DATA = {
       "last3f": [],
       "last3b": [
         "074",
-        "345",
         "814",
-        "005"
+        "005",
+        "345"
       ]
     },
     {
@@ -1352,10 +1352,10 @@ window.GLO_HISTORY_DATA = {
       "last2": "85",
       "last3f": [],
       "last3b": [
-        "847",
+        "821",
         "533",
-        "021",
-        "821"
+        "847",
+        "021"
       ]
     },
     {
@@ -1367,9 +1367,9 @@ window.GLO_HISTORY_DATA = {
       "last3f": [],
       "last3b": [
         "384",
-        "589",
+        "645",
         "812",
-        "645"
+        "589"
       ]
     },
     {
@@ -1380,10 +1380,10 @@ window.GLO_HISTORY_DATA = {
       "last2": "15",
       "last3f": [],
       "last3b": [
+        "499",
         "189",
-        "957",
         "104",
-        "499"
+        "957"
       ]
     },
     {
@@ -1395,9 +1395,9 @@ window.GLO_HISTORY_DATA = {
       "last3f": [],
       "last3b": [
         "057",
-        "329",
+        "507",
         "991",
-        "507"
+        "329"
       ]
     },
     {
@@ -1423,9 +1423,9 @@ window.GLO_HISTORY_DATA = {
       "last3f": [],
       "last3b": [
         "993",
-        "425",
         "551",
-        "406"
+        "406",
+        "425"
       ]
     },
     {
@@ -1437,9 +1437,9 @@ window.GLO_HISTORY_DATA = {
       "last3f": [],
       "last3b": [
         "922",
-        "739",
+        "253",
         "857",
-        "253"
+        "739"
       ]
     },
     {
@@ -1450,10 +1450,10 @@ window.GLO_HISTORY_DATA = {
       "last2": "21",
       "last3f": [],
       "last3b": [
-        "295",
-        "235",
+        "784",
         "651",
-        "784"
+        "235",
+        "295"
       ]
     },
     {
@@ -1464,10 +1464,10 @@ window.GLO_HISTORY_DATA = {
       "last2": "65",
       "last3f": [],
       "last3b": [
-        "026",
         "541",
+        "597",
         "168",
-        "597"
+        "026"
       ]
     },
     {
@@ -1478,10 +1478,10 @@ window.GLO_HISTORY_DATA = {
       "last2": "81",
       "last3f": [],
       "last3b": [
-        "150",
+        "328",
         "639",
         "941",
-        "328"
+        "150"
       ]
     },
     {
@@ -1492,9 +1492,9 @@ window.GLO_HISTORY_DATA = {
       "last2": "32",
       "last3f": [],
       "last3b": [
-        "498",
-        "426",
         "749",
+        "426",
+        "498",
         "598"
       ]
     },
@@ -1508,8 +1508,8 @@ window.GLO_HISTORY_DATA = {
       "last3b": [
         "420",
         "214",
-        "111",
-        "906"
+        "906",
+        "111"
       ]
     },
     {
@@ -1534,9 +1534,9 @@ window.GLO_HISTORY_DATA = {
       "last2": "08",
       "last3f": [],
       "last3b": [
-        "350",
         "606",
         "333",
+        "350",
         "573"
       ]
     },
@@ -1562,10 +1562,10 @@ window.GLO_HISTORY_DATA = {
       "last2": "62",
       "last3f": [],
       "last3b": [
+        "088",
         "754",
-        "722",
         "216",
-        "088"
+        "722"
       ]
     },
     {
@@ -1576,10 +1576,10 @@ window.GLO_HISTORY_DATA = {
       "last2": "29",
       "last3f": [],
       "last3b": [
-        "468",
         "426",
         "597",
-        "589"
+        "589",
+        "468"
       ]
     },
     {
@@ -1590,10 +1590,10 @@ window.GLO_HISTORY_DATA = {
       "last2": "31",
       "last3f": [],
       "last3b": [
+        "101",
         "309",
-        "504",
         "902",
-        "101"
+        "504"
       ]
     },
     {
@@ -1604,9 +1604,9 @@ window.GLO_HISTORY_DATA = {
       "last2": "38",
       "last3f": [],
       "last3b": [
-        "399",
-        "576",
         "606",
+        "576",
+        "399",
         "895"
       ]
     },
@@ -1618,10 +1618,10 @@ window.GLO_HISTORY_DATA = {
       "last2": "51",
       "last3f": [],
       "last3b": [
-        "238",
-        "790",
         "479",
-        "547"
+        "238",
+        "547",
+        "790"
       ]
     },
     {
@@ -1632,10 +1632,10 @@ window.GLO_HISTORY_DATA = {
       "last2": "60",
       "last3f": [],
       "last3b": [
-        "715",
         "656",
         "530",
-        "611"
+        "611",
+        "715"
       ]
     },
     {
@@ -1646,9 +1646,9 @@ window.GLO_HISTORY_DATA = {
       "last2": "11",
       "last3f": [],
       "last3b": [
+        "224",
         "897",
         "159",
-        "224",
         "042"
       ]
     },
@@ -1661,8 +1661,8 @@ window.GLO_HISTORY_DATA = {
       "last3f": [],
       "last3b": [
         "599",
-        "745",
         "796",
+        "745",
         "820"
       ]
     },
@@ -1674,10 +1674,10 @@ window.GLO_HISTORY_DATA = {
       "last2": "28",
       "last3f": [],
       "last3b": [
-        "612",
-        "730",
         "032",
-        "775"
+        "775",
+        "730",
+        "612"
       ]
     },
     {
@@ -1688,10 +1688,10 @@ window.GLO_HISTORY_DATA = {
       "last2": "07",
       "last3f": [],
       "last3b": [
-        "148",
-        "639",
         "736",
-        "598"
+        "639",
+        "598",
+        "148"
       ]
     },
     {
@@ -1702,10 +1702,10 @@ window.GLO_HISTORY_DATA = {
       "last2": "79",
       "last3f": [],
       "last3b": [
-        "770",
         "752",
-        "242",
-        "123"
+        "770",
+        "123",
+        "242"
       ]
     },
     {
@@ -1717,8 +1717,8 @@ window.GLO_HISTORY_DATA = {
       "last3f": [],
       "last3b": [
         "940",
-        "554",
         "873",
+        "554",
         "291"
       ]
     },
@@ -1730,9 +1730,9 @@ window.GLO_HISTORY_DATA = {
       "last2": "28",
       "last3f": [],
       "last3b": [
-        "152",
         "868",
         "089",
+        "152",
         "396"
       ]
     },
@@ -1760,8 +1760,8 @@ window.GLO_HISTORY_DATA = {
       "last3b": [
         "560",
         "627",
-        "804",
-        "576"
+        "576",
+        "804"
       ]
     },
     {
@@ -1772,10 +1772,10 @@ window.GLO_HISTORY_DATA = {
       "last2": "43",
       "last3f": [],
       "last3b": [
-        "553",
         "489",
+        "434",
         "303",
-        "434"
+        "553"
       ]
     },
     {
@@ -1786,10 +1786,10 @@ window.GLO_HISTORY_DATA = {
       "last2": "72",
       "last3f": [],
       "last3b": [
+        "778",
         "008",
         "734",
-        "745",
-        "778"
+        "745"
       ]
     },
     {
@@ -1800,10 +1800,10 @@ window.GLO_HISTORY_DATA = {
       "last2": "00",
       "last3f": [],
       "last3b": [
-        "589",
-        "832",
+        "126",
         "864",
-        "126"
+        "589",
+        "832"
       ]
     },
     {
@@ -1814,10 +1814,10 @@ window.GLO_HISTORY_DATA = {
       "last2": "08",
       "last3f": [],
       "last3b": [
+        "196",
         "374",
         "555",
-        "334",
-        "196"
+        "334"
       ]
     },
     {
@@ -1828,10 +1828,10 @@ window.GLO_HISTORY_DATA = {
       "last2": "66",
       "last3f": [],
       "last3b": [
-        "695",
         "452",
-        "782",
-        "641"
+        "695",
+        "641",
+        "782"
       ]
     },
     {
@@ -1842,10 +1842,10 @@ window.GLO_HISTORY_DATA = {
       "last2": "09",
       "last3f": [],
       "last3b": [
-        "386",
-        "708",
+        "109",
         "657",
-        "109"
+        "386",
+        "708"
       ]
     },
     {
@@ -1856,10 +1856,10 @@ window.GLO_HISTORY_DATA = {
       "last2": "37",
       "last3f": [],
       "last3b": [
-        "972",
         "133",
         "721",
-        "775"
+        "775",
+        "972"
       ]
     },
     {
@@ -1870,10 +1870,10 @@ window.GLO_HISTORY_DATA = {
       "last2": "52",
       "last3f": [],
       "last3b": [
-        "175",
-        "959",
+        "860",
         "529",
-        "860"
+        "959",
+        "175"
       ]
     },
     {
@@ -1884,9 +1884,9 @@ window.GLO_HISTORY_DATA = {
       "last2": "53",
       "last3f": [],
       "last3b": [
-        "170",
         "725",
         "670",
+        "170",
         "430"
       ]
     },
@@ -1898,10 +1898,10 @@ window.GLO_HISTORY_DATA = {
       "last2": "86",
       "last3f": [],
       "last3b": [
-        "828",
         "834",
-        "906",
-        "862"
+        "862",
+        "828",
+        "906"
       ]
     },
     {
@@ -1913,9 +1913,9 @@ window.GLO_HISTORY_DATA = {
       "last3f": [],
       "last3b": [
         "359",
-        "830",
+        "516",
         "272",
-        "516"
+        "830"
       ]
     },
     {
@@ -1926,10 +1926,10 @@ window.GLO_HISTORY_DATA = {
       "last2": "56",
       "last3f": [],
       "last3b": [
-        "945",
-        "261",
         "034",
-        "390"
+        "390",
+        "945",
+        "261"
       ]
     },
     {
@@ -1940,10 +1940,10 @@ window.GLO_HISTORY_DATA = {
       "last2": "90",
       "last3f": [],
       "last3b": [
-        "713",
         "716",
-        "768",
-        "480"
+        "713",
+        "480",
+        "768"
       ]
     },
     {
@@ -1954,10 +1954,10 @@ window.GLO_HISTORY_DATA = {
       "last2": "69",
       "last3f": [],
       "last3b": [
-        "098",
         "502",
+        "114",
         "390",
-        "114"
+        "098"
       ]
     },
     {
@@ -1968,10 +1968,10 @@ window.GLO_HISTORY_DATA = {
       "last2": "51",
       "last3f": [],
       "last3b": [
-        "075",
-        "904",
         "903",
-        "284"
+        "284",
+        "904",
+        "075"
       ]
     },
     {
@@ -1982,10 +1982,10 @@ window.GLO_HISTORY_DATA = {
       "last2": "86",
       "last3f": [],
       "last3b": [
-        "584",
+        "210",
         "526",
-        "352",
-        "210"
+        "584",
+        "352"
       ]
     },
     {
@@ -1996,10 +1996,10 @@ window.GLO_HISTORY_DATA = {
       "last2": "82",
       "last3f": [],
       "last3b": [
-        "451",
-        "329",
+        "880",
         "718",
-        "880"
+        "329",
+        "451"
       ]
     },
     {
@@ -2010,10 +2010,10 @@ window.GLO_HISTORY_DATA = {
       "last2": "20",
       "last3f": [],
       "last3b": [
+        "417",
         "201",
         "448",
-        "945",
-        "417"
+        "945"
       ]
     },
     {
@@ -2039,8 +2039,8 @@ window.GLO_HISTORY_DATA = {
       "last3f": [],
       "last3b": [
         "574",
-        "056",
         "754",
+        "056",
         "235"
       ]
     },
@@ -2052,9 +2052,9 @@ window.GLO_HISTORY_DATA = {
       "last2": "14",
       "last3f": [],
       "last3b": [
+        "650",
         "324",
         "576",
-        "650",
         "028"
       ]
     },
@@ -2066,10 +2066,10 @@ window.GLO_HISTORY_DATA = {
       "last2": "60",
       "last3f": [],
       "last3b": [
-        "876",
+        "402",
         "529",
-        "952",
-        "402"
+        "876",
+        "952"
       ]
     },
     {
@@ -2080,10 +2080,10 @@ window.GLO_HISTORY_DATA = {
       "last2": "47",
       "last3f": [],
       "last3b": [
-        "020",
-        "173",
         "256",
-        "502"
+        "502",
+        "173",
+        "020"
       ]
     },
     {
@@ -2094,10 +2094,10 @@ window.GLO_HISTORY_DATA = {
       "last2": "28",
       "last3f": [],
       "last3b": [
-        "069",
-        "753",
+        "304",
         "672",
-        "304"
+        "753",
+        "069"
       ]
     },
     {
@@ -2108,10 +2108,10 @@ window.GLO_HISTORY_DATA = {
       "last2": "27",
       "last3f": [],
       "last3b": [
-        "980",
-        "734",
+        "074",
         "766",
-        "074"
+        "980",
+        "734"
       ]
     },
     {
@@ -2124,8 +2124,8 @@ window.GLO_HISTORY_DATA = {
       "last3b": [
         "742",
         "111",
-        "228",
-        "826"
+        "826",
+        "228"
       ]
     },
     {
@@ -2136,9 +2136,9 @@ window.GLO_HISTORY_DATA = {
       "last2": "48",
       "last3f": [],
       "last3b": [
-        "503",
         "275",
         "750",
+        "503",
         "513"
       ]
     },
@@ -2150,9 +2150,9 @@ window.GLO_HISTORY_DATA = {
       "last2": "52",
       "last3f": [],
       "last3b": [
-        "242",
-        "149",
         "510",
+        "149",
+        "242",
         "077"
       ]
     },
@@ -2164,10 +2164,10 @@ window.GLO_HISTORY_DATA = {
       "last2": "95",
       "last3f": [],
       "last3b": [
-        "976",
-        "492",
         "888",
-        "406"
+        "406",
+        "492",
+        "976"
       ]
     },
     {
@@ -2179,9 +2179,9 @@ window.GLO_HISTORY_DATA = {
       "last3f": [],
       "last3b": [
         "074",
-        "397",
         "521",
-        "530"
+        "530",
+        "397"
       ]
     },
     {
@@ -2192,10 +2192,10 @@ window.GLO_HISTORY_DATA = {
       "last2": "35",
       "last3f": [],
       "last3b": [
-        "753",
+        "116",
         "798",
         "537",
-        "116"
+        "753"
       ]
     },
     {
@@ -2208,8 +2208,8 @@ window.GLO_HISTORY_DATA = {
       "last3b": [
         "305",
         "400",
-        "904",
-        "250"
+        "250",
+        "904"
       ]
     },
     {
@@ -2220,9 +2220,9 @@ window.GLO_HISTORY_DATA = {
       "last2": "95",
       "last3f": [],
       "last3b": [
-        "938",
-        "499",
         "835",
+        "499",
+        "938",
         "186"
       ]
     },
@@ -2234,10 +2234,10 @@ window.GLO_HISTORY_DATA = {
       "last2": "26",
       "last3f": [],
       "last3b": [
-        "344",
-        "634",
         "013",
-        "355"
+        "355",
+        "634",
+        "344"
       ]
     },
     {
@@ -2248,10 +2248,10 @@ window.GLO_HISTORY_DATA = {
       "last2": "52",
       "last3f": [],
       "last3b": [
-        "673",
+        "158",
         "797",
-        "143",
-        "158"
+        "673",
+        "143"
       ]
     },
     {
@@ -2263,9 +2263,9 @@ window.GLO_HISTORY_DATA = {
       "last3f": [],
       "last3b": [
         "246",
-        "150",
         "112",
-        "505"
+        "505",
+        "150"
       ]
     },
     {
@@ -2276,10 +2276,10 @@ window.GLO_HISTORY_DATA = {
       "last2": "18",
       "last3f": [],
       "last3b": [
-        "636",
-        "324",
         "160",
-        "409"
+        "409",
+        "636",
+        "324"
       ]
     },
     {
@@ -2290,10 +2290,10 @@ window.GLO_HISTORY_DATA = {
       "last2": "95",
       "last3f": [],
       "last3b": [
-        "639",
         "158",
-        "140",
-        "576"
+        "576",
+        "639",
+        "140"
       ]
     },
     {
@@ -2304,8 +2304,8 @@ window.GLO_HISTORY_DATA = {
       "last2": "39",
       "last3f": [],
       "last3b": [
-        "441",
         "123",
+        "441",
         "271",
         "864"
       ]
@@ -2318,8 +2318,8 @@ window.GLO_HISTORY_DATA = {
       "last2": "45",
       "last3f": [],
       "last3b": [
-        "205",
         "944",
+        "205",
         "104",
         "117"
       ]
@@ -2332,10 +2332,10 @@ window.GLO_HISTORY_DATA = {
       "last2": "82",
       "last3f": [],
       "last3b": [
-        "637",
         "349",
         "576",
-        "623"
+        "623",
+        "637"
       ]
     },
     {
@@ -2346,10 +2346,10 @@ window.GLO_HISTORY_DATA = {
       "last2": "91",
       "last3f": [],
       "last3b": [
+        "639",
         "633",
         "912",
-        "187",
-        "639"
+        "187"
       ]
     },
     {
@@ -2360,10 +2360,10 @@ window.GLO_HISTORY_DATA = {
       "last2": "22",
       "last3f": [],
       "last3b": [
-        "490",
-        "308",
+        "477",
         "912",
-        "477"
+        "308",
+        "490"
       ]
     },
     {
@@ -2374,10 +2374,10 @@ window.GLO_HISTORY_DATA = {
       "last2": "35",
       "last3f": [],
       "last3b": [
-        "790",
+        "112",
         "257",
-        "342",
-        "112"
+        "790",
+        "342"
       ]
     },
     {
@@ -2388,10 +2388,10 @@ window.GLO_HISTORY_DATA = {
       "last2": "44",
       "last3f": [],
       "last3b": [
-        "086",
         "520",
         "159",
-        "251"
+        "251",
+        "086"
       ]
     },
     {
@@ -2402,10 +2402,10 @@ window.GLO_HISTORY_DATA = {
       "last2": "94",
       "last3f": [],
       "last3b": [
-        "910",
-        "848",
+        "647",
         "784",
-        "647"
+        "910",
+        "848"
       ]
     },
     {
@@ -2417,9 +2417,9 @@ window.GLO_HISTORY_DATA = {
       "last3f": [],
       "last3b": [
         "203",
-        "607",
+        "855",
         "979",
-        "855"
+        "607"
       ]
     },
     {
@@ -2431,9 +2431,9 @@ window.GLO_HISTORY_DATA = {
       "last3f": [],
       "last3b": [
         "179",
-        "709",
         "422",
-        "480"
+        "480",
+        "709"
       ]
     },
     {
@@ -2444,9 +2444,9 @@ window.GLO_HISTORY_DATA = {
       "last2": "11",
       "last3f": [],
       "last3b": [
-        "161",
-        "580",
         "380",
+        "580",
+        "161",
         "820"
       ]
     },
@@ -2458,10 +2458,10 @@ window.GLO_HISTORY_DATA = {
       "last2": "90",
       "last3f": [],
       "last3b": [
-        "775",
         "080",
         "763",
-        "901"
+        "901",
+        "775"
       ]
     },
     {
@@ -2472,9 +2472,9 @@ window.GLO_HISTORY_DATA = {
       "last2": "57",
       "last3f": [],
       "last3b": [
-        "535",
         "950",
         "982",
+        "535",
         "853"
       ]
     },
@@ -2486,9 +2486,9 @@ window.GLO_HISTORY_DATA = {
       "last2": "74",
       "last3f": [],
       "last3b": [
-        "595",
-        "068",
         "877",
+        "068",
+        "595",
         "398"
       ]
     },
@@ -2500,10 +2500,10 @@ window.GLO_HISTORY_DATA = {
       "last2": "79",
       "last3f": [],
       "last3b": [
-        "813",
-        "286",
         "008",
-        "083"
+        "286",
+        "083",
+        "813"
       ]
     },
     {
@@ -2514,9 +2514,9 @@ window.GLO_HISTORY_DATA = {
       "last2": "90",
       "last3f": [],
       "last3b": [
-        "103",
-        "392",
         "825",
+        "392",
+        "103",
         "843"
       ]
     },
@@ -2528,10 +2528,10 @@ window.GLO_HISTORY_DATA = {
       "last2": "34",
       "last3f": [],
       "last3b": [
-        "031",
         "008",
-        "857",
-        "498"
+        "031",
+        "498",
+        "857"
       ]
     },
     {
@@ -2542,10 +2542,10 @@ window.GLO_HISTORY_DATA = {
       "last2": "92",
       "last3f": [],
       "last3b": [
-        "339",
         "622",
-        "623",
-        "757"
+        "757",
+        "339",
+        "623"
       ]
     },
     {
@@ -2556,10 +2556,10 @@ window.GLO_HISTORY_DATA = {
       "last2": "70",
       "last3f": [],
       "last3b": [
-        "861",
-        "557",
         "558",
-        "962"
+        "962",
+        "557",
+        "861"
       ]
     },
     {
@@ -2570,10 +2570,10 @@ window.GLO_HISTORY_DATA = {
       "last2": "38",
       "last3f": [],
       "last3b": [
-        "101",
-        "973",
+        "164",
         "495",
-        "164"
+        "101",
+        "973"
       ]
     },
     {
@@ -2584,9 +2584,9 @@ window.GLO_HISTORY_DATA = {
       "last2": "30",
       "last3f": [],
       "last3b": [
+        "163",
         "366",
         "195",
-        "163",
         "818"
       ]
     },
@@ -2598,10 +2598,10 @@ window.GLO_HISTORY_DATA = {
       "last2": "38",
       "last3f": [],
       "last3b": [
-        "484",
         "928",
-        "799",
-        "851"
+        "851",
+        "484",
+        "799"
       ]
     },
     {
@@ -2613,9 +2613,9 @@ window.GLO_HISTORY_DATA = {
       "last3f": [],
       "last3b": [
         "314",
+        "969",
         "700",
-        "876",
-        "969"
+        "876"
       ]
     },
     {
@@ -2627,8 +2627,8 @@ window.GLO_HISTORY_DATA = {
       "last3f": [],
       "last3b": [
         "429",
-        "253",
         "532",
+        "253",
         "386"
       ]
     },
@@ -2640,10 +2640,10 @@ window.GLO_HISTORY_DATA = {
       "last2": "26",
       "last3f": [],
       "last3b": [
-        "565",
         "567",
-        "814",
-        "081"
+        "081",
+        "565",
+        "814"
       ]
     },
     {
@@ -2655,9 +2655,9 @@ window.GLO_HISTORY_DATA = {
       "last3f": [],
       "last3b": [
         "461",
-        "830",
         "761",
-        "294"
+        "294",
+        "830"
       ]
     },
     {
@@ -2683,8 +2683,8 @@ window.GLO_HISTORY_DATA = {
       "last3f": [],
       "last3b": [
         "227",
-        "648",
         "781",
+        "648",
         "624"
       ]
     },
@@ -2699,8 +2699,8 @@ window.GLO_HISTORY_DATA = {
         "260"
       ],
       "last3b": [
-        "068",
-        "819"
+        "819",
+        "068"
       ]
     },
     {
@@ -2714,8 +2714,8 @@ window.GLO_HISTORY_DATA = {
         "435"
       ],
       "last3b": [
-        "084",
-        "375"
+        "375",
+        "084"
       ]
     },
     {
@@ -2725,12 +2725,12 @@ window.GLO_HISTORY_DATA = {
       "first_last3": "825",
       "last2": "07",
       "last3f": [
-        "175",
-        "918"
+        "918",
+        "175"
       ],
       "last3b": [
-        "440",
-        "799"
+        "799",
+        "440"
       ]
     },
     {
@@ -2815,12 +2815,12 @@ window.GLO_HISTORY_DATA = {
       "first_last3": "217",
       "last2": "02",
       "last3f": [
-        "264",
-        "246"
+        "246",
+        "264"
       ],
       "last3b": [
-        "596",
-        "895"
+        "895",
+        "596"
       ]
     },
     {
@@ -2834,8 +2834,8 @@ window.GLO_HISTORY_DATA = {
         "532"
       ],
       "last3b": [
-        "743",
-        "786"
+        "786",
+        "743"
       ]
     },
     {
@@ -2864,8 +2864,8 @@ window.GLO_HISTORY_DATA = {
         "312"
       ],
       "last3b": [
-        "535",
-        "309"
+        "309",
+        "535"
       ]
     },
     {
@@ -2879,8 +2879,8 @@ window.GLO_HISTORY_DATA = {
         "426"
       ],
       "last3b": [
-        "743",
-        "155"
+        "155",
+        "743"
       ]
     },
     {
@@ -2890,12 +2890,12 @@ window.GLO_HISTORY_DATA = {
       "first_last3": "918",
       "last2": "32",
       "last3f": [
-        "855",
-        "877"
+        "877",
+        "855"
       ],
       "last3b": [
-        "973",
-        "004"
+        "004",
+        "973"
       ]
     },
     {
@@ -2935,8 +2935,8 @@ window.GLO_HISTORY_DATA = {
       "first_last3": "459",
       "last2": "02",
       "last3f": [
-        "403",
-        "238"
+        "238",
+        "403"
       ],
       "last3b": [
         "671",
@@ -2969,8 +2969,8 @@ window.GLO_HISTORY_DATA = {
         "775"
       ],
       "last3b": [
-        "880",
-        "937"
+        "937",
+        "880"
       ]
     },
     {
@@ -2980,12 +2980,12 @@ window.GLO_HISTORY_DATA = {
       "first_last3": "816",
       "last2": "79",
       "last3f": [
-        "251",
-        "804"
+        "804",
+        "251"
       ],
       "last3b": [
-        "749",
-        "321"
+        "321",
+        "749"
       ]
     },
     {
@@ -3010,8 +3010,8 @@ window.GLO_HISTORY_DATA = {
       "first_last3": "764",
       "last2": "55",
       "last3f": [
-        "552",
-        "734"
+        "734",
+        "552"
       ],
       "last3b": [
         "158",
@@ -3044,8 +3044,8 @@ window.GLO_HISTORY_DATA = {
         "966"
       ],
       "last3b": [
-        "631",
-        "596"
+        "596",
+        "631"
       ]
     },
     {
@@ -3055,12 +3055,12 @@ window.GLO_HISTORY_DATA = {
       "first_last3": "684",
       "last2": "62",
       "last3f": [
-        "334",
-        "335"
+        "335",
+        "334"
       ],
       "last3b": [
-        "630",
-        "669"
+        "669",
+        "630"
       ]
     },
     {
@@ -3074,8 +3074,8 @@ window.GLO_HISTORY_DATA = {
         "493"
       ],
       "last3b": [
-        "043",
-        "160"
+        "160",
+        "043"
       ]
     },
     {
@@ -3104,8 +3104,8 @@ window.GLO_HISTORY_DATA = {
         "885"
       ],
       "last3b": [
-        "587",
-        "032"
+        "032",
+        "587"
       ]
     },
     {
@@ -3145,12 +3145,12 @@ window.GLO_HISTORY_DATA = {
       "first_last3": "069",
       "last2": "77",
       "last3f": [
-        "873",
-        "513"
+        "513",
+        "873"
       ],
       "last3b": [
-        "450",
-        "148"
+        "148",
+        "450"
       ]
     },
     {
@@ -3175,12 +3175,12 @@ window.GLO_HISTORY_DATA = {
       "first_last3": "712",
       "last2": "46",
       "last3f": [
-        "304",
-        "890"
+        "890",
+        "304"
       ],
       "last3b": [
-        "477",
-        "769"
+        "769",
+        "477"
       ]
     },
     {
@@ -3190,8 +3190,8 @@ window.GLO_HISTORY_DATA = {
       "first_last3": "157",
       "last2": "25",
       "last3f": [
-        "663",
-        "511"
+        "511",
+        "663"
       ],
       "last3b": [
         "516",
@@ -3209,8 +3209,8 @@ window.GLO_HISTORY_DATA = {
         "066"
       ],
       "last3b": [
-        "628",
-        "426"
+        "426",
+        "628"
       ]
     },
     {
@@ -3239,8 +3239,8 @@ window.GLO_HISTORY_DATA = {
         "560"
       ],
       "last3b": [
-        "052",
-        "577"
+        "577",
+        "052"
       ]
     },
     {
@@ -3250,12 +3250,12 @@ window.GLO_HISTORY_DATA = {
       "first_last3": "863",
       "last2": "92",
       "last3f": [
-        "918",
-        "324"
+        "324",
+        "918"
       ],
       "last3b": [
-        "694",
-        "941"
+        "941",
+        "694"
       ]
     },
     {
@@ -3280,12 +3280,12 @@ window.GLO_HISTORY_DATA = {
       "first_last3": "729",
       "last2": "40",
       "last3f": [
-        "973",
-        "766"
+        "766",
+        "973"
       ],
       "last3b": [
-        "241",
-        "807"
+        "807",
+        "241"
       ]
     },
     {
@@ -3299,8 +3299,8 @@ window.GLO_HISTORY_DATA = {
         "573"
       ],
       "last3b": [
-        "773",
-        "923"
+        "923",
+        "773"
       ]
     },
     {
@@ -3325,8 +3325,8 @@ window.GLO_HISTORY_DATA = {
       "first_last3": "630",
       "last2": "61",
       "last3f": [
-        "218",
-        "121"
+        "121",
+        "218"
       ],
       "last3b": [
         "581",
@@ -3355,8 +3355,8 @@ window.GLO_HISTORY_DATA = {
       "first_last3": "360",
       "last2": "26",
       "last3f": [
-        "489",
-        "226"
+        "226",
+        "489"
       ],
       "last3b": [
         "688",
@@ -3370,8 +3370,8 @@ window.GLO_HISTORY_DATA = {
       "first_last3": "327",
       "last2": "87",
       "last3f": [
-        "835",
-        "584"
+        "584",
+        "835"
       ],
       "last3b": [
         "390",
@@ -3400,12 +3400,12 @@ window.GLO_HISTORY_DATA = {
       "first_last3": "431",
       "last2": "37",
       "last3f": [
-        "302",
-        "115"
+        "115",
+        "302"
       ],
       "last3b": [
-        "253",
-        "945"
+        "945",
+        "253"
       ]
     },
     {
@@ -3415,8 +3415,8 @@ window.GLO_HISTORY_DATA = {
       "first_last3": "224",
       "last2": "65",
       "last3f": [
-        "679",
-        "345"
+        "345",
+        "679"
       ],
       "last3b": [
         "278",
@@ -3430,8 +3430,8 @@ window.GLO_HISTORY_DATA = {
       "first_last3": "143",
       "last2": "71",
       "last3f": [
-        "647",
-        "172"
+        "172",
+        "647"
       ],
       "last3b": [
         "388",
@@ -3445,12 +3445,12 @@ window.GLO_HISTORY_DATA = {
       "first_last3": "714",
       "last2": "52",
       "last3f": [
-        "726",
-        "611"
+        "611",
+        "726"
       ],
       "last3b": [
-        "462",
-        "952"
+        "952",
+        "462"
       ]
     },
     {
@@ -3460,12 +3460,12 @@ window.GLO_HISTORY_DATA = {
       "first_last3": "494",
       "last2": "86",
       "last3f": [
-        "971",
-        "180"
+        "180",
+        "971"
       ],
       "last3b": [
-        "128",
-        "287"
+        "287",
+        "128"
       ]
     },
     {
@@ -3475,12 +3475,12 @@ window.GLO_HISTORY_DATA = {
       "first_last3": "726",
       "last2": "85",
       "last3f": [
-        "165",
-        "425"
+        "425",
+        "165"
       ],
       "last3b": [
-        "485",
-        "036"
+        "036",
+        "485"
       ]
     },
     {
@@ -3494,8 +3494,8 @@ window.GLO_HISTORY_DATA = {
         "961"
       ],
       "last3b": [
-        "628",
-        "477"
+        "477",
+        "628"
       ]
     },
     {
@@ -3505,12 +3505,12 @@ window.GLO_HISTORY_DATA = {
       "first_last3": "005",
       "last2": "33",
       "last3f": [
-        "303",
-        "626"
+        "626",
+        "303"
       ],
       "last3b": [
-        "601",
-        "257"
+        "257",
+        "601"
       ]
     },
     {
@@ -3520,8 +3520,8 @@ window.GLO_HISTORY_DATA = {
       "first_last3": "596",
       "last2": "89",
       "last3f": [
-        "616",
-        "836"
+        "836",
+        "616"
       ],
       "last3b": [
         "290",
@@ -3535,12 +3535,12 @@ window.GLO_HISTORY_DATA = {
       "first_last3": "234",
       "last2": "98",
       "last3f": [
-        "373",
-        "495"
+        "495",
+        "373"
       ],
       "last3b": [
-        "953",
-        "504"
+        "504",
+        "953"
       ]
     },
     {
@@ -3580,8 +3580,8 @@ window.GLO_HISTORY_DATA = {
       "first_last3": "915",
       "last2": "39",
       "last3f": [
-        "388",
-        "007"
+        "007",
+        "388"
       ],
       "last3b": [
         "230",
@@ -3595,12 +3595,12 @@ window.GLO_HISTORY_DATA = {
       "first_last3": "415",
       "last2": "29",
       "last3f": [
-        "318",
-        "870"
+        "870",
+        "318"
       ],
       "last3b": [
-        "589",
-        "723"
+        "723",
+        "589"
       ]
     },
     {
@@ -3610,8 +3610,8 @@ window.GLO_HISTORY_DATA = {
       "first_last3": "559",
       "last2": "82",
       "last3f": [
-        "064",
-        "720"
+        "720",
+        "064"
       ],
       "last3b": [
         "205",
@@ -3629,8 +3629,8 @@ window.GLO_HISTORY_DATA = {
         "787"
       ],
       "last3b": [
-        "924",
-        "638"
+        "638",
+        "924"
       ]
     },
     {
@@ -3644,8 +3644,8 @@ window.GLO_HISTORY_DATA = {
         "273"
       ],
       "last3b": [
-        "076",
-        "526"
+        "526",
+        "076"
       ]
     },
     {
@@ -3670,12 +3670,12 @@ window.GLO_HISTORY_DATA = {
       "first_last3": "629",
       "last2": "20",
       "last3f": [
-        "357",
-        "130"
+        "130",
+        "357"
       ],
       "last3b": [
-        "506",
-        "047"
+        "047",
+        "506"
       ]
     },
     {
@@ -3685,8 +3685,8 @@ window.GLO_HISTORY_DATA = {
       "first_last3": "117",
       "last2": "95",
       "last3f": [
-        "310",
-        "553"
+        "553",
+        "310"
       ],
       "last3b": [
         "248",
@@ -3700,12 +3700,12 @@ window.GLO_HISTORY_DATA = {
       "first_last3": "131",
       "last2": "46",
       "last3f": [
-        "432",
-        "507"
+        "507",
+        "432"
       ],
       "last3b": [
-        "868",
-        "132"
+        "132",
+        "868"
       ]
     },
     {
@@ -3715,8 +3715,8 @@ window.GLO_HISTORY_DATA = {
       "first_last3": "623",
       "last2": "83",
       "last3f": [
-        "429",
-        "901"
+        "901",
+        "429"
       ],
       "last3b": [
         "210",
@@ -3745,12 +3745,12 @@ window.GLO_HISTORY_DATA = {
       "first_last3": "602",
       "last2": "78",
       "last3f": [
-        "832",
-        "903"
+        "903",
+        "832"
       ],
       "last3b": [
-        "726",
-        "549"
+        "549",
+        "726"
       ]
     },
     {
@@ -3775,8 +3775,8 @@ window.GLO_HISTORY_DATA = {
       "first_last3": "510",
       "last2": "26",
       "last3f": [
-        "464",
-        "512"
+        "512",
+        "464"
       ],
       "last3b": [
         "097",
@@ -3790,8 +3790,8 @@ window.GLO_HISTORY_DATA = {
       "first_last3": "760",
       "last2": "79",
       "last3f": [
-        "539",
-        "323"
+        "323",
+        "539"
       ],
       "last3b": [
         "155",
@@ -3809,8 +3809,8 @@ window.GLO_HISTORY_DATA = {
         "594"
       ],
       "last3b": [
-        "810",
-        "561"
+        "561",
+        "810"
       ]
     },
     {
@@ -3820,8 +3820,8 @@ window.GLO_HISTORY_DATA = {
       "first_last3": "515",
       "last2": "93",
       "last3f": [
-        "392",
-        "186"
+        "186",
+        "392"
       ],
       "last3b": [
         "192",
@@ -3854,8 +3854,8 @@ window.GLO_HISTORY_DATA = {
         "930"
       ],
       "last3b": [
-        "876",
-        "140"
+        "140",
+        "876"
       ]
     },
     {
@@ -3865,12 +3865,12 @@ window.GLO_HISTORY_DATA = {
       "first_last3": "840",
       "last2": "67",
       "last3f": [
-        "045",
-        "307"
+        "307",
+        "045"
       ],
       "last3b": [
-        "561",
-        "988"
+        "988",
+        "561"
       ]
     },
     {
@@ -3895,8 +3895,8 @@ window.GLO_HISTORY_DATA = {
       "first_last3": "867",
       "last2": "02",
       "last3f": [
-        "031",
-        "913"
+        "913",
+        "031"
       ],
       "last3b": [
         "884",
@@ -3925,8 +3925,8 @@ window.GLO_HISTORY_DATA = {
       "first_last3": "134",
       "last2": "04",
       "last3f": [
-        "779",
-        "643"
+        "643",
+        "779"
       ],
       "last3b": [
         "197",
@@ -3955,8 +3955,8 @@ window.GLO_HISTORY_DATA = {
       "first_last3": "650",
       "last2": "65",
       "last3f": [
-        "137",
-        "999"
+        "999",
+        "137"
       ],
       "last3b": [
         "837",
@@ -3974,8 +3974,8 @@ window.GLO_HISTORY_DATA = {
         "148"
       ],
       "last3b": [
-        "877",
-        "154"
+        "154",
+        "877"
       ]
     },
     {
@@ -3985,8 +3985,8 @@ window.GLO_HISTORY_DATA = {
       "first_last3": "767",
       "last2": "52",
       "last3f": [
-        "888",
-        "959"
+        "959",
+        "888"
       ],
       "last3b": [
         "403",
@@ -4000,8 +4000,8 @@ window.GLO_HISTORY_DATA = {
       "first_last3": "331",
       "last2": "23",
       "last3f": [
-        "512",
-        "930"
+        "930",
+        "512"
       ],
       "last3b": [
         "968",
@@ -4015,8 +4015,8 @@ window.GLO_HISTORY_DATA = {
       "first_last3": "324",
       "last2": "25",
       "last3f": [
-        "476",
-        "043"
+        "043",
+        "476"
       ],
       "last3b": [
         "374",
@@ -4030,12 +4030,12 @@ window.GLO_HISTORY_DATA = {
       "first_last3": "526",
       "last2": "71",
       "last3f": [
-        "669",
-        "949"
+        "949",
+        "669"
       ],
       "last3b": [
-        "828",
-        "018"
+        "018",
+        "828"
       ]
     },
     {
@@ -4045,12 +4045,12 @@ window.GLO_HISTORY_DATA = {
       "first_last3": "461",
       "last2": "46",
       "last3f": [
-        "589",
-        "713"
+        "713",
+        "589"
       ],
       "last3b": [
-        "215",
-        "560"
+        "560",
+        "215"
       ]
     },
     {
@@ -4075,8 +4075,8 @@ window.GLO_HISTORY_DATA = {
       "first_last3": "647",
       "last2": "86",
       "last3f": [
-        "239",
-        "864"
+        "864",
+        "239"
       ],
       "last3b": [
         "375",
@@ -4105,8 +4105,8 @@ window.GLO_HISTORY_DATA = {
       "first_last3": "006",
       "last2": "58",
       "last3f": [
-        "983",
-        "135"
+        "135",
+        "983"
       ],
       "last3b": [
         "562",
@@ -4120,12 +4120,12 @@ window.GLO_HISTORY_DATA = {
       "first_last3": "476",
       "last2": "89",
       "last3f": [
-        "912",
-        "149"
+        "149",
+        "912"
       ],
       "last3b": [
-        "563",
-        "580"
+        "580",
+        "563"
       ]
     },
     {
@@ -4135,12 +4135,12 @@ window.GLO_HISTORY_DATA = {
       "first_last3": "787",
       "last2": "20",
       "last3f": [
-        "847",
-        "210"
+        "210",
+        "847"
       ],
       "last3b": [
-        "439",
-        "274"
+        "274",
+        "439"
       ]
     },
     {
@@ -4169,8 +4169,8 @@ window.GLO_HISTORY_DATA = {
         "392"
       ],
       "last3b": [
-        "606",
-        "797"
+        "797",
+        "606"
       ]
     },
     {
@@ -4180,12 +4180,12 @@ window.GLO_HISTORY_DATA = {
       "first_last3": "564",
       "last2": "15",
       "last3f": [
-        "625",
-        "255"
+        "255",
+        "625"
       ],
       "last3b": [
-        "132",
-        "598"
+        "598",
+        "132"
       ]
     },
     {
@@ -4195,8 +4195,8 @@ window.GLO_HISTORY_DATA = {
       "first_last3": "375",
       "last2": "79",
       "last3f": [
-        "323",
-        "806"
+        "806",
+        "323"
       ],
       "last3b": [
         "021",
@@ -4225,12 +4225,12 @@ window.GLO_HISTORY_DATA = {
       "first_last3": "522",
       "last2": "81",
       "last3f": [
-        "617",
-        "261"
+        "261",
+        "617"
       ],
       "last3b": [
-        "013",
-        "457"
+        "457",
+        "013"
       ]
     },
     {
@@ -4244,8 +4244,8 @@ window.GLO_HISTORY_DATA = {
         "138"
       ],
       "last3b": [
-        "665",
-        "555"
+        "555",
+        "665"
       ]
     },
     {
@@ -4270,12 +4270,12 @@ window.GLO_HISTORY_DATA = {
       "first_last3": "774",
       "last2": "68",
       "last3f": [
-        "004",
-        "132"
+        "132",
+        "004"
       ],
       "last3b": [
-        "595",
-        "379"
+        "379",
+        "595"
       ]
     },
     {
@@ -4285,12 +4285,12 @@ window.GLO_HISTORY_DATA = {
       "first_last3": "227",
       "last2": "06",
       "last3f": [
-        "259",
-        "552"
+        "552",
+        "259"
       ],
       "last3b": [
-        "375",
-        "927"
+        "927",
+        "375"
       ]
     },
     {
@@ -4300,12 +4300,12 @@ window.GLO_HISTORY_DATA = {
       "first_last3": "403",
       "last2": "94",
       "last3f": [
-        "952",
-        "515"
+        "515",
+        "952"
       ],
       "last3b": [
-        "030",
-        "918"
+        "918",
+        "030"
       ]
     },
     {
@@ -4315,8 +4315,8 @@ window.GLO_HISTORY_DATA = {
       "first_last3": "938",
       "last2": "98",
       "last3f": [
-        "328",
-        "294"
+        "294",
+        "328"
       ],
       "last3b": [
         "780",
@@ -4330,12 +4330,12 @@ window.GLO_HISTORY_DATA = {
       "first_last3": "446",
       "last2": "77",
       "last3f": [
-        "726",
-        "258"
+        "258",
+        "726"
       ],
       "last3b": [
-        "404",
-        "661"
+        "661",
+        "404"
       ]
     },
     {
@@ -4345,12 +4345,12 @@ window.GLO_HISTORY_DATA = {
       "first_last3": "095",
       "last2": "22",
       "last3f": [
-        "285",
-        "430"
+        "430",
+        "285"
       ],
       "last3b": [
-        "191",
-        "364"
+        "364",
+        "191"
       ]
     },
     {
@@ -4375,8 +4375,8 @@ window.GLO_HISTORY_DATA = {
       "first_last3": "967",
       "last2": "64",
       "last3f": [
-        "882",
-        "876"
+        "876",
+        "882"
       ],
       "last3b": [
         "625",
@@ -4409,8 +4409,8 @@ window.GLO_HISTORY_DATA = {
         "533"
       ],
       "last3b": [
-        "494",
-        "682"
+        "682",
+        "494"
       ]
     },
     {
@@ -4420,8 +4420,8 @@ window.GLO_HISTORY_DATA = {
       "first_last3": "391",
       "last2": "92",
       "last3f": [
-        "575",
-        "931"
+        "931",
+        "575"
       ],
       "last3b": [
         "578",
@@ -4435,8 +4435,8 @@ window.GLO_HISTORY_DATA = {
       "first_last3": "811",
       "last2": "88",
       "last3f": [
-        "614",
-        "712"
+        "712",
+        "614"
       ],
       "last3b": [
         "733",
@@ -4450,12 +4450,12 @@ window.GLO_HISTORY_DATA = {
       "first_last3": "997",
       "last2": "98",
       "last3f": [
-        "636",
-        "725"
+        "725",
+        "636"
       ],
       "last3b": [
-        "342",
-        "957"
+        "957",
+        "342"
       ]
     },
     {
@@ -4465,8 +4465,8 @@ window.GLO_HISTORY_DATA = {
       "first_last3": "083",
       "last2": "57",
       "last3f": [
-        "127",
-        "220"
+        "220",
+        "127"
       ],
       "last3b": [
         "623",
@@ -4484,8 +4484,8 @@ window.GLO_HISTORY_DATA = {
         "594"
       ],
       "last3b": [
-        "110",
-        "595"
+        "595",
+        "110"
       ]
     },
     {
@@ -4499,8 +4499,8 @@ window.GLO_HISTORY_DATA = {
         "464"
       ],
       "last3b": [
-        "045",
-        "980"
+        "980",
+        "045"
       ]
     },
     {
@@ -4510,8 +4510,8 @@ window.GLO_HISTORY_DATA = {
       "first_last3": "404",
       "last2": "40",
       "last3f": [
-        "598",
-        "154"
+        "154",
+        "598"
       ],
       "last3b": [
         "062",
@@ -4525,8 +4525,8 @@ window.GLO_HISTORY_DATA = {
       "first_last3": "661",
       "last2": "46",
       "last3f": [
-        "368",
-        "741"
+        "741",
+        "368"
       ],
       "last3b": [
         "208",
@@ -4559,8 +4559,8 @@ window.GLO_HISTORY_DATA = {
         "377"
       ],
       "last3b": [
-        "517",
-        "072"
+        "072",
+        "517"
       ]
     },
     {
@@ -4585,8 +4585,8 @@ window.GLO_HISTORY_DATA = {
       "first_last3": "395",
       "last2": "15",
       "last3f": [
-        "367",
-        "653"
+        "653",
+        "367"
       ],
       "last3b": [
         "878",
@@ -4619,8 +4619,8 @@ window.GLO_HISTORY_DATA = {
         "318"
       ],
       "last3b": [
-        "817",
-        "057"
+        "057",
+        "817"
       ]
     },
     {
@@ -4634,8 +4634,8 @@ window.GLO_HISTORY_DATA = {
         "290"
       ],
       "last3b": [
-        "051",
-        "806"
+        "806",
+        "051"
       ]
     },
     {
@@ -4645,12 +4645,12 @@ window.GLO_HISTORY_DATA = {
       "first_last3": "422",
       "last2": "19",
       "last3f": [
-        "902",
-        "036"
+        "036",
+        "902"
       ],
       "last3b": [
-        "396",
-        "256"
+        "256",
+        "396"
       ]
     },
     {
@@ -4739,8 +4739,8 @@ window.GLO_HISTORY_DATA = {
         "054"
       ],
       "last3b": [
-        "668",
-        "447"
+        "447",
+        "668"
       ]
     },
     {
@@ -4750,8 +4750,8 @@ window.GLO_HISTORY_DATA = {
       "first_last3": "517",
       "last2": "29",
       "last3f": [
-        "794",
-        "073"
+        "073",
+        "794"
       ],
       "last3b": [
         "414",
@@ -4765,8 +4765,8 @@ window.GLO_HISTORY_DATA = {
       "first_last3": "725",
       "last2": "70",
       "last3f": [
-        "058",
-        "174"
+        "174",
+        "058"
       ],
       "last3b": [
         "927",
@@ -4780,8 +4780,8 @@ window.GLO_HISTORY_DATA = {
       "first_last3": "261",
       "last2": "69",
       "last3f": [
-        "103",
-        "307"
+        "307",
+        "103"
       ],
       "last3b": [
         "785",
@@ -4795,8 +4795,8 @@ window.GLO_HISTORY_DATA = {
       "first_last3": "750",
       "last2": "23",
       "last3f": [
-        "421",
-        "666"
+        "666",
+        "421"
       ],
       "last3b": [
         "355",
@@ -4814,8 +4814,8 @@ window.GLO_HISTORY_DATA = {
         "278"
       ],
       "last3b": [
-        "123",
-        "458"
+        "458",
+        "123"
       ]
     },
     {
@@ -4874,8 +4874,8 @@ window.GLO_HISTORY_DATA = {
         "247"
       ],
       "last3b": [
-        "755",
-        "331"
+        "331",
+        "755"
       ]
     },
     {
@@ -4904,8 +4904,8 @@ window.GLO_HISTORY_DATA = {
         "740"
       ],
       "last3b": [
-        "485",
-        "401"
+        "401",
+        "485"
       ]
     },
     {
@@ -4915,8 +4915,8 @@ window.GLO_HISTORY_DATA = {
       "first_last3": "235",
       "last2": "83",
       "last3f": [
-        "097",
-        "629"
+        "629",
+        "097"
       ],
       "last3b": [
         "522",
@@ -4930,12 +4930,12 @@ window.GLO_HISTORY_DATA = {
       "first_last3": "068",
       "last2": "36",
       "last3f": [
-        "591",
-        "979"
+        "979",
+        "591"
       ],
       "last3b": [
-        "547",
-        "419"
+        "419",
+        "547"
       ]
     },
     {
@@ -4949,8 +4949,8 @@ window.GLO_HISTORY_DATA = {
         "786"
       ],
       "last3b": [
-        "119",
-        "529"
+        "529",
+        "119"
       ]
     },
     {
@@ -4964,8 +4964,8 @@ window.GLO_HISTORY_DATA = {
         "061"
       ],
       "last3b": [
-        "485",
-        "509"
+        "509",
+        "485"
       ]
     },
     {
@@ -4979,8 +4979,8 @@ window.GLO_HISTORY_DATA = {
         "085"
       ],
       "last3b": [
-        "816",
-        "592"
+        "592",
+        "816"
       ]
     },
     {
@@ -4990,8 +4990,8 @@ window.GLO_HISTORY_DATA = {
       "first_last3": "905",
       "last2": "07",
       "last3f": [
-        "236",
-        "834"
+        "834",
+        "236"
       ],
       "last3b": [
         "691",
@@ -5005,12 +5005,12 @@ window.GLO_HISTORY_DATA = {
       "first_last3": "867",
       "last2": "03",
       "last3f": [
-        "349",
-        "985"
+        "985",
+        "349"
       ],
       "last3b": [
-        "989",
-        "788"
+        "788",
+        "989"
       ]
     },
     {
@@ -5020,8 +5020,8 @@ window.GLO_HISTORY_DATA = {
       "first_last3": "618",
       "last2": "10",
       "last3f": [
-        "738",
-        "391"
+        "391",
+        "738"
       ],
       "last3b": [
         "870",
@@ -5039,8 +5039,8 @@ window.GLO_HISTORY_DATA = {
         "859"
       ],
       "last3b": [
-        "508",
-        "413"
+        "413",
+        "508"
       ]
     },
     {
@@ -5050,12 +5050,12 @@ window.GLO_HISTORY_DATA = {
       "first_last3": "642",
       "last2": "09",
       "last3f": [
-        "778",
-        "518"
+        "518",
+        "778"
       ],
       "last3b": [
-        "041",
-        "325"
+        "325",
+        "041"
       ]
     },
     {
@@ -5065,12 +5065,12 @@ window.GLO_HISTORY_DATA = {
       "first_last3": "012",
       "last2": "06",
       "last3f": [
-        "247",
-        "736"
+        "736",
+        "247"
       ],
       "last3b": [
-        "236",
-        "540"
+        "540",
+        "236"
       ]
     },
     {
@@ -5080,8 +5080,8 @@ window.GLO_HISTORY_DATA = {
       "first_last3": "196",
       "last2": "02",
       "last3f": [
-        "679",
-        "817"
+        "817",
+        "679"
       ],
       "last3b": [
         "213",
@@ -5095,8 +5095,8 @@ window.GLO_HISTORY_DATA = {
       "first_last3": "807",
       "last2": "92",
       "last3f": [
-        "549",
-        "285"
+        "285",
+        "549"
       ],
       "last3b": [
         "228",
@@ -5110,8 +5110,8 @@ window.GLO_HISTORY_DATA = {
       "first_last3": "417",
       "last2": "61",
       "last3f": [
-        "242",
-        "287"
+        "287",
+        "242"
       ],
       "last3b": [
         "542",
@@ -5140,12 +5140,12 @@ window.GLO_HISTORY_DATA = {
       "first_last3": "594",
       "last2": "14",
       "last3f": [
-        "893",
-        "266"
+        "266",
+        "893"
       ],
       "last3b": [
-        "447",
-        "282"
+        "282",
+        "447"
       ]
     },
     {
@@ -5155,12 +5155,12 @@ window.GLO_HISTORY_DATA = {
       "first_last3": "583",
       "last2": "42",
       "last3f": [
-        "271",
-        "300"
+        "300",
+        "271"
       ],
       "last3b": [
-        "284",
-        "876"
+        "876",
+        "284"
       ]
     },
     {
@@ -5174,8 +5174,8 @@ window.GLO_HISTORY_DATA = {
         "298"
       ],
       "last3b": [
-        "604",
-        "210"
+        "210",
+        "604"
       ]
     },
     {
@@ -5189,8 +5189,8 @@ window.GLO_HISTORY_DATA = {
         "540"
       ],
       "last3b": [
-        "631",
-        "432"
+        "432",
+        "631"
       ]
     },
     {
@@ -5200,12 +5200,12 @@ window.GLO_HISTORY_DATA = {
       "first_last3": "669",
       "last2": "50",
       "last3f": [
-        "206",
-        "996"
+        "996",
+        "206"
       ],
       "last3b": [
-        "278",
-        "194"
+        "194",
+        "278"
       ]
     },
     {
@@ -5215,8 +5215,8 @@ window.GLO_HISTORY_DATA = {
       "first_last3": "106",
       "last2": "15",
       "last3f": [
-        "037",
-        "158"
+        "158",
+        "037"
       ],
       "last3b": [
         "799",
@@ -5245,12 +5245,12 @@ window.GLO_HISTORY_DATA = {
       "first_last3": "789",
       "last2": "64",
       "last3f": [
-        "722",
-        "532"
+        "532",
+        "722"
       ],
       "last3b": [
-        "157",
-        "973"
+        "973",
+        "157"
       ]
     },
     {
@@ -5275,12 +5275,12 @@ window.GLO_HISTORY_DATA = {
       "first_last3": "093",
       "last2": "14",
       "last3f": [
-        "912",
-        "411"
+        "411",
+        "912"
       ],
       "last3b": [
-        "593",
-        "855"
+        "855",
+        "593"
       ]
     },
     {
@@ -5294,8 +5294,8 @@ window.GLO_HISTORY_DATA = {
         "522"
       ],
       "last3b": [
-        "425",
-        "250"
+        "250",
+        "425"
       ]
     },
     {
@@ -5305,12 +5305,12 @@ window.GLO_HISTORY_DATA = {
       "first_last3": "519",
       "last2": "47",
       "last3f": [
-        "389",
-        "443"
+        "443",
+        "389"
       ],
       "last3b": [
-        "849",
-        "564"
+        "564",
+        "849"
       ]
     },
     {
@@ -5335,12 +5335,12 @@ window.GLO_HISTORY_DATA = {
       "first_last3": "417",
       "last2": "80",
       "last3f": [
-        "195",
-        "664"
+        "664",
+        "195"
       ],
       "last3b": [
-        "523",
-        "377"
+        "377",
+        "523"
       ]
     },
     {
@@ -5350,12 +5350,12 @@ window.GLO_HISTORY_DATA = {
       "first_last3": "652",
       "last2": "55",
       "last3f": [
-        "919",
-        "577"
+        "577",
+        "919"
       ],
       "last3b": [
-        "984",
-        "748"
+        "748",
+        "984"
       ]
     },
     {
@@ -5369,8 +5369,8 @@ window.GLO_HISTORY_DATA = {
         "800"
       ],
       "last3b": [
-        "544",
-        "355"
+        "355",
+        "544"
       ]
     },
     {
@@ -5380,12 +5380,12 @@ window.GLO_HISTORY_DATA = {
       "first_last3": "907",
       "last2": "99",
       "last3f": [
-        "111",
-        "914"
+        "914",
+        "111"
       ],
       "last3b": [
-        "698",
-        "290"
+        "290",
+        "698"
       ]
     },
     {
@@ -5395,12 +5395,12 @@ window.GLO_HISTORY_DATA = {
       "first_last3": "906",
       "last2": "71",
       "last3f": [
-        "678",
-        "670"
+        "670",
+        "678"
       ],
       "last3b": [
-        "797",
-        "551"
+        "551",
+        "797"
       ]
     },
     {
@@ -5414,8 +5414,8 @@ window.GLO_HISTORY_DATA = {
         "780"
       ],
       "last3b": [
-        "187",
-        "269"
+        "269",
+        "187"
       ]
     },
     {
@@ -5429,8 +5429,8 @@ window.GLO_HISTORY_DATA = {
         "739"
       ],
       "last3b": [
-        "693",
-        "731"
+        "731",
+        "693"
       ]
     },
     {
@@ -5470,8 +5470,8 @@ window.GLO_HISTORY_DATA = {
       "first_last3": "605",
       "last2": "16",
       "last3f": [
-        "281",
-        "867"
+        "867",
+        "281"
       ],
       "last3b": [
         "491",
@@ -5489,8 +5489,8 @@ window.GLO_HISTORY_DATA = {
         "384"
       ],
       "last3b": [
-        "780",
-        "066"
+        "066",
+        "780"
       ]
     },
     {
@@ -5504,8 +5504,8 @@ window.GLO_HISTORY_DATA = {
         "268"
       ],
       "last3b": [
-        "601",
-        "387"
+        "387",
+        "601"
       ]
     },
     {
@@ -5515,12 +5515,12 @@ window.GLO_HISTORY_DATA = {
       "first_last3": "782",
       "last2": "67",
       "last3f": [
-        "431",
-        "739"
+        "739",
+        "431"
       ],
       "last3b": [
-        "737",
-        "742"
+        "742",
+        "737"
       ]
     },
     {
@@ -5530,12 +5530,12 @@ window.GLO_HISTORY_DATA = {
       "first_last3": "478",
       "last2": "91",
       "last3f": [
-        "596",
-        "521"
+        "521",
+        "596"
       ],
       "last3b": [
-        "692",
-        "291"
+        "291",
+        "692"
       ]
     },
     {
@@ -5579,8 +5579,8 @@ window.GLO_HISTORY_DATA = {
         "167"
       ],
       "last3b": [
-        "970",
-        "272"
+        "272",
+        "970"
       ]
     },
     {
@@ -5609,8 +5609,8 @@ window.GLO_HISTORY_DATA = {
         "346"
       ],
       "last3b": [
-        "961",
-        "778"
+        "778",
+        "961"
       ]
     },
     {
@@ -5620,12 +5620,12 @@ window.GLO_HISTORY_DATA = {
       "first_last3": "097",
       "last2": "91",
       "last3f": [
-        "055",
-        "265"
+        "265",
+        "055"
       ],
       "last3b": [
-        "092",
-        "280"
+        "280",
+        "092"
       ]
     },
     {
@@ -5635,8 +5635,8 @@ window.GLO_HISTORY_DATA = {
       "first_last3": "757",
       "last2": "85",
       "last3f": [
-        "410",
-        "058"
+        "058",
+        "410"
       ],
       "last3b": [
         "584",
@@ -5654,8 +5654,8 @@ window.GLO_HISTORY_DATA = {
         "648"
       ],
       "last3b": [
-        "882",
-        "456"
+        "456",
+        "882"
       ]
     },
     {
@@ -5665,12 +5665,12 @@ window.GLO_HISTORY_DATA = {
       "first_last3": "979",
       "last2": "61",
       "last3f": [
-        "429",
-        "931"
+        "931",
+        "429"
       ],
       "last3b": [
-        "196",
-        "635"
+        "635",
+        "196"
       ]
     },
     {
@@ -5680,8 +5680,8 @@ window.GLO_HISTORY_DATA = {
       "first_last3": "063",
       "last2": "09",
       "last3f": [
-        "454",
-        "943"
+        "943",
+        "454"
       ],
       "last3b": [
         "591",
@@ -5714,8 +5714,8 @@ window.GLO_HISTORY_DATA = {
         "975"
       ],
       "last3b": [
-        "382",
-        "703"
+        "703",
+        "382"
       ]
     },
     {
@@ -5725,12 +5725,12 @@ window.GLO_HISTORY_DATA = {
       "first_last3": "626",
       "last2": "78",
       "last3f": [
-        "509",
-        "571"
+        "571",
+        "509"
       ],
       "last3b": [
-        "794",
-        "329"
+        "329",
+        "794"
       ]
     },
     {
@@ -5770,12 +5770,12 @@ window.GLO_HISTORY_DATA = {
       "first_last3": "116",
       "last2": "17",
       "last3f": [
-        "763",
-        "104"
+        "104",
+        "763"
       ],
       "last3b": [
-        "833",
-        "634"
+        "634",
+        "833"
       ]
     },
     {
@@ -5785,8 +5785,8 @@ window.GLO_HISTORY_DATA = {
       "first_last3": "690",
       "last2": "60",
       "last3f": [
-        "885",
-        "747"
+        "747",
+        "885"
       ],
       "last3b": [
         "137",
@@ -5804,8 +5804,8 @@ window.GLO_HISTORY_DATA = {
         "364"
       ],
       "last3b": [
-        "734",
-        "421"
+        "421",
+        "734"
       ]
     },
     {
@@ -5815,12 +5815,12 @@ window.GLO_HISTORY_DATA = {
       "first_last3": "504",
       "last2": "31",
       "last3f": [
-        "016",
-        "428"
+        "428",
+        "016"
       ],
       "last3b": [
-        "426",
-        "447"
+        "447",
+        "426"
       ]
     },
     {
@@ -5834,8 +5834,8 @@ window.GLO_HISTORY_DATA = {
         "975"
       ],
       "last3b": [
-        "647",
-        "778"
+        "778",
+        "647"
       ]
     },
     {
@@ -5860,12 +5860,12 @@ window.GLO_HISTORY_DATA = {
       "first_last3": "041",
       "last2": "46",
       "last3f": [
-        "579",
-        "408"
+        "408",
+        "579"
       ],
       "last3b": [
-        "070",
-        "622"
+        "622",
+        "070"
       ]
     },
     {
@@ -5890,8 +5890,8 @@ window.GLO_HISTORY_DATA = {
       "first_last3": "606",
       "last2": "94",
       "last3f": [
-        "220",
-        "173"
+        "173",
+        "220"
       ],
       "last3b": [
         "094",
@@ -5909,8 +5909,8 @@ window.GLO_HISTORY_DATA = {
         "230"
       ],
       "last3b": [
-        "008",
-        "408"
+        "408",
+        "008"
       ]
     },
     {
@@ -5954,8 +5954,8 @@ window.GLO_HISTORY_DATA = {
         "174"
       ],
       "last3b": [
-        "231",
-        "063"
+        "063",
+        "231"
       ]
     },
     {
@@ -5965,12 +5965,12 @@ window.GLO_HISTORY_DATA = {
       "first_last3": "221",
       "last2": "38",
       "last3f": [
-        "923",
-        "036"
+        "036",
+        "923"
       ],
       "last3b": [
-        "980",
-        "547"
+        "547",
+        "980"
       ]
     },
     {
@@ -5984,8 +5984,8 @@ window.GLO_HISTORY_DATA = {
         "626"
       ],
       "last3b": [
-        "098",
-        "654"
+        "654",
+        "098"
       ]
     },
     {
@@ -5995,12 +5995,12 @@ window.GLO_HISTORY_DATA = {
       "first_last3": "863",
       "last2": "21",
       "last3f": [
-        "742",
-        "290"
+        "290",
+        "742"
       ],
       "last3b": [
-        "881",
-        "339"
+        "339",
+        "881"
       ]
     },
     {
@@ -6025,8 +6025,8 @@ window.GLO_HISTORY_DATA = {
       "first_last3": "779",
       "last2": "23",
       "last3f": [
-        "961",
-        "699"
+        "699",
+        "961"
       ],
       "last3b": [
         "477",
@@ -6040,12 +6040,12 @@ window.GLO_HISTORY_DATA = {
       "first_last3": "700",
       "last2": "51",
       "last3f": [
-        "418",
-        "285"
+        "285",
+        "418"
       ],
       "last3b": [
-        "685",
-        "824"
+        "824",
+        "685"
       ]
     },
     {
@@ -6055,12 +6055,12 @@ window.GLO_HISTORY_DATA = {
       "first_last3": "377",
       "last2": "50",
       "last3f": [
-        "268",
-        "613"
+        "613",
+        "268"
       ],
       "last3b": [
-        "652",
-        "001"
+        "001",
+        "652"
       ]
     },
     {
@@ -6104,8 +6104,8 @@ window.GLO_HISTORY_DATA = {
         "635"
       ],
       "last3b": [
-        "666",
-        "180"
+        "180",
+        "666"
       ]
     },
     {
@@ -6130,8 +6130,8 @@ window.GLO_HISTORY_DATA = {
       "first_last3": "388",
       "last2": "06",
       "last3f": [
-        "116",
-        "826"
+        "826",
+        "116"
       ],
       "last3b": [
         "662",
@@ -6145,12 +6145,12 @@ window.GLO_HISTORY_DATA = {
       "first_last3": "309",
       "last2": "87",
       "last3f": [
-        "109",
-        "231"
+        "231",
+        "109"
       ],
       "last3b": [
-        "631",
-        "965"
+        "965",
+        "631"
       ]
     },
     {
@@ -6179,8 +6179,8 @@ window.GLO_HISTORY_DATA = {
         "243"
       ],
       "last3b": [
-        "299",
-        "736"
+        "736",
+        "299"
       ]
     },
     {
@@ -6190,8 +6190,8 @@ window.GLO_HISTORY_DATA = {
       "first_last3": "246",
       "last2": "91",
       "last3f": [
-        "680",
-        "169"
+        "169",
+        "680"
       ],
       "last3b": [
         "918",
@@ -6205,8 +6205,8 @@ window.GLO_HISTORY_DATA = {
       "first_last3": "324",
       "last2": "26",
       "last3f": [
-        "171",
-        "995"
+        "995",
+        "171"
       ],
       "last3b": [
         "336",
@@ -6239,8 +6239,8 @@ window.GLO_HISTORY_DATA = {
         "247"
       ],
       "last3b": [
-        "834",
-        "989"
+        "989",
+        "834"
       ]
     },
     {
@@ -6269,8 +6269,8 @@ window.GLO_HISTORY_DATA = {
         "512"
       ],
       "last3b": [
-        "308",
-        "703"
+        "703",
+        "308"
       ]
     },
     {
@@ -6280,12 +6280,12 @@ window.GLO_HISTORY_DATA = {
       "first_last3": "978",
       "last2": "77",
       "last3f": [
-        "532",
-        "843"
+        "843",
+        "532"
       ],
       "last3b": [
-        "280",
-        "605"
+        "605",
+        "280"
       ]
     },
     {
@@ -6295,8 +6295,8 @@ window.GLO_HISTORY_DATA = {
       "first_last3": "696",
       "last2": "61",
       "last3f": [
-        "531",
-        "955"
+        "955",
+        "531"
       ],
       "last3b": [
         "889",
@@ -6325,12 +6325,12 @@ window.GLO_HISTORY_DATA = {
       "first_last3": "145",
       "last2": "37",
       "last3f": [
-        "602",
-        "242"
+        "242",
+        "602"
       ],
       "last3b": [
-        "389",
-        "239"
+        "239",
+        "389"
       ]
     },
     {
@@ -6340,8 +6340,8 @@ window.GLO_HISTORY_DATA = {
       "first_last3": "252",
       "last2": "22",
       "last3f": [
-        "655",
-        "389"
+        "389",
+        "655"
       ],
       "last3b": [
         "995",
@@ -6359,8 +6359,8 @@ window.GLO_HISTORY_DATA = {
         "431"
       ],
       "last3b": [
-        "449",
-        "014"
+        "014",
+        "449"
       ]
     },
     {
@@ -6389,8 +6389,8 @@ window.GLO_HISTORY_DATA = {
         "299"
       ],
       "last3b": [
-        "662",
-        "363"
+        "363",
+        "662"
       ]
     },
     {
@@ -6400,8 +6400,8 @@ window.GLO_HISTORY_DATA = {
       "first_last3": "629",
       "last2": "48",
       "last3f": [
-        "917",
-        "195"
+        "195",
+        "917"
       ],
       "last3b": [
         "408",
@@ -6415,12 +6415,12 @@ window.GLO_HISTORY_DATA = {
       "first_last3": "563",
       "last2": "07",
       "last3f": [
-        "527",
-        "241"
+        "241",
+        "527"
       ],
       "last3b": [
-        "169",
-        "578"
+        "578",
+        "169"
       ]
     },
     {
@@ -6430,12 +6430,12 @@ window.GLO_HISTORY_DATA = {
       "first_last3": "866",
       "last2": "06",
       "last3f": [
-        "479",
-        "054"
+        "054",
+        "479"
       ],
       "last3b": [
-        "837",
-        "068"
+        "068",
+        "837"
       ]
     },
     {
@@ -6464,8 +6464,23 @@ window.GLO_HISTORY_DATA = {
         "113"
       ],
       "last3b": [
-        "098",
-        "851"
+        "851",
+        "098"
+      ]
+    },
+    {
+      "date": "2026-04-16",
+      "year": 2026,
+      "first": "309612",
+      "first_last3": "612",
+      "last2": "77",
+      "last3f": [
+        "108",
+        "355"
+      ],
+      "last3b": [
+        "868",
+        "424"
       ]
     }
   ]

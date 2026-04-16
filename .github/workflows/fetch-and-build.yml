@@ -1,0 +1,106 @@
+name: Fetch & Build Dashboards
+
+on:
+  # ── กด manual ได้ตลอด ───────────────────────────
+  workflow_dispatch:
+
+  # ── schedule อัตโนมัติ (UTC) ───────────────────
+  # หวยรัฐบาลออก วันที่ 1 และ 16 ราว 14:30 น. ไทย = 07:30 UTC
+  # หวยหุ้น/yikee ออกทุกวัน ต่อเนื่องตลอดวัน
+  # จึง fetch ทุก 3 ชั่วโมง เพื่อจับผลให้ทัน
+  schedule:
+    - cron: "0 */3 * * *"   # ทุก 3 ชม. (00:00 / 03:00 / 06:00 / ... UTC)
+
+jobs:
+  fetch-and-build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write   # อนุญาต commit กลับ repo
+
+    steps:
+      # 1. checkout code พร้อม full history เพื่อ commit
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      # 2. ติดตั้ง Python (มาพร้อม ubuntu แต่ pin ให้ชัด)
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      # 3. ติดตั้ง Node.js สำหรับ WAII collector (puppeteer-core)
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      # 4. install Google Chrome สำหรับ puppeteer-core
+      - name: Install Chrome
+        uses: browser-actions/setup-chrome@v1
+        with:
+          chrome-version: stable
+
+      # 5. install WAII collector dependencies
+      - name: Install WAII collector deps
+        run: npm ci
+        working-directory: waii/collector
+
+      # 6. fetch ข้อมูล RUAY (yikee + หวยรัฐบาล + หุ้น)
+      - name: Fetch RUAY page
+        run: python3 fetch_ruay.py
+        continue-on-error: true   # ถ้าไม่ได้ข้อมูลวันนี้ก็ยังรันต่อได้
+
+      # 7. build GLO dashboard (ดึง API ทางการ สลากฯ)
+      - name: Build GLO dashboard
+        run: python3 build_glo_dashboard.py
+        continue-on-error: true
+
+      # 8. build Yikee dashboard
+      - name: Build Yikee dashboard
+        run: python3 build_ruay_yikee_dashboard.py
+        continue-on-error: true
+
+      # 9. WAII collector (headless Chrome)
+      - name: Run WAII collector
+        run: node fetch_waii_public.mjs
+        working-directory: waii/collector
+        env:
+          CHROME_PATH: /usr/bin/google-chrome-stable
+        continue-on-error: true
+
+      # 10. build WAII dashboard
+      - name: Build WAII dashboard
+        run: python3 build_waii_dashboard.py
+        continue-on-error: true
+
+      # 11. commit ไฟล์ที่เปลี่ยน (data + dashboard) กลับ main
+      - name: Commit updated data
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          # stage เฉพาะ output ที่ต้องการ (ไม่ stage source code)
+          git add \
+            data/ \
+            reports/ \
+            glo/data/ \
+            glo/dashboard/dashboard-data.js \
+            glo/reports/ \
+            yikee/data/ \
+            yikee/dashboard/dashboard-data.js \
+            yikee/reports/ \
+            waii/data/ \
+            waii/dashboard/dashboard-data.js \
+            waii/reports/ \
+            || true
+
+          # ถ้าไม่มีอะไรเปลี่ยน ก็ไม่ commit (ป้องกัน empty commit)
+          if git diff --cached --quiet; then
+            echo "No data changes — skipping commit"
+          else
+            TIMESTAMP=$(TZ=Asia/Bangkok date '+%Y-%m-%d %H:%M น. (ไทย)')
+            git commit -m "data: auto-fetch ${TIMESTAMP}"
+            git push
+          fi

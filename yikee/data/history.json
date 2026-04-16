@@ -1,6 +1,6 @@
 {
   "source": "https://www.ruay.org/login",
-  "generated_at": "2026-04-16T13:49:41+07:00",
+  "generated_at": "2026-04-16T16:22:53+07:00",
   "fields": [
     "3ตัวบน",
     "2ตัวล่าง"
@@ -103,30 +103,19 @@
     "end": "2026-04-16",
     "day_count": 1,
     "row_count": 176,
-    "complete_row_count": 62
+    "complete_row_count": 84
   },
   "latest_status": {
     "date": "2026-04-16",
     "draw_label": "16 April 2026",
     "visible_rounds": 88,
-    "completed_rounds": 31,
+    "completed_rounds": 42,
     "field_completion": {
-      "3ตัวบน": 31,
-      "2ตัวล่าง": 31
+      "3ตัวบน": 42,
+      "2ตัวล่าง": 42
     },
-    "last_completed_round": 31,
+    "last_completed_round": 42,
     "pending_rounds": [
-      32,
-      33,
-      34,
-      35,
-      36,
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
       43,
       44,
       45,
@@ -174,7 +163,7 @@
       87,
       88
     ],
-    "captured_at": "2026-04-16T13:43:27+07:00"
+    "captured_at": "2026-04-16T16:22:49+07:00"
   },
   "records": [
     {
@@ -186,7 +175,7 @@
       "digits": "94",
       "payout": "90",
       "is_placeholder": false,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
@@ -197,7 +186,7 @@
       "digits": "808",
       "payout": "750",
       "is_placeholder": false,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
@@ -208,7 +197,7 @@
       "digits": "05",
       "payout": "90",
       "is_placeholder": false,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
@@ -219,7 +208,7 @@
       "digits": "410",
       "payout": "750",
       "is_placeholder": false,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
@@ -230,7 +219,7 @@
       "digits": "53",
       "payout": "90",
       "is_placeholder": false,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
@@ -241,7 +230,7 @@
       "digits": "702",
       "payout": "750",
       "is_placeholder": false,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
@@ -252,7 +241,7 @@
       "digits": "99",
       "payout": "90",
       "is_placeholder": false,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
@@ -263,7 +252,7 @@
       "digits": "413",
       "payout": "750",
       "is_placeholder": false,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
@@ -274,7 +263,7 @@
       "digits": "72",
       "payout": "90",
       "is_placeholder": false,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
@@ -285,7 +274,7 @@
       "digits": "290",
       "payout": "750",
       "is_placeholder": false,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
@@ -296,7 +285,7 @@
       "digits": "30",
       "payout": "90",
       "is_placeholder": false,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
@@ -307,7 +296,7 @@
       "digits": "493",
       "payout": "750",
       "is_placeholder": false,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
@@ -318,7 +307,7 @@
       "digits": "76",
       "payout": "90",
       "is_placeholder": false,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
@@ -329,7 +318,7 @@
       "digits": "882",
       "payout": "750",
       "is_placeholder": false,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
@@ -340,7 +329,7 @@
       "digits": "75",
       "payout": "90",
       "is_placeholder": false,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
@@ -351,7 +340,7 @@
       "digits": "451",
       "payout": "750",
       "is_placeholder": false,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
@@ -362,7 +351,7 @@
       "digits": "13",
       "payout": "90",
       "is_placeholder": false,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
@@ -373,7 +362,7 @@
       "digits": "754",
       "payout": "750",
       "is_placeholder": false,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
@@ -384,7 +373,7 @@
       "digits": "52",
       "payout": "90",
       "is_placeholder": false,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
@@ -395,7 +384,7 @@
       "digits": "336",
       "payout": "750",
       "is_placeholder": false,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
@@ -406,7 +395,7 @@
       "digits": "01",
       "payout": "90",
       "is_placeholder": false,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
@@ -417,7 +406,7 @@
       "digits": "008",
       "payout": "750",
       "is_placeholder": false,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
@@ -428,7 +417,7 @@
       "digits": "18",
       "payout": "90",
       "is_placeholder": false,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
@@ -439,7 +428,7 @@
       "digits": "627",
       "payout": "750",
       "is_placeholder": false,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
@@ -450,7 +439,7 @@
       "digits": "16",
       "payout": "90",
       "is_placeholder": false,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
@@ -461,7 +450,7 @@
       "digits": "166",
       "payout": "750",
       "is_placeholder": false,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
@@ -472,7 +461,7 @@
       "digits": "47",
       "payout": "90",
       "is_placeholder": false,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
@@ -483,7 +472,7 @@
       "digits": "508",
       "payout": "750",
       "is_placeholder": false,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
@@ -494,7 +483,7 @@
       "digits": "26",
       "payout": "90",
       "is_placeholder": false,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
@@ -505,7 +494,7 @@
       "digits": "730",
       "payout": "750",
       "is_placeholder": false,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
@@ -516,7 +505,7 @@
       "digits": "93",
       "payout": "90",
       "is_placeholder": false,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
@@ -527,7 +516,7 @@
       "digits": "370",
       "payout": "750",
       "is_placeholder": false,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
@@ -538,7 +527,7 @@
       "digits": "47",
       "payout": "90",
       "is_placeholder": false,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
@@ -549,7 +538,7 @@
       "digits": "634",
       "payout": "750",
       "is_placeholder": false,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
@@ -560,7 +549,7 @@
       "digits": "74",
       "payout": "90",
       "is_placeholder": false,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
@@ -571,7 +560,7 @@
       "digits": "193",
       "payout": "750",
       "is_placeholder": false,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
@@ -582,7 +571,7 @@
       "digits": "82",
       "payout": "90",
       "is_placeholder": false,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
@@ -593,7 +582,7 @@
       "digits": "401",
       "payout": "750",
       "is_placeholder": false,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
@@ -604,7 +593,7 @@
       "digits": "26",
       "payout": "90",
       "is_placeholder": false,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
@@ -615,7 +604,7 @@
       "digits": "375",
       "payout": "750",
       "is_placeholder": false,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
@@ -626,7 +615,7 @@
       "digits": "08",
       "payout": "90",
       "is_placeholder": false,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
@@ -637,7 +626,7 @@
       "digits": "886",
       "payout": "750",
       "is_placeholder": false,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
@@ -648,7 +637,7 @@
       "digits": "32",
       "payout": "90",
       "is_placeholder": false,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
@@ -659,7 +648,7 @@
       "digits": "239",
       "payout": "750",
       "is_placeholder": false,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
@@ -670,7 +659,7 @@
       "digits": "02",
       "payout": "90",
       "is_placeholder": false,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
@@ -681,7 +670,7 @@
       "digits": "919",
       "payout": "750",
       "is_placeholder": false,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
@@ -692,7 +681,7 @@
       "digits": "77",
       "payout": "90",
       "is_placeholder": false,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
@@ -703,7 +692,7 @@
       "digits": "278",
       "payout": "750",
       "is_placeholder": false,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
@@ -714,7 +703,7 @@
       "digits": "04",
       "payout": "90",
       "is_placeholder": false,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
@@ -725,7 +714,7 @@
       "digits": "592",
       "payout": "750",
       "is_placeholder": false,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
@@ -736,7 +725,7 @@
       "digits": "21",
       "payout": "90",
       "is_placeholder": false,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
@@ -747,7 +736,7 @@
       "digits": "577",
       "payout": "750",
       "is_placeholder": false,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
@@ -758,7 +747,7 @@
       "digits": "60",
       "payout": "90",
       "is_placeholder": false,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
@@ -769,7 +758,7 @@
       "digits": "974",
       "payout": "750",
       "is_placeholder": false,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
@@ -780,7 +769,7 @@
       "digits": "17",
       "payout": "90",
       "is_placeholder": false,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
@@ -791,7 +780,7 @@
       "digits": "792",
       "payout": "750",
       "is_placeholder": false,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
@@ -802,7 +791,7 @@
       "digits": "07",
       "payout": "90",
       "is_placeholder": false,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
@@ -813,7 +802,7 @@
       "digits": "028",
       "payout": "750",
       "is_placeholder": false,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
@@ -824,7 +813,7 @@
       "digits": "42",
       "payout": "90",
       "is_placeholder": false,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
@@ -835,7 +824,7 @@
       "digits": "206",
       "payout": "750",
       "is_placeholder": false,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
@@ -846,7 +835,7 @@
       "digits": "28",
       "payout": "90",
       "is_placeholder": false,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
@@ -857,249 +846,249 @@
       "digits": "701",
       "payout": "750",
       "is_placeholder": false,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
       "draw_label": "16 April 2026",
       "round": 32,
       "field": "2ตัวล่าง",
-      "value": "xx",
-      "digits": "",
+      "value": "89",
+      "digits": "89",
       "payout": "90",
-      "is_placeholder": true,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "is_placeholder": false,
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
       "draw_label": "16 April 2026",
       "round": 32,
       "field": "3ตัวบน",
-      "value": "xxx",
-      "digits": "",
+      "value": "344",
+      "digits": "344",
       "payout": "750",
-      "is_placeholder": true,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "is_placeholder": false,
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
       "draw_label": "16 April 2026",
       "round": 33,
       "field": "2ตัวล่าง",
-      "value": "xx",
-      "digits": "",
+      "value": "49",
+      "digits": "49",
       "payout": "90",
-      "is_placeholder": true,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "is_placeholder": false,
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
       "draw_label": "16 April 2026",
       "round": 33,
       "field": "3ตัวบน",
-      "value": "xxx",
-      "digits": "",
+      "value": "642",
+      "digits": "642",
       "payout": "750",
-      "is_placeholder": true,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "is_placeholder": false,
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
       "draw_label": "16 April 2026",
       "round": 34,
       "field": "2ตัวล่าง",
-      "value": "xx",
-      "digits": "",
+      "value": "23",
+      "digits": "23",
       "payout": "90",
-      "is_placeholder": true,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "is_placeholder": false,
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
       "draw_label": "16 April 2026",
       "round": 34,
       "field": "3ตัวบน",
-      "value": "xxx",
-      "digits": "",
+      "value": "082",
+      "digits": "082",
       "payout": "750",
-      "is_placeholder": true,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "is_placeholder": false,
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
       "draw_label": "16 April 2026",
       "round": 35,
       "field": "2ตัวล่าง",
-      "value": "xx",
-      "digits": "",
+      "value": "04",
+      "digits": "04",
       "payout": "90",
-      "is_placeholder": true,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "is_placeholder": false,
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
       "draw_label": "16 April 2026",
       "round": 35,
       "field": "3ตัวบน",
-      "value": "xxx",
-      "digits": "",
+      "value": "401",
+      "digits": "401",
       "payout": "750",
-      "is_placeholder": true,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "is_placeholder": false,
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
       "draw_label": "16 April 2026",
       "round": 36,
       "field": "2ตัวล่าง",
-      "value": "xx",
-      "digits": "",
+      "value": "87",
+      "digits": "87",
       "payout": "90",
-      "is_placeholder": true,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "is_placeholder": false,
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
       "draw_label": "16 April 2026",
       "round": 36,
       "field": "3ตัวบน",
-      "value": "xxx",
-      "digits": "",
+      "value": "750",
+      "digits": "750",
       "payout": "750",
-      "is_placeholder": true,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "is_placeholder": false,
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
       "draw_label": "16 April 2026",
       "round": 37,
       "field": "2ตัวล่าง",
-      "value": "xx",
-      "digits": "",
+      "value": "09",
+      "digits": "09",
       "payout": "90",
-      "is_placeholder": true,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "is_placeholder": false,
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
       "draw_label": "16 April 2026",
       "round": 37,
       "field": "3ตัวบน",
-      "value": "xxx",
-      "digits": "",
+      "value": "298",
+      "digits": "298",
       "payout": "750",
-      "is_placeholder": true,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "is_placeholder": false,
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
       "draw_label": "16 April 2026",
       "round": 38,
       "field": "2ตัวล่าง",
-      "value": "xx",
-      "digits": "",
+      "value": "55",
+      "digits": "55",
       "payout": "90",
-      "is_placeholder": true,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "is_placeholder": false,
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
       "draw_label": "16 April 2026",
       "round": 38,
       "field": "3ตัวบน",
-      "value": "xxx",
-      "digits": "",
+      "value": "609",
+      "digits": "609",
       "payout": "750",
-      "is_placeholder": true,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "is_placeholder": false,
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
       "draw_label": "16 April 2026",
       "round": 39,
       "field": "2ตัวล่าง",
-      "value": "xx",
-      "digits": "",
+      "value": "71",
+      "digits": "71",
       "payout": "90",
-      "is_placeholder": true,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "is_placeholder": false,
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
       "draw_label": "16 April 2026",
       "round": 39,
       "field": "3ตัวบน",
-      "value": "xxx",
-      "digits": "",
+      "value": "115",
+      "digits": "115",
       "payout": "750",
-      "is_placeholder": true,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "is_placeholder": false,
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
       "draw_label": "16 April 2026",
       "round": 40,
       "field": "2ตัวล่าง",
-      "value": "xx",
-      "digits": "",
+      "value": "21",
+      "digits": "21",
       "payout": "90",
-      "is_placeholder": true,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "is_placeholder": false,
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
       "draw_label": "16 April 2026",
       "round": 40,
       "field": "3ตัวบน",
-      "value": "xxx",
-      "digits": "",
+      "value": "413",
+      "digits": "413",
       "payout": "750",
-      "is_placeholder": true,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "is_placeholder": false,
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
       "draw_label": "16 April 2026",
       "round": 41,
       "field": "2ตัวล่าง",
-      "value": "xx",
-      "digits": "",
+      "value": "43",
+      "digits": "43",
       "payout": "90",
-      "is_placeholder": true,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "is_placeholder": false,
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
       "draw_label": "16 April 2026",
       "round": 41,
       "field": "3ตัวบน",
-      "value": "xxx",
-      "digits": "",
+      "value": "810",
+      "digits": "810",
       "payout": "750",
-      "is_placeholder": true,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "is_placeholder": false,
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
       "draw_label": "16 April 2026",
       "round": 42,
       "field": "2ตัวล่าง",
-      "value": "xx",
-      "digits": "",
+      "value": "38",
+      "digits": "38",
       "payout": "90",
-      "is_placeholder": true,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "is_placeholder": false,
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
       "draw_label": "16 April 2026",
       "round": 42,
       "field": "3ตัวบน",
-      "value": "xxx",
-      "digits": "",
+      "value": "252",
+      "digits": "252",
       "payout": "750",
-      "is_placeholder": true,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "is_placeholder": false,
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
@@ -1110,7 +1099,7 @@
       "digits": "",
       "payout": "90",
       "is_placeholder": true,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
@@ -1121,7 +1110,7 @@
       "digits": "",
       "payout": "750",
       "is_placeholder": true,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
@@ -1132,7 +1121,7 @@
       "digits": "",
       "payout": "90",
       "is_placeholder": true,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
@@ -1143,7 +1132,7 @@
       "digits": "",
       "payout": "750",
       "is_placeholder": true,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
@@ -1154,7 +1143,7 @@
       "digits": "",
       "payout": "90",
       "is_placeholder": true,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
@@ -1165,7 +1154,7 @@
       "digits": "",
       "payout": "750",
       "is_placeholder": true,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
@@ -1176,7 +1165,7 @@
       "digits": "",
       "payout": "90",
       "is_placeholder": true,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
@@ -1187,7 +1176,7 @@
       "digits": "",
       "payout": "750",
       "is_placeholder": true,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
@@ -1198,7 +1187,7 @@
       "digits": "",
       "payout": "90",
       "is_placeholder": true,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
@@ -1209,7 +1198,7 @@
       "digits": "",
       "payout": "750",
       "is_placeholder": true,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
@@ -1220,7 +1209,7 @@
       "digits": "",
       "payout": "90",
       "is_placeholder": true,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
@@ -1231,7 +1220,7 @@
       "digits": "",
       "payout": "750",
       "is_placeholder": true,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
@@ -1242,7 +1231,7 @@
       "digits": "",
       "payout": "90",
       "is_placeholder": true,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
@@ -1253,7 +1242,7 @@
       "digits": "",
       "payout": "750",
       "is_placeholder": true,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
@@ -1264,7 +1253,7 @@
       "digits": "",
       "payout": "90",
       "is_placeholder": true,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
@@ -1275,7 +1264,7 @@
       "digits": "",
       "payout": "750",
       "is_placeholder": true,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
@@ -1286,7 +1275,7 @@
       "digits": "",
       "payout": "90",
       "is_placeholder": true,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
@@ -1297,7 +1286,7 @@
       "digits": "",
       "payout": "750",
       "is_placeholder": true,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
@@ -1308,7 +1297,7 @@
       "digits": "",
       "payout": "90",
       "is_placeholder": true,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
@@ -1319,7 +1308,7 @@
       "digits": "",
       "payout": "750",
       "is_placeholder": true,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
@@ -1330,7 +1319,7 @@
       "digits": "",
       "payout": "90",
       "is_placeholder": true,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
@@ -1341,7 +1330,7 @@
       "digits": "",
       "payout": "750",
       "is_placeholder": true,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
@@ -1352,7 +1341,7 @@
       "digits": "",
       "payout": "90",
       "is_placeholder": true,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
@@ -1363,7 +1352,7 @@
       "digits": "",
       "payout": "750",
       "is_placeholder": true,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
@@ -1374,7 +1363,7 @@
       "digits": "",
       "payout": "90",
       "is_placeholder": true,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
@@ -1385,7 +1374,7 @@
       "digits": "",
       "payout": "750",
       "is_placeholder": true,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
@@ -1396,7 +1385,7 @@
       "digits": "",
       "payout": "90",
       "is_placeholder": true,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
@@ -1407,7 +1396,7 @@
       "digits": "",
       "payout": "750",
       "is_placeholder": true,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
@@ -1418,7 +1407,7 @@
       "digits": "",
       "payout": "90",
       "is_placeholder": true,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
@@ -1429,7 +1418,7 @@
       "digits": "",
       "payout": "750",
       "is_placeholder": true,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
@@ -1440,7 +1429,7 @@
       "digits": "",
       "payout": "90",
       "is_placeholder": true,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
@@ -1451,7 +1440,7 @@
       "digits": "",
       "payout": "750",
       "is_placeholder": true,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
@@ -1462,7 +1451,7 @@
       "digits": "",
       "payout": "90",
       "is_placeholder": true,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
@@ -1473,7 +1462,7 @@
       "digits": "",
       "payout": "750",
       "is_placeholder": true,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
@@ -1484,7 +1473,7 @@
       "digits": "",
       "payout": "90",
       "is_placeholder": true,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
@@ -1495,7 +1484,7 @@
       "digits": "",
       "payout": "750",
       "is_placeholder": true,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
@@ -1506,7 +1495,7 @@
       "digits": "",
       "payout": "90",
       "is_placeholder": true,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
@@ -1517,7 +1506,7 @@
       "digits": "",
       "payout": "750",
       "is_placeholder": true,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
@@ -1528,7 +1517,7 @@
       "digits": "",
       "payout": "90",
       "is_placeholder": true,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
@@ -1539,7 +1528,7 @@
       "digits": "",
       "payout": "750",
       "is_placeholder": true,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
@@ -1550,7 +1539,7 @@
       "digits": "",
       "payout": "90",
       "is_placeholder": true,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
@@ -1561,7 +1550,7 @@
       "digits": "",
       "payout": "750",
       "is_placeholder": true,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
@@ -1572,7 +1561,7 @@
       "digits": "",
       "payout": "90",
       "is_placeholder": true,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
@@ -1583,7 +1572,7 @@
       "digits": "",
       "payout": "750",
       "is_placeholder": true,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
@@ -1594,7 +1583,7 @@
       "digits": "",
       "payout": "90",
       "is_placeholder": true,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
@@ -1605,7 +1594,7 @@
       "digits": "",
       "payout": "750",
       "is_placeholder": true,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
@@ -1616,7 +1605,7 @@
       "digits": "",
       "payout": "90",
       "is_placeholder": true,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
@@ -1627,7 +1616,7 @@
       "digits": "",
       "payout": "750",
       "is_placeholder": true,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
@@ -1638,7 +1627,7 @@
       "digits": "",
       "payout": "90",
       "is_placeholder": true,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
@@ -1649,7 +1638,7 @@
       "digits": "",
       "payout": "750",
       "is_placeholder": true,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
@@ -1660,7 +1649,7 @@
       "digits": "",
       "payout": "90",
       "is_placeholder": true,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
@@ -1671,7 +1660,7 @@
       "digits": "",
       "payout": "750",
       "is_placeholder": true,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
@@ -1682,7 +1671,7 @@
       "digits": "",
       "payout": "90",
       "is_placeholder": true,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
@@ -1693,7 +1682,7 @@
       "digits": "",
       "payout": "750",
       "is_placeholder": true,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
@@ -1704,7 +1693,7 @@
       "digits": "",
       "payout": "90",
       "is_placeholder": true,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
@@ -1715,7 +1704,7 @@
       "digits": "",
       "payout": "750",
       "is_placeholder": true,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
@@ -1726,7 +1715,7 @@
       "digits": "",
       "payout": "90",
       "is_placeholder": true,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
@@ -1737,7 +1726,7 @@
       "digits": "",
       "payout": "750",
       "is_placeholder": true,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
@@ -1748,7 +1737,7 @@
       "digits": "",
       "payout": "90",
       "is_placeholder": true,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
@@ -1759,7 +1748,7 @@
       "digits": "",
       "payout": "750",
       "is_placeholder": true,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
@@ -1770,7 +1759,7 @@
       "digits": "",
       "payout": "90",
       "is_placeholder": true,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
@@ -1781,7 +1770,7 @@
       "digits": "",
       "payout": "750",
       "is_placeholder": true,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
@@ -1792,7 +1781,7 @@
       "digits": "",
       "payout": "90",
       "is_placeholder": true,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
@@ -1803,7 +1792,7 @@
       "digits": "",
       "payout": "750",
       "is_placeholder": true,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
@@ -1814,7 +1803,7 @@
       "digits": "",
       "payout": "90",
       "is_placeholder": true,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
@@ -1825,7 +1814,7 @@
       "digits": "",
       "payout": "750",
       "is_placeholder": true,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
@@ -1836,7 +1825,7 @@
       "digits": "",
       "payout": "90",
       "is_placeholder": true,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
@@ -1847,7 +1836,7 @@
       "digits": "",
       "payout": "750",
       "is_placeholder": true,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
@@ -1858,7 +1847,7 @@
       "digits": "",
       "payout": "90",
       "is_placeholder": true,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
@@ -1869,7 +1858,7 @@
       "digits": "",
       "payout": "750",
       "is_placeholder": true,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
@@ -1880,7 +1869,7 @@
       "digits": "",
       "payout": "90",
       "is_placeholder": true,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
@@ -1891,7 +1880,7 @@
       "digits": "",
       "payout": "750",
       "is_placeholder": true,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
@@ -1902,7 +1891,7 @@
       "digits": "",
       "payout": "90",
       "is_placeholder": true,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
@@ -1913,7 +1902,7 @@
       "digits": "",
       "payout": "750",
       "is_placeholder": true,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
@@ -1924,7 +1913,7 @@
       "digits": "",
       "payout": "90",
       "is_placeholder": true,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
@@ -1935,7 +1924,7 @@
       "digits": "",
       "payout": "750",
       "is_placeholder": true,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
@@ -1946,7 +1935,7 @@
       "digits": "",
       "payout": "90",
       "is_placeholder": true,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
@@ -1957,7 +1946,7 @@
       "digits": "",
       "payout": "750",
       "is_placeholder": true,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
@@ -1968,7 +1957,7 @@
       "digits": "",
       "payout": "90",
       "is_placeholder": true,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
@@ -1979,7 +1968,7 @@
       "digits": "",
       "payout": "750",
       "is_placeholder": true,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
@@ -1990,7 +1979,7 @@
       "digits": "",
       "payout": "90",
       "is_placeholder": true,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
@@ -2001,7 +1990,7 @@
       "digits": "",
       "payout": "750",
       "is_placeholder": true,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
@@ -2012,7 +2001,7 @@
       "digits": "",
       "payout": "90",
       "is_placeholder": true,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
@@ -2023,7 +2012,7 @@
       "digits": "",
       "payout": "750",
       "is_placeholder": true,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
@@ -2034,7 +2023,7 @@
       "digits": "",
       "payout": "90",
       "is_placeholder": true,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
@@ -2045,7 +2034,7 @@
       "digits": "",
       "payout": "750",
       "is_placeholder": true,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
@@ -2056,7 +2045,7 @@
       "digits": "",
       "payout": "90",
       "is_placeholder": true,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
@@ -2067,7 +2056,7 @@
       "digits": "",
       "payout": "750",
       "is_placeholder": true,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
@@ -2078,7 +2067,7 @@
       "digits": "",
       "payout": "90",
       "is_placeholder": true,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
@@ -2089,7 +2078,7 @@
       "digits": "",
       "payout": "750",
       "is_placeholder": true,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
@@ -2100,7 +2089,7 @@
       "digits": "",
       "payout": "90",
       "is_placeholder": true,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "captured_at": "2026-04-16T16:22:49+07:00"
     },
     {
       "date": "2026-04-16",
@@ -2111,7 +2100,7 @@
       "digits": "",
       "payout": "750",
       "is_placeholder": true,
-      "captured_at": "2026-04-16T13:43:27+07:00"
+      "captured_at": "2026-04-16T16:22:49+07:00"
     }
   ]
 }

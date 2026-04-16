@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-04-16T13:49:41+07:00",
+  "updated_at": "2026-04-16T16:22:49+07:00",
   "row_count": 227,
-  "completed_row_count": 79,
+  "completed_row_count": 107,
   "categories": {
     "baac": 3,
     "foreign_stock": 42,
@@ -11,7 +11,7 @@
   },
   "markets": {
     "จับยี่กี VIP|2ตัวล่าง": {
-      "observations": 32,
+      "observations": 42,
       "latest_draw_date": "16 April 2026",
       "latest_value": "13",
       "top_values": [
@@ -21,6 +21,14 @@
         },
         {
           "value": "26",
+          "count": 2
+        },
+        {
+          "value": "04",
+          "count": 2
+        },
+        {
+          "value": "21",
           "count": 2
         },
         {
@@ -46,34 +54,34 @@
         {
           "value": "93",
           "count": 1
-        },
-        {
-          "value": "74",
-          "count": 1
-        },
-        {
-          "value": "82",
-          "count": 1
         }
       ],
       "digit_frequency": {
-        "0": 8,
-        "1": 6,
-        "2": 10,
-        "3": 5,
-        "4": 6,
-        "5": 4,
+        "0": 10,
+        "1": 8,
+        "2": 12,
+        "3": 8,
+        "4": 9,
+        "5": 6,
         "6": 5,
-        "7": 10,
-        "8": 5,
-        "9": 5
+        "7": 12,
+        "8": 7,
+        "9": 7
       }
     },
     "จับยี่กี VIP|3ตัวบน": {
-      "observations": 32,
+      "observations": 42,
       "latest_draw_date": "16 April 2026",
       "latest_value": "754",
       "top_values": [
+        {
+          "value": "401",
+          "count": 2
+        },
+        {
+          "value": "413",
+          "count": 2
+        },
         {
           "value": "808",
           "count": 1
@@ -105,27 +113,48 @@
         {
           "value": "370",
           "count": 1
-        },
+        }
+      ],
+      "digit_frequency": {
+        "0": 18,
+        "1": 13,
+        "2": 15,
+        "3": 12,
+        "4": 13,
+        "5": 9,
+        "6": 9,
+        "7": 13,
+        "8": 13,
+        "9": 11
+      }
+    },
+    "จีนรอบบ่าย|2ตัวล่าง": {
+      "observations": 1,
+      "latest_draw_date": "16 April 2026",
+      "latest_value": "88",
+      "top_values": [
         {
-          "value": "634",
-          "count": 1
-        },
-        {
-          "value": "193",
+          "value": "88",
           "count": 1
         }
       ],
       "digit_frequency": {
-        "0": 13,
-        "1": 8,
-        "2": 10,
-        "3": 11,
-        "4": 10,
-        "5": 6,
-        "6": 7,
-        "7": 12,
-        "8": 10,
-        "9": 9
+        "8": 2
+      }
+    },
+    "จีนรอบบ่าย|3ตัวบน": {
+      "observations": 1,
+      "latest_draw_date": "16 April 2026",
+      "latest_value": "633",
+      "top_values": [
+        {
+          "value": "633",
+          "count": 1
+        }
+      ],
+      "digit_frequency": {
+        "3": 2,
+        "6": 1
       }
     },
     "จีนรอบเช้า|2ตัวล่าง": {
@@ -268,6 +297,74 @@
         "9": 1
       }
     },
+    "หวยรัฐบาล|2ตัวล่าง": {
+      "observations": 1,
+      "latest_draw_date": "16 April 2026",
+      "latest_value": "77",
+      "top_values": [
+        {
+          "value": "77",
+          "count": 1
+        }
+      ],
+      "digit_frequency": {
+        "7": 2
+      }
+    },
+    "หวยรัฐบาล|3ตัวล่าง": {
+      "observations": 1,
+      "latest_draw_date": "16 April 2026",
+      "latest_value": "868,424",
+      "top_values": [
+        {
+          "value": "868424",
+          "count": 1
+        }
+      ],
+      "digit_frequency": {
+        "2": 1,
+        "4": 2,
+        "6": 1,
+        "8": 2
+      }
+    },
+    "หวยรัฐบาล|3ตัวหน้า": {
+      "observations": 1,
+      "latest_draw_date": "16 April 2026",
+      "latest_value": "355,108",
+      "top_values": [
+        {
+          "value": "355108",
+          "count": 1
+        }
+      ],
+      "digit_frequency": {
+        "0": 1,
+        "1": 1,
+        "3": 1,
+        "5": 2,
+        "8": 1
+      }
+    },
+    "หวยรัฐบาล|รางวัลที่ 1": {
+      "observations": 1,
+      "latest_draw_date": "16 April 2026",
+      "latest_value": "309612",
+      "top_values": [
+        {
+          "value": "309612",
+          "count": 1
+        }
+      ],
+      "digit_frequency": {
+        "0": 1,
+        "1": 1,
+        "2": 1,
+        "3": 1,
+        "6": 1,
+        "9": 1
+      }
+    },
     "หุ้นเกาหลี|2ตัวล่าง": {
       "observations": 1,
       "latest_draw_date": "16 April 2026",
@@ -325,6 +422,37 @@
       "digit_frequency": {
         "0": 1,
         "2": 2
+      }
+    },
+    "ฮั่งเส็งรอบบ่าย|2ตัวล่าง": {
+      "observations": 1,
+      "latest_draw_date": "16 April 2026",
+      "latest_value": "94",
+      "top_values": [
+        {
+          "value": "94",
+          "count": 1
+        }
+      ],
+      "digit_frequency": {
+        "4": 1,
+        "9": 1
+      }
+    },
+    "ฮั่งเส็งรอบบ่าย|3ตัวบน": {
+      "observations": 1,
+      "latest_draw_date": "16 April 2026",
+      "latest_value": "426",
+      "top_values": [
+        {
+          "value": "426",
+          "count": 1
+        }
+      ],
+      "digit_frequency": {
+        "2": 1,
+        "4": 1,
+        "6": 1
       }
     },
     "ฮั่งเส็งรอบเช้า|2ตัวล่าง": {

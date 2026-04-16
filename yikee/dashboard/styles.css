@@ -558,6 +558,102 @@ code {
   padding: 20px 0 8px;
 }
 
+/* ── Latest Draw Banner (shared) ─────────────────── */
+.latest-draw-banner {
+  margin-top: 18px;
+  border-radius: var(--radius);
+  padding: 24px 28px;
+  border-left: 4px solid var(--accent);
+}
+
+.ldb-head { margin-bottom: 20px; }
+
+.ldb-title-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 6px;
+}
+
+.ldb-today-badge {
+  display: inline-flex;
+  align-items: center;
+  background: rgba(38, 97, 77, 0.12);
+  color: #26614d;
+  font-size: 0.82rem;
+  font-weight: 700;
+  padding: 4px 12px;
+  border-radius: 999px;
+  font-family: "Space Grotesk", sans-serif;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.ldb-date {
+  margin: 0;
+  font-family: "Space Grotesk", sans-serif;
+  font-size: clamp(1.3rem, 2.4vw, 2rem);
+  letter-spacing: -0.04em;
+}
+
+.ldb-subtitle {
+  margin: 8px 0 0;
+  color: var(--muted);
+  line-height: 1.6;
+}
+
+.ldb-subtitle strong {
+  color: var(--text);
+}
+
+/* yikee round cards grid */
+.ldb-round-grid {
+  display: grid;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.ldb-round-card {
+  background: rgba(255, 255, 255, 0.62);
+  border: 1px solid rgba(43, 39, 33, 0.09);
+  border-radius: 18px;
+  padding: 12px 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.ldb-round-no {
+  color: var(--muted);
+  font-size: 0.78rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.ldb-round-field {
+  color: var(--accent);
+  font-size: 0.8rem;
+}
+
+.ldb-round-val {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 1.35rem;
+  letter-spacing: -0.03em;
+  color: var(--text);
+}
+
+@media (max-width: 1180px) {
+  .ldb-round-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+}
+
+@media (max-width: 720px) {
+  .ldb-round-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .latest-draw-banner { padding: 18px; }
+}
+
+
+
 @media (max-width: 1180px) {
   body {
     padding: 20px;

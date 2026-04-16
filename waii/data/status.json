@@ -1,0 +1,106 @@
+{
+  "capturedAt": "2026-04-16T08:59:48.145Z",
+  "chromePath": "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
+  "pages": [
+    {
+      "name": "home",
+      "requestedUrl": "https://wwii.one/",
+      "finalUrl": "https://wwii.one/",
+      "title": "ไว waii",
+      "textPreview": "จำฉันไว้ในระบบ ลืมรหัสผ่าน อัตราการจ่าย กฏกติกาข้อบังคับ สมัครสมาชิก ติดต่อเรา (ไลน์) หวยรัฐบาล รางวัลที่ 1 รอผล 3ตัวบน รอผล 2ตัวล่าง รอผล 3ตัวล่าง รอผล หวยธกส. 3ตัวบน รอผล 2ตัวล่าง รอผล หวยออมสิน 3ตัวบน รอผล 2ตัวล่าง รอผล หวยชุด ไม่มีรายการ หวยหุ้นไทย ไม่มีรายการ หวยต่างประเทศ ไม่มีรายการ หุ้น VIP ไม่มีรายการ หวยหุ้นต่างประเทศ ไม่มีรายการ จับยี่กี ไม่มีรายการ Copyright © 2021-2022 All rights reserved.",
+      "renderedHtmlPath": "data/raw/home-rendered.html"
+    },
+    {
+      "name": "yeekee",
+      "requestedUrl": "https://wwii.one/yeekee",
+      "finalUrl": "https://wwii.one/signin",
+      "title": "ไว waii",
+      "textPreview": "สมาชิก ยินดีต้อนรับสมาชิก จำฉันไว้ในระบบ ลืมรหัสผ่าน เข้าสู่ระบบ สมัครสมาชิก Copyright © 2022-2023 All rights reserved.",
+      "renderedHtmlPath": "data/raw/yeekee-rendered.html"
+    }
+  ],
+  "apiResponses": {},
+  "requestFailures": [
+    {
+      "url": "https://api.waii.site/api/home",
+      "method": "GET",
+      "errorText": "net::ERR_CONNECTION_RESET"
+    },
+    {
+      "url": "https://api.waii.site/api/home/cf",
+      "method": "GET",
+      "errorText": "net::ERR_CONNECTION_RESET"
+    },
+    {
+      "url": "https://api.waii.site/api/home",
+      "method": "OPTIONS",
+      "errorText": "net::ERR_CONNECTION_RESET"
+    },
+    {
+      "url": "https://api.waii.site/api/home/cf",
+      "method": "OPTIONS",
+      "errorText": "net::ERR_CONNECTION_RESET"
+    },
+    {
+      "url": "https://api.waii.site/api/home/cf",
+      "method": "GET",
+      "errorText": "net::ERR_CONNECTION_RESET"
+    },
+    {
+      "url": "https://api.waii.site/api/home/cf",
+      "method": "OPTIONS",
+      "errorText": "net::ERR_CONNECTION_RESET"
+    }
+  ],
+  "consoleMessages": [
+    {
+      "type": "log",
+      "text": "PWA-update start!!!"
+    },
+    {
+      "type": "verbose",
+      "text": "[DOM] Input elements should have autocomplete attributes (suggested: \"current-password\"): (More info: https://goo.gl/9p2vKq) %o"
+    },
+    {
+      "type": "error",
+      "text": "Error: Network Error"
+    },
+    {
+      "type": "error",
+      "text": "Failed to load resource: net::ERR_CONNECTION_RESET"
+    },
+    {
+      "type": "log",
+      "text": "Error: Network Error"
+    },
+    {
+      "type": "error",
+      "text": "Failed to load resource: net::ERR_CONNECTION_RESET"
+    },
+    {
+      "type": "debug",
+      "text": "The PWA is on the latest version."
+    },
+    {
+      "type": "log",
+      "text": "PWA-update start!!!"
+    },
+    {
+      "type": "log",
+      "text": "Error: Network Error"
+    },
+    {
+      "type": "error",
+      "text": "Failed to load resource: net::ERR_CONNECTION_RESET"
+    },
+    {
+      "type": "verbose",
+      "text": "[DOM] Input elements should have autocomplete attributes (suggested: \"current-password\"): (More info: https://goo.gl/9p2vKq) %o"
+    }
+  ],
+  "availability": {
+    "homeApiCaptured": false,
+    "homeConfigCaptured": false,
+    "yeekeeApiCaptured": false
+  }
+}

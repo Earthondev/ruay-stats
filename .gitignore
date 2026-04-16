@@ -4,3 +4,6 @@ __pycache__/
 .vercel/
 data/raw/
 data/snapshots/
+waii/data/raw/
+waii/data/snapshots/
+waii/collector/node_modules/
