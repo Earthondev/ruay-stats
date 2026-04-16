@@ -1,9 +1,16 @@
 name: Vercel Deploy
 
 on:
-  push:
-  pull_request:
   workflow_dispatch:
+    inputs:
+      environment:
+        description: Deployment target
+        required: true
+        default: production
+        type: choice
+        options:
+          - preview
+          - production
 
 env:
   VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
@@ -11,7 +18,7 @@ env:
 
 jobs:
   deploy-preview:
-    if: github.event_name == 'pull_request' || github.ref != 'refs/heads/main'
+    if: inputs.environment == 'preview'
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -30,7 +37,7 @@ jobs:
         run: vercel deploy --prebuilt --token="${{ secrets.VERCEL_TOKEN }}"
 
   deploy-production:
-    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    if: inputs.environment == 'production' && github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
