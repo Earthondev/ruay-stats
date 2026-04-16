@@ -91,9 +91,11 @@
     return state.startDate === state.endDate;
   }
 
-  function getScopeLabel(completeCount, filtered, dates) {
-    return `${completeCount} รายการที่ออกผลแล้ว (จากทั้งหมด ${numberFormat(filtered.length)}) 
-      · เก็บข้อมูลระหว่าง ${formatTimestamp(dates[dates.length - 1])} ถึง ${formatTimestamp(dates[0])}`;
+  function getScopeLabel() {
+    if (isSingleDayScope()) {
+      return formatDate(state.startDate);
+    }
+    return `${formatDate(state.startDate)} - ${formatDate(state.endDate)}`;
   }
 
   function getScopeSubLabel() {
@@ -337,7 +339,7 @@
     els.spotlightMeta.textContent = `${getScopeSubLabel()} | ${
       isSingleDayScope() ? "มุมมองรายวัน" : "มุมมองตามช่วงวันที่"
     }`;
-    els.scopePrimary.textContent = isSingleDayScope() ? formatDate(state.startDate) : `${formatDate(state.startDate)} - ${formatDate(state.endDate)}`;
+    els.scopePrimary.textContent = getScopeLabel();
     els.scopeNote.textContent = isSingleDayScope()
       ? `มีข้อมูล complete ${numberFormat(analysis.completeRecords.length)} รายการ ใน ${
           analysis.uniqueCompleteRounds
