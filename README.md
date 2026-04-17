@@ -40,6 +40,7 @@ python3 /Users/earthondev/Desktop/ruay-stats/build_ruay_yikee_dashboard.py
 cd /Users/earthondev/Desktop/ruay-stats/waii/collector && npm install
 cd /Users/earthondev/Desktop/ruay-stats/waii/collector && npm run fetch
 python3 /Users/earthondev/Desktop/ruay-stats/build_waii_dashboard.py
+python3 /Users/earthondev/Desktop/ruay-stats/build_waii_frontend_map.py
 ```
 
 Deployment:
@@ -62,5 +63,10 @@ Notes:
   `waii/data/snapshots/`, browser/network diagnostics to `waii/data/status.json`, normalized rows to
   `waii/data/results.csv`, a history bundle with capture timeline and pattern tests to `waii/data/history.json`,
   a static read-only pattern lab to `waii/dashboard/`, and a current summary note to `waii/reports/summary.md`.
+- `build_waii_frontend_map.py` inspects the public Nuxt bundles from `https://wwii.one/` and writes a machine-readable
+  route/API/component map to `waii/data/frontend-map.json` plus a human-readable report to
+  `waii/reports/public_frontend_map.md`.
 - WAII Pattern Lab backtests are historical tests against captured observations only. They are for read-only analysis
   and monitoring, not betting instructions or proof that a rule works in the future.
+- `Fetch & Build Dashboards` is now `manual-only` on GitHub to keep this project in a no-recurring-usage mode on the
+  repository side. Use the local commands above when you want to refresh data.
