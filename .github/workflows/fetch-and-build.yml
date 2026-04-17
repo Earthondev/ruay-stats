@@ -67,12 +67,17 @@ jobs:
         run: node fetch_waii_public.mjs
         working-directory: waii/collector
         env:
-          CHROME_PATH: /usr/bin/google-chrome-stable
+          CHROME_BIN: /usr/bin/google-chrome-stable
         continue-on-error: true
 
       # 10. build WAII dashboard
       - name: Build WAII dashboard
         run: python3 build_waii_dashboard.py
+        continue-on-error: true
+
+      # 10.1 build WAII public frontend map
+      - name: Build WAII frontend map
+        run: python3 build_waii_frontend_map.py
         continue-on-error: true
 
       # 11. commit ไฟล์ที่เปลี่ยน (data + dashboard) กลับ main

@@ -14,6 +14,10 @@ const snapshotsDir = path.join(dataDir, "snapshots");
 
 const chromeCandidates = [
   process.env.CHROME_BIN,
+  process.env.CHROME_PATH,
+  "/usr/bin/google-chrome-stable",
+  "/usr/bin/chromium-browser",
+  "/usr/bin/chromium",
   "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
   "/Applications/Chromium.app/Contents/MacOS/Chromium",
 ].filter(Boolean);
